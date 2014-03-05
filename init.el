@@ -265,11 +265,11 @@
 (setq multi-term-program "/bin/bash")
 
 (defun add-term-mode-conf ()
-	(let* ((key-and-func
-					'(((kbd "C-h")   term-send-backspace)
-						((kbd "C-y")   term-paste)
-						((kbd "C-S-p") multi-term-prev)
-						((kbd "C-S-n") multi-term-next))))))
+  (let* ((key-and-func
+          '(((kbd "C-h")   term-send-backspace)
+            ((kbd "C-y")   term-paste)
+            ((kbd "C-S-p") multi-term-prev)
+            ((kbd "C-S-n") multi-term-next))))))
 (add-hook 'term-mode-hook 'add-term-mode-conf)
 
 (custom-set-variables
