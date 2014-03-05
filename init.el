@@ -187,9 +187,9 @@
 (setq-default tab-width 2)
 (setq tab-width 2)
 (setq tab-stop-list '(2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
-											32 34 36 38 40 42 44 46 48 50 52 54 56 58 60
-											62 64 66 68 70 72 74 76 78 80 82 84 86 88 90
-											92 94 96 98 100 102 104 106 108 110 112 114 116 118 120))
+                      32 34 36 38 40 42 44 46 48 50 52 54 56 58 60
+                      62 64 66 68 70 72 74 76 78 80 82 84 86 88 90
+                      92 94 96 98 100 102 104 106 108 110 112 114 116 118 120))
 
 ;; @行間
 (setq-default line-spacing 0)
@@ -207,11 +207,11 @@
 (defface my-hlline-face
   '((((class color)
 			(background dark))
-     (:background "gray15"))
+		 (:background "gray15"))
     (((class color)
 			(background light))
-     (:background "gray15"))
-    (t 
+		 (:background "gray15"))
+		(t
 		 (:bold t)))
 	nil :group 'my-faces)
 (setq hl-line-face 'my-hlline-face)
@@ -265,7 +265,7 @@
 (setq multi-term-program "/bin/bash")
 
 (add-hook 'term-mode-hook
-          '(lambda ()
+					'(lambda ()
 						 (let* ((key-and-func
 										 '(((kbd "C-h")   term-send-backspace)
 											 ((kbd "C-y")   term-paste)
@@ -277,9 +277,9 @@
  '(term-default-fg-color "white"))
 (setq ansi-term-color-vector
 			[unspecified "#00f" ;; 
-									 "#f00" ;; 圧縮ファイル
-									 "#4f4" ;; USER, 実行ファイル
-									 "#0f0" ;; 
+                   "#f00" ;; 圧縮ファイル
+                   "#4f4" ;; USER, 実行ファイル
+                   "#0f0" ;; 
 									 "#5af" ;; PATH
 									 "#f8f" ;; 画像ファイル
 									 "#0ff" ;; ディレクトリ
