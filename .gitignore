@@ -1,8 +1,5 @@
 *.elc
 
-backup/*
-!backup
-undohist/*
-!undohist
-template/*
-!template
+backup/**/*
+undohist/**/*
+template/**/*
