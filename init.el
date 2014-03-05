@@ -264,22 +264,21 @@
 ;; ShellのPath指定
 (setq multi-term-program "/bin/bash")
 
-(add-hook 'term-mode-hook
-					'(lambda ()
-						 (let* ((key-and-func
-										 '(((kbd "C-h")   term-send-backspace)
-											 ((kbd "C-y")   term-paste)
-											 ((kbd "C-S-p") multi-term-prev)
-											 ((kbd "C-S-n") multi-term-next)))))))
+(add-hook 'term-mode-hook '(lambda ()
+														 (let* ((key-and-func
+																		 '(((kbd "C-h")   term-send-backspace)
+																			 ((kbd "C-y")   term-paste)
+																			 ((kbd "C-S-p") multi-term-prev)
+																			 ((kbd "C-S-n") multi-term-next)))))))
 
 (custom-set-variables
  '(term-default-bg-color "gray22")
  '(term-default-fg-color "white"))
 (setq ansi-term-color-vector
 			[unspecified "#00f" ;; 
-                   "#f00" ;; 圧縮ファイル
-                   "#4f4" ;; USER, 実行ファイル
-                   "#0f0" ;; 
+									 "#f00" ;; 圧縮ファイル
+									 "#4f4" ;; USER, 実行ファイル
+									 "#0f0" ;; 
 									 "#5af" ;; PATH
 									 "#f8f" ;; 画像ファイル
 									 "#0ff" ;; ディレクトリ
@@ -366,8 +365,6 @@
 
 ;; 書式の途中からでも改行
 (fset 'super-new-line [?\C-e return])
-;; pythonコメント
-(fset 'triple-quotes   [?\" ?\" ?\" ?\C-f ?\C-f return ?\C-p ?\C-e])
 
 
 ;;;;;;;;;;;;;;;
