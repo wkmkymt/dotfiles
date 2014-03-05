@@ -1,0 +1,8 @@
+*.elc
+
+backup/*
+!backup
+undohist/*
+!undohist
+template/*
+!template
