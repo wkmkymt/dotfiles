@@ -385,7 +385,6 @@
 (define-auto-insert "\\.py\\'"   "init.py")
 (define-auto-insert "\\.rb\\'"   "init.rb")
 (define-auto-insert "\\.pl\\'"   "init.pl")
-(define-auto-insert "\\.el\\'"   "init.el")
 (add-hook 'find-file-hooks 'auto-insert)
 
 
