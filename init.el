@@ -31,4 +31,6 @@
   (message "Init time: %d msec"
 	   (+ (* (- (nth 1 after-init-time) (nth 1 before-init-time)) 1000)
 	      (/ (- (nth 2 after-init-time) (nth 2 before-init-time)) 1000))))
+
+;; 起動時の時間を計測
 (add-hook 'after-init-hook 'message-startup-time)
