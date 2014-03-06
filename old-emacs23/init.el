@@ -199,7 +199,8 @@
 
 ;; @対応する括弧の色
 (show-paren-mode 1)
-(setq show-paren-style 'mixed)
+(setq show-paren-delay 0)
+(setq show-paren-style 'expression)
 (set-face-background 'show-paren-match-face "grey")
 (set-face-foreground 'show-paren-match-face "black")
 
