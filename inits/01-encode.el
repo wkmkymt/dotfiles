@@ -15,3 +15,8 @@
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (setq file-name-coding-system 'utf-8)
+
+
+;; Ibus
+(require 'ibus)
+(add-hook 'after-init-hook 'ibus-mode-on)
