@@ -17,6 +17,6 @@
 (setq file-name-coding-system 'utf-8)
 
 
-;; Ibus
+;;;; @ iBus
 (require 'ibus)
 (add-hook 'after-init-hook 'ibus-mode-on)
