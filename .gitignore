@@ -2,3 +2,4 @@
 
 backup/!*
 undohist/!*
+elisp/auto-complete/ac-comphist.dat
