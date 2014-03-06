@@ -23,3 +23,12 @@
 
 ;; emacs起動時にエラーを報告する
 (setq init-loader-show-log-after-init t)
+
+
+;;;; http://www.gfd-dennou.org/member/uwabami/cc-env/EmacsBasic.html
+;;;; @ After Init
+(defun message-startup-time ()
+  (message "Init time: %d msec"
+	   (+ (* (- (nth 1 after-init-time) (nth 1 before-init-time)) 1000)
+	      (/ (- (nth 2 after-init-time) (nth 2 before-init-time)) 1000))))
+(add-hook 'after-init-hook 'message-startup-time)
