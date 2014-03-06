@@ -26,6 +26,3 @@
 
 ;; scratchメッセージ
 (setq initial-scratch-message "")
-
-;; [yes or no] --> [y or n]
-(fset 'yes-or-no-p 'y-or-n-p)
