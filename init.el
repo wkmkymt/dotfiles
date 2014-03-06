@@ -10,3 +10,16 @@
 
 ;; load-pathの追加
 (add-to-load-path "elisp")
+
+
+;;;; http://fukuyama.co/emacsd
+;;;; http://www.rubyist.net/~rubikitch/archive/init-loader-x.el
+;;;; @ Init Loader
+(require 'init-loader-x)
+
+;; 設定ファイルのあるフォルダを指定
+(setq inits_dir (expand-file-name "~/.emacs.d/inits"))
+(init-loader-load inits_dir)
+
+;; emacs起動時にエラーを報告する
+(setq init-loader-show-log-after-init t)
