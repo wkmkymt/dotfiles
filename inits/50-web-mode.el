@@ -24,14 +24,13 @@
 
      ;; Custom Color Setting
      (custom-set-faces
-      '(web-mode-doctype-face          ((t (:foreground "cyan1"        :weight bold))))    ;; HTML Doctype
-      '(web-mode-html-tag-face         ((t (:foreground "DeepSkyBlue1" :weight bold)))) ;; HTML Tag Name
-      '(web-mode-html-attr-name-face   ((t (:foreground "SpringGreen1" :weight bold))))    ;; HTML Attr Name
-      '(web-mode-html-attr-value-face  ((t (:foreground "LightGoldenrod1"     :weight bold))))    ;; HTML Attr Value
-      '(web-mode-comment-face          ((t (:foreground "DarkOrange2"))))    ;; Comment
-      '(web-mode-server-comment-face   ((t (:foreground "DarkOrange2"))))    ;; Comment
-
-      '(web-mode-css-rule-face         ((t (:foreground "DeepPink1"  :weight bold))))    ;; CSS Tag
-      '(web-mode-css-at-rule-face      ((t (:foreground "DeepSkyBlue1"  :weight bold)))) ;; CSS Tag
-      '(web-mode-css-pseudo-class-face ((t (:foreground "SpringGreen1"  :weight bold))))))) ;; CSS Pseudo Class
+      '(web-mode-doctype-face          ((t (:foreground "cyan1"           :weight bold))))    ;; HTML Doctype
+      '(web-mode-html-tag-face         ((t (:foreground "DeepSkyBlue1"    :weight bold))))    ;; HTML Tag Name
+      '(web-mode-html-attr-name-face   ((t (:foreground "SpringGreen1"    :weight bold))))    ;; HTML Attr Name
+      '(web-mode-html-attr-value-face  ((t (:foreground "LightGoldenrod1" :weight bold))))    ;; HTML Attr Value
+      '(web-mode-comment-face          ((t (:foreground "DarkOrange2"))))                     ;; Comment
+      '(web-mode-server-comment-face   ((t (:foreground "DarkOrange2"))))                     ;; Comment
+      '(web-mode-css-rule-face         ((t (:foreground "DeepPink1"       :weight bold))))    ;; CSS Tag
+      '(web-mode-css-at-rule-face      ((t (:foreground "DeepSkyBlue1"    :weight bold))))    ;; CSS Tag
+      '(web-mode-css-pseudo-class-face ((t (:foreground "SpringGreen1"    :weight bold))))))) ;; CSS Pseudo Class
 
