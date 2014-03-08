@@ -52,16 +52,21 @@
 (require 'fold-dwim)
 (require 'hideshow)
 
-(dolist (hook
-         '(emacs-lisp-mode-hook
-           c-mode-common-hook
-           python-mode-hook
-           php-mode-hook
-           ruby-mode-hook
-           js2-mode-hook
-           css-mode-hook
-           apples-mode-hook))
-  (add-hook hook 'hs-minor-mode))
+(defvar my-mode-hooks '(c-mode-hook
+                        c++-mode-hook
+                        html-mode-hook
+                        css-mode-hook
+                        js2-mode-hook
+                        python-mode-hook
+                        ruby-mode-hook
+                        perl-mode-hook
+                        php-mode-hook
+                        java-mode-hook
+                        latex-mode-hook
+                        sql-mode-hook
+                        emacs-lisp-mode-hook))
+(dolist (mode-hook my-mode-hooks)
+  (add-hook mode-hook 'hs-minor-mode))
 
 (global-set-key (kbd "M-@") 'fold-dwim-toggle)   ;; 開閉
 (global-set-key (kbd "M-[") 'fold-dwim-show-all) ;; 全て開く

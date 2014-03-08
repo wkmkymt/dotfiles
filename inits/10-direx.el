@@ -1,5 +1,4 @@
 ;;;; @ Direx
-(require 'direx)
 (require 'direx-project)
 
 ;; Icon設定

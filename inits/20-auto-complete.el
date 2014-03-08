@@ -1,13 +1,17 @@
 ;;;; @ Auto Complete
-(when (require 'auto-complete-config nil t)
-  (add-to-list 'ac-dictionary-directories "~/.emacs.d/elisp/auto-complete/dict")
-  (setq ac-comphist-file "~/.emacs.d/elisp/auto-complete/ac-comphist.dat")
-	(setq ac-auto-show-menu t)
-	(setq ac-show-menu-immediately-on-auto-complete t)
-	(setq ac-use-fuzzy t)
-	(setq ac-use-comphist t)
-  (setq ac-ignore-case nil)
-  (ac-config-default))
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elisp/auto-complete/dict")
+(setq ac-comphist-file "~/.emacs.d/elisp/auto-complete/ac-comphist.dat")
+(ac-config-default)
+
+(setq ac-auto-start 2)
+(setq ac-delay 0)
+(setq ac-use-fuzzy t)
+(setq ac-use-comphist t)
+(setq ac-auto-show-menu 0)
+(setq ac-quick-help-delay 0.5)
+(setq ac-ignore-case nil)
+(setq ac-show-menu-immediately-on-auto-complete t)
 
 ;; メニューの選択切り替え
 (setq ac-use-menu-map t)

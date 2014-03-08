@@ -5,6 +5,7 @@
 (setq multi-term-program "/bin/bash")
 
 ;; キーバインド
+(global-set-key (kbd "<M-return>") 'multi-term)
 (defun add-term-mode-conf ()
   (let* ((key-and-func
           '(((kbd "C-h")   term-send-backspace)
