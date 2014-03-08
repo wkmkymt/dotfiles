@@ -18,8 +18,7 @@
 (require 'init-loader-x)
 
 ;; 設定ファイルのあるフォルダを指定
-(setq inits_dir (expand-file-name "~/.emacs.d/inits"))
-(init-loader-load inits_dir)
+(init-loader-load "~/.emacs.d/inits")
 
 ;; emacs起動時にエラーを報告する
 (setq init-loader-show-log-after-init t)

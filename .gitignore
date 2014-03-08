@@ -1,5 +1,5 @@
 *.elc
 
-backup/!*
-undohist/!*
+etc/backup/!*
+etc/undohist/!*
 elisp/auto-complete/ac-comphist.dat

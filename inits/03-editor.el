@@ -28,8 +28,8 @@
 
 ;; 対応する括弧の強調
 (show-paren-mode t)
-(setq show-paren-delay 0)
-(setq show-paren-style 'mixed)
+(setq-default show-paren-delay 0)
+(setq-default show-paren-style 'mixed)
 (set-face-background 'show-paren-match-face "grey")
 (set-face-foreground 'show-paren-match-face "black")
 
@@ -45,7 +45,7 @@
     (((class color) (background light)) (:background "gray15"))
     (t (:bold t)))
   nil :group 'my-faces)
-(setq hl-line-face 'my-hlline-face)
+(setq-default hl-line-face 'my-hlline-face)
 (global-hl-line-mode t)
 
 ;; ブロック
@@ -77,3 +77,4 @@
 (global-undo-tree-mode)
 (require 'undohist)
 (undohist-initialize)
+(setq undohist-directory "~/.emacs.d/etc/undohist")

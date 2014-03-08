@@ -1,5 +1,5 @@
 ;;;; @ Auto Insert
-(setq-default auto-insert-directory "~/.emacs.d/template/")
+(setq-default auto-insert-directory "~/.emacs.d/etc/template")
 (setq-default auto-insert-query nil)
 (define-auto-insert "\\.html\\'" "init.html")
 (define-auto-insert "\\.css\\'"  "init.css")
