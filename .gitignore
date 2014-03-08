@@ -1,5 +1,5 @@
 *.elc
-
-etc/backup/!*
-etc/undohist/!*
+!.gitkeep
+etc/backup/*
+etc/undohist/*
 etc/ac-dict/ac-comphist.dat
