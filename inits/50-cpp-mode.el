@@ -1,6 +1,4 @@
 ;;;; @ C++ Mode
-(autoload 'c++-mode "c++-mode" t)
-
 (defun add-c++-mode-common-conf ()
   (c-set-style "gnu")
   (show-paren-mode t)
