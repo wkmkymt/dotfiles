@@ -2,4 +2,4 @@
 
 etc/backup/!*
 etc/undohist/!*
-elisp/auto-complete/ac-comphist.dat
+etc/ac-dict/ac-comphist.dat

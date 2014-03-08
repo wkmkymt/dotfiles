@@ -1,7 +1,7 @@
 ;;;; @ Auto Complete
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elisp/auto-complete/dict")
-(setq ac-comphist-file "~/.emacs.d/elisp/auto-complete/ac-comphist.dat")
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/etc/ac-dict")
+(setq ac-comphist-file "~/.emacs.d/etc/ac-dict/ac-comphist.dat")
 (ac-config-default)
 
 (setq ac-auto-start 2)
