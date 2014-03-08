@@ -12,7 +12,7 @@
 (setq show-trailing-whitespace t)
 
 ;; リージョンの色
-(set-face-background 'region "steel blue")
+;(set-face-background 'region "steel blue")
 
 ;; 自動改行
 (setq-default auto-fill-mode t)
