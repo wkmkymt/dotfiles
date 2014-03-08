@@ -76,5 +76,5 @@
 (require 'undo-tree)
 (global-undo-tree-mode)
 (require 'undohist)
-(undohist-initialize)
 (setq undohist-directory "~/.emacs.d/etc/undohist")
+(undohist-initialize)
