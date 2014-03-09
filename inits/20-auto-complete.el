@@ -1,8 +1,8 @@
 ;;;; @ Auto Complete
 (require 'auto-complete-config)
+(ac-config-default)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/etc/ac-dict")
 (setq ac-comphist-file "~/.emacs.d/etc/ac-dict/ac-comphist.dat")
-(ac-config-default)
 
 (setq ac-auto-start 2)
 (setq ac-delay 0)
@@ -26,11 +26,11 @@
 (set-face-background 'ac-selection-face  "steel blue")
 
 ;; Add 'ac-modes'
-(defcustom ac-modes
-  '(c-mode      c++-mode  sh-mode    makefile-mode
-    html-mode   css-mode  js2-mode   jinja2-mode
-    python-mode ruby-mode perl-mode  php-mode
-    java-mode   sql-mode  latex-mode emacs-lisp-mode)
-  "'auto-complete-mode' can run on."
-  :type '(list symbol)
-  :group 'auto-complete)
+;(defcustom ac-modes
+;  '(c-mode      c++-mode  sh-mode    makefile-mode
+;    html-mode   css-mode  js2-mode   jinja2-mode
+;    python-mode ruby-mode perl-mode  php-mode
+;    java-mode   sql-mode  latex-mode emacs-lisp-mode)
+;  "'auto-complete-mode' can runon."
+;  :type '(list symbol)
+;  :group 'auto-complete)

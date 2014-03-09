@@ -2,6 +2,7 @@ and
 and_eq
 asm
 auto
+array
 bitand
 bitor
 bool
@@ -31,6 +32,9 @@ friend
 goto
 if
 inline
+#include
+include
+iostream
 int
 long
 mutable
@@ -53,6 +57,7 @@ sizeof
 static
 static_cast
 struct
+string
 switch
 template
 this
@@ -65,6 +70,7 @@ typename
 union
 unsigned
 using
+vector
 virtual
 void
 volatile
