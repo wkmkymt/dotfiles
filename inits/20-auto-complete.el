@@ -24,3 +24,12 @@
 (set-face-background 'ac-candidate-face  "gainsboro")
 (set-face-foreground 'ac-selection-face  "white")
 (set-face-background 'ac-selection-face  "steel blue")
+
+;; Add 'ac-modes'
+(defcustom ac-modes
+  '(c-mode      c++-mode  sh-mode    makefile-mode
+    html-mode   css-mode  js2-mode   jinja2-mode
+    python-mode ruby-mode perl-mode  php-mode
+    java-mode   sql-mode  latex-mode emacs-lisp-mode)
+  :type '(list symbol) nil
+  :group 'auto-complete)
