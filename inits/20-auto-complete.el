@@ -31,5 +31,6 @@
     html-mode   css-mode  js2-mode   jinja2-mode
     python-mode ruby-mode perl-mode  php-mode
     java-mode   sql-mode  latex-mode emacs-lisp-mode)
-  :type '(list symbol) nil
+  "'auto-complete-mode' can run on."
+  :type '(list symbol)
   :group 'auto-complete)
