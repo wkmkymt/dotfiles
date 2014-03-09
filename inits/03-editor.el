@@ -14,6 +14,10 @@
 ;; リージョンの色
 ;(set-face-background 'region "steel blue")
 
+; カーソル
+(setq cursor-type 'box)
+;(set-cursor-color "white")
+
 ;; 自動改行
 (setq-default auto-fill-mode t)
 
@@ -40,12 +44,12 @@
 (flex-autopair-mode 1)
 
 ;; 現在行のハイライト
-(defface my-hlline-face
-  '((((class color) (background dark))  (:background "gray15"))
-    (((class color) (background light)) (:background "gray15"))
-    (t (:bold t)))
-  nil :group 'my-faces)
-(setq-default hl-line-face 'my-hlline-face)
+;(defface my-hlline-face
+;  '((((class color) (background dark))  (:background "#338877"))
+;    (((class color) (background light)) (:background "#338877"))
+;    (t (:bold t)))
+;  nil :group 'my-faces)
+;(setq-default hl-line-face 'my-hlline-face)
 (global-hl-line-mode t)
 
 ;; ブロック
