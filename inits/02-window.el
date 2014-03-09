@@ -11,7 +11,8 @@
 
 ;; スクロールバー
 ;(set-scroll-bar-mode 'right)
-(toggle-scroll-bar -1)
+;(toggle-scroll-bar -1)
+(scroll-bar-mode -1)
 
 ;; 行番号
 ;(global-linum-mode t)
