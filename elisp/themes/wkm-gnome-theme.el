@@ -1,4 +1,4 @@
-;;; wkm-green-theme.ell --- WKM Green Theme for Emacs
+;;; wkm-colorful-theme.ell --- WKM Colorful Theme for Emacs
 ;;
 ;; Copyright (C) 2014  mtky
 ;;
@@ -19,52 +19,53 @@
 
 ;;; Commentary:
 ;;
-;; Port of wkm-green theme from `color-themes'
+;; Port of wkm-colorful theme from `color-themes'
 
 ;;; Code:
 
-(deftheme wkm-green "wkm-greenp theme")
+(deftheme wkm-colorful "wkm-colorful theme")
 
 
 (let
     ;; Define Color Name
-    ((wkm-gray       "#333833") 
+    ((wkm-black      "#333333")
+     (wkm-lightgray  "#aaaaaa")
+     (wkm-gray       "#555555")
      (wkm-white      "#eeeeee")
-     (wkm-orange     "#ff8800")
-     (wkm-yellow     "#ffff88")
      (wkm-lightgreen "#aaff44")
      (wkm-green      "#44cc44")
-     (wkm-darkgreen  "#336644")
-     (wkm-lightblue  "#66ffff")
+     (wkm-cyan       "#449999")
      (wkm-blue       "#66bbff")
-     (wkm-purple     "#9955ee")
+     (wkm-lightblue  "#66ffff")
+     (wkm-orange     "#ff8800")
+     (wkm-yellow     "#eeee44")
      (wkm-magenta    "#ff88ff")
      (wkm-pink       "#ffcccc"))
   
 
   ;; Custom Color Theme
   (custom-theme-set-faces
-   'wkm-green
+   'wkm-colorful
 
    ;; Frame
-   `(default                      ((t ( :background ,wkm-gray      :foreground ,wkm-white      ))))
-   `(cursor                       ((t (                            :foreground ,wkm-yellow     ))))
-   `(hl-line                      ((t ( :background ,wkm-yellow                                ))))
+   `(default                      ((t ( :background ,wkm-black     :foreground ,wkm-white      ))))
+   `(cursor                       ((t (                            :foreground ,wkm-lightgray  ))))
+   `(hl-line                      ((t ( :background ,wkm-gray                                  ))))
    `(minibuffer-prompt            ((t (                            :foreground ,wkm-lightgreen ))))
-   `(modeline                     ((t ( :background ,wkm-darkgreen                             ))))
-   `(region                       ((t ( :background ,wkm-darkgreen                             ))))
-   `(show-paren-match-face        ((t ( :background ,wkm-darkgreen                             ))))
+   `(modeline                     ((t ( :background ,wkm-lightgray :foreground ,wkm-black      ))))
+   `(region                       ((t ( :background ,wkm-cyan                                  ))))
+   `(show-paren-match-face        ((t ( :background ,wkm-cyan                                  ))))
 
    ;; Main
-   `(font-lock-builtin-face       ((t (                            :foreground ,wkm-green      ))))
+   `(font-lock-builtin-face       ((t (                            :foreground ,wkm-blue       ))))
    `(font-lock-comment-face       ((t (                            :foreground ,wkm-orange     ))))
-   `(font-lock-constant-face      ((t (                            :foreground ,wkm-purple     ))))
-   `(font-lock-doc-string-face    ((t (                            :foreground ,wkm-green      ))))
+   `(font-lock-constant-face      ((t (                            :foreground ,wkm-green      ))))
+   `(font-lock-doc-string-face    ((t (                            :foreground ,wkm-pink       ))))
    `(font-lock-function-name-face ((t (                            :foreground ,wkm-blue       ))))
    `(font-lock-keyword-face       ((t (                            :foreground ,wkm-lightblue  ))))
-   `(font-lock-string-face        ((t (                            :foreground ,wkm-yellow     ))))
+   `(font-lock-string-face        ((t (                            :foreground ,wkm-magenta    ))))
    `(font-lock-type-face          ((t (                            :foreground ,wkm-lightgreen ))))
-   `(font-lock-variable-name-face ((t (                            :foreground ,wkm-magenta    ))))
+   `(font-lock-variable-name-face ((t (                            :foreground ,wkm-yellow     ))))
    `(font-lock-warning-face       ((t (                            :foreground ,wkm-pink       ))))))
 
 
@@ -76,5 +77,5 @@
     (custom-set-faces '(default ((t (:background "nil")))))))
 
 
-(provide-theme 'wkm-green)
-;;; wkm-green-theme.el ends here 
+(provide-theme 'wkm-colorful)
+;;; wkm-colorful-theme.el ends here 
