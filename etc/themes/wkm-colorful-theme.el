@@ -41,15 +41,15 @@
      (wkm-yellow     "#eeee44")
      (wkm-magenta    "#ff88ff")
      (wkm-pink       "#ffcccc"))
-  
 
+  
   ;; Custom Color Theme
   (custom-theme-set-faces
    'wkm-colorful
 
    ;; Frame
    `(default                      ((t ( :background ,wkm-black     :foreground ,wkm-white      ))))
-   `(cursor                       ((t (                            :foreground ,wkm-lightgray  ))))
+   `(cursor                       ((t ( :background ,wkm-white     :foreground ,wkm-gray       ))))
    `(hl-line                      ((t ( :background ,wkm-gray                                  ))))
    `(minibuffer-prompt            ((t (                            :foreground ,wkm-lightgreen ))))
    `(modeline                     ((t ( :background ,wkm-lightgray :foreground ,wkm-black      ))))

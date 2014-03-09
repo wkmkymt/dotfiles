@@ -2,9 +2,6 @@
 (defvar my-init-frame-alist
   (list
    '(font   . "-unknown-Ricty-bold-normal-normal-*-14-*-*-*-*-0-iso10646-1")
-;   '(background-color . "gray15")
-;   '(foreground-color . "white")
-;   '(cursor . "white")
    '(width  . 116)
    '(height . 55)
    '(top    . 0)
@@ -13,9 +10,10 @@
 
 
 ;;;; @ Color Theme
-(setq-default custom-theme-load-path "~/.emacs.d/elisp/themes")
+(add-to-list 'load-path "~/.emacs.d/etc/themes")
+(setq-default custom-theme-load-path "~/.emacs.d/etc/themes")
 ;(load-theme 'monokai)     ;; Sublime-Text Theme
 ;(load-theme 'desert)      ;; Desert Theme
 ;(load-theme 'dark-laptop) ;; Gnome? Theme
 ;(load-theme 'wkm-green)   ;; My Green Theme
-(load-theme 'wkm-gnome)    ;; My Gnome Theme
+(load-theme 'wkm-colorful) ;; My Colorful Theme
