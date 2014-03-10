@@ -30,11 +30,11 @@
 (set-face-background 'ac-selection-face  "steel blue")
 
 ;; Add ac-modes
-;(defcustom ac-modes
-;  '(c-mode      c++-mode  sh-mode    makefile-mode
-;    html-mode   css-mode  js2-mode   jinja2-mode
-;    python-mode ruby-mode perl-mode  php-mode
-;    java-mode   sql-mode  latex-mode emacs-lisp-mode)
-;  "'auto-complete-mode' can runon."
-;  :type '(list symbol)
-;  :group 'auto-complete)
+(defcustom ac-modes
+  '(c-mode      c++-mode  sh-mode    makefile-mode
+    html-mode   css-mode  js2-mode   jinja2-mode
+    python-mode ruby-mode perl-mode  php-mode
+    java-mode   sql-mode  latex-mode emacs-lisp-mode)
+  "'auto-complete-mode' can runon."
+  :type '(list symbol)
+  :group 'auto-complete)

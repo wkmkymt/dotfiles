@@ -83,7 +83,6 @@
   "Face for gtags candidate"
   :group 'auto-complete)
 
-
 (defface ac-gtags-selection-face
   '((t (:background "navy" :foreground "white")))
   "Face for the gtags selected candidate."
