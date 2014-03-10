@@ -102,14 +102,18 @@
 
 ;;;; @ Undo and Redo
 ;;;; http://qiita.com/ShingoFukuyama/items/19b02cd1679a6ea0bfdb
+;; undo-tree
 (require 'undo-tree)
 (global-undo-tree-mode)
-(require 'undohist)
-(undohist-initialize)
-
-;; Set undohist directory
-(setq undohist-directory "~/.emacs.d/etc/undohist")
 
 ;; Set key-binding
 (define-key undo-tree-map (kbd "C-z") 'undo-tree-undo)
 (define-key undo-tree-map (kbd "C-/") 'undo-tree-redo)
+
+;; undohist
+(require 'undohist)
+
+;; Set undohist directory
+(setq undohist-directory "~/.emacs.d/etc/undohist")
+
+(undohist-initialize)
