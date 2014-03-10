@@ -1,4 +1,5 @@
 ;;;; @ JavaScript Mode
+;;;; http://blog.ainam.me/2011/12/13/emacs-js2-mode-indent/
 (autoload 'js2-mode "js2-mode" nil t)
 
 (defun add-js-common-conf ()

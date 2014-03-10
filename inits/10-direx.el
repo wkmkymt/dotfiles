@@ -1,4 +1,5 @@
 ;;;; @ Direx
+;;;; http://d.hatena.ne.jp/syohex/20130202/1359814263
 (require 'direx-project)
 
 (defun my/dired-jump ()
@@ -14,12 +15,14 @@
                (direx-project:jump-to-project-root-other-window) t)
              (direx:jump-to-directory-other-window)))))
 
-;; Icon設定
+;; Set key-binding
+(global-set-key (kbd "C-x C-j") 'my/dired-jump)
+
+;; Icon text
 (setq direx:leaf-icon   "  "
       direx:open-icon   "▾ "
       direx:closed-icon "▸ ")
 
-;; 表示設定
+;; Display style
 (push '(direx:direx-mode :position left :width 25 :dedicated t)
       popwin:special-display-config)
-(global-set-key (kbd "C-x C-j") 'my/dired-jump)

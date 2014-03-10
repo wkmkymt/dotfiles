@@ -1,10 +1,11 @@
 ;;;; @ Multi Term
+;;;; http://sleepboy-zzz.blogspot.jp/2012/12/emacsmulti-termel.html
 (require 'multi-term)
 
-;; ShellのPath指定
+;; Set multi-term path
 (setq multi-term-program "/bin/bash")
 
-;; キーバインド
+;; Set key-binding
 (global-set-key (kbd "<M-return>") 'multi-term)
 (defun add-term-mode-conf ()
   (let* ((key-and-func
@@ -14,7 +15,7 @@
             ((kbd "C-S-n") multi-term-next))))))
 (add-hook 'term-mode-hook 'add-term-mode-conf)
 
-;; Shellの色指定
+;; Set shell color
 (custom-set-variables
  '(term-default-bg-color "gray22")
  '(term-default-fg-color "white"))
@@ -29,5 +30,6 @@
                    "#fff" ;; その他ファイル
                    ])
 
+;; Complement command
 (require 'bash-completion)
 (bash-completion-setup)

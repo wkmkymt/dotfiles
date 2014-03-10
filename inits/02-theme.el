@@ -1,4 +1,5 @@
 ;;;; @ Frame
+;;;;   http://www.cozmixng.org/~kou/emacs/dot_emacs
 (defvar my-init-frame-alist
   (list
    '(font   . "-unknown-Ricty-bold-normal-normal-*-14-*-*-*-*-0-iso10646-1")
@@ -10,8 +11,11 @@
 
 
 ;;;; @ Color Theme
+;;;;   http://truongtx.me/2013/03/31/color-theming-in-emacs-24/
+;; Set custom-theme path
 (add-to-list 'load-path "~/.emacs.d/etc/themes")
 (setq-default custom-theme-load-path "~/.emacs.d/etc/themes")
+
 ;(load-theme 'monokai)     ;; Sublime-Text Theme
 ;(load-theme 'desert)      ;; Desert Theme
 ;(load-theme 'dark-laptop) ;; Gnome? Theme

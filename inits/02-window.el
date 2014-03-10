@@ -1,29 +1,34 @@
-;;;; @ Window System
-;; タイトルバー
+;;;; @ Title Bar
 (setq frame-title-format (concat "%b - Mt.K's Emacs@" system-name))
 
-;; メニューバー
+
+;;;; @ Menu Bar
 (menu-bar-mode -1)
 
-;; ツールバー
+
+;;;; @ Tool Bar
 (tool-bar-mode -1)
 (tooltip-mode  -1)
 
-;; スクロールバー
+
+;;;; @ Scroll Bar
 ;(set-scroll-bar-mode 'right)
-;(toggle-scroll-bar -1)
 (scroll-bar-mode -1)
 
-;; 行番号
+
+;;;; @ Line Number
 ;(global-linum-mode t)
 ;(setq linum-format "%3d")
 
-;; カーソル座標
+
+;;;; @ Cursor Coordinates 
 (setq line-number-mode   t)
 (setq column-number-mode t)
 
-;; OPメッセージ
+
+;;;; @ OP Message
 (setq inhibit-startup-message t)
 
-;; scratchメッセージ
+
+;;;; @ Scratch Message
 (setq initial-scratch-message "")

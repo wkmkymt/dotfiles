@@ -1,5 +1,6 @@
+;;;; @ Web Mode
 ;;;; http://web-mode.org/
-;;;; @ HTML Mode
+;;;; http://yanmoo.blogspot.jp/2013/06/html5web-mode.html
 (require 'web-mode)
 
 (eval-after-load "web-mode"
@@ -11,6 +12,7 @@
        (setq-default tab-width 2)
        (setq-default indent-tabs-mode nil)
 
+       ;; Indent TAB size
        (setq web-mode-markup-indent-offset 2) ;; html
        (setq web-mode-css-indent-offset 2)    ;; css
        (setq web-mode-code-indent-offset 2)   ;; script

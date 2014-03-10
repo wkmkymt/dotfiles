@@ -1,4 +1,6 @@
 ;;;; @ C Mode
+;;;; http://at-aka.blogspot.jp/2006/12/emacs-c.html
+;;;; http://www.02.246.ne.jp/~torutk/cxx/emacs/mode_extension.html
 (defun add-c-mode-common-conf ()
   (c-set-style "gnu")
   (show-paren-mode t)

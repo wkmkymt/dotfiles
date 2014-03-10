@@ -1,4 +1,5 @@
 ;;;; @ Python Mode
+;;;; http://tnt.math.se.tmu.ac.jp/~tetsushi/nzmath/emacs-python-mode.html
 (autoload 'python-mode "python-mode" nil t)
 
 (defun add-python-common-conf ()

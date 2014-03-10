@@ -1,15 +1,23 @@
 ;;;; @ Auto Insert
+;;;; http://www.math.s.chiba-u.ac.jp/~matsu/emacs/emacs21/autoinsert.html
+(load "autoinsert" t)
+
+;; Set auto-insert path
 (setq-default auto-insert-directory "~/.emacs.d/etc/template")
 (setq-default auto-insert-query nil)
-(define-auto-insert "\\.html\\'" "init.html")
-(define-auto-insert "\\.css\\'"  "init.css")
-(define-auto-insert "\\.jade\\'" "init.jade")
-(define-auto-insert "\\.tex\\'"  "init.tex")
-(define-auto-insert "\\.c\\'"    "init.c")
-(define-auto-insert "\\.cpp\\'"  "init.cpp")
-(define-auto-insert "Makefile"   "init.makefile")
-(define-auto-insert "\\.py\\'"   "init.py")
-(define-auto-insert "\\.rb\\'"   "init.rb")
-(define-auto-insert "\\.pl\\'"   "init.pl")
-(define-auto-insert "\\.el\\'"   "init.el")
+
+;; Add template setting
+(setq auto-insert-alist
+      (append '(("\\.html$" . "init.html")
+                ("\\.css$"  . "init.css")
+                ("\\.jade$" . "init.jade")
+                ("\\.tex$"  . "init.tex")
+                ("\\.c$"    . "init.c")
+                ("\\.cpp$"  . "init.cpp")
+                ("Makefile" . "init.mf")
+                ("\\.py$"   . "init.py")
+                ("\\.rb$"   . "init.rb")
+                ("\\.pl$"   . "init.pl")
+                ("\\.el$"   . "init.el"))
+              auto-insert-alist))
 (add-hook 'find-file-hooks 'auto-insert)
