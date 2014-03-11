@@ -6,10 +6,10 @@
 (unless (server-running-p)
   (server-start))
 
-;; Don't ask when Emacs exit
-(remove-hook 'kill-buffer-query-functions 'server-kill-buffer-query-function)
-
 ;; Save cursor position
 (require 'saveplace)
 (setq-default save-place t)
 (run-at-time 600 600 'save-place-kill-emacs-hook)
+
+;; Don't ask when Emacs buffers kill
+(remove-hook 'kill-buffer-query-functions 'server-kill-buffer-query-function)
