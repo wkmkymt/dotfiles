@@ -15,6 +15,9 @@
                (direx-project:jump-to-project-root-other-window) t)
              (direx:jump-to-directory-other-window)))))
 
+;; Set key-binding
+(global-set-key (kbd "C-x C-j") 'my/dired-jump)
+
 ;; Icon text
 (setq direx:leaf-icon   "  "
       direx:open-icon   "▾ "
@@ -23,6 +26,3 @@
 ;; Display style
 (push '(direx:direx-mode :position left :width 25 :dedicated t)
       popwin:special-display-config)
-
-;; Set key-binding
-(global-set-key (kbd "C-x C-j") 'my/dired-jump)
