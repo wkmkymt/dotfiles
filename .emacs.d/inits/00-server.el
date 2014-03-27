@@ -10,6 +10,7 @@
 (require 'saveplace)
 (setq-default save-place t)
 (run-at-time 600 600 'save-place-kill-emacs-hook)
+(setq save-place-file "~/.emacs.d/etc/saveplace/.emacs-places")
 
 ;; Don't ask when Emacs buffers kill
 (remove-hook 'kill-buffer-query-functions 'server-kill-buffer-query-function)
