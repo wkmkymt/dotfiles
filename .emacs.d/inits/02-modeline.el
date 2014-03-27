@@ -7,6 +7,9 @@
     (emacs-lisp-mode         . "Elisp")
     (python-mode             . "Python")
     (ruby-mode               . "Ruby")
+    (shell-script-mode       . "Sh")
+    (markdown-mode           . "Md")
+    (yaml-mode               . "Yml")
 
     ;; Minor modes
     (auto-complete-mode      . " AC")
