@@ -7,6 +7,7 @@
     (emacs-lisp-mode         . "Elisp")
     (python-mode             . "Python")
     (ruby-mode               . "Ruby")
+    (sh-mode                 . "Sh")
     (shell-script-mode       . "Sh")
     (markdown-mode           . "Md")
     (yaml-mode               . "Yml")
@@ -139,7 +140,7 @@ static char * arrow_left[] = {
 (defvar ml-buffer-name     " %b ")
 (defvar ml-above-text      " %6p ")
 (defvar ml-cursor-position " %4l : %2c ")
-(defvar ml-center-space    '((space :align-to (- right-fringe 30))))
+(defvar ml-center-space    '((space :align-to (- right-fringe 34))))
 (defun  ml-minor-mode ()
   (concat (format-mode-line minor-mode-alist) " "))
 (defun  ml-git-branch ()
@@ -147,7 +148,7 @@ static char * arrow_left[] = {
                   "[\r\n]+\\'" ""
                   (shell-command-to-string "git symbolic-ref -q HEAD")))
          (mode-line-str (if (string-match "^refs/heads/" branch)
-                            (format " %s " (substring branch 11)) "")))
+                            (format " %10s " (substring branch 11)) "")))
     (propertize mode-line-str 'face 'mode-line)))
 
 
