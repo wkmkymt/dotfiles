@@ -1,0 +1,1 @@
+# .emacs.d for Emacs23
