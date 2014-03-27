@@ -1,3 +1,5 @@
+(require 'cl)
+
 ;;;; @ Load Path
 ;;;;   http://www.gfd-dennou.org/member/uwabami/cc-env/EmacsBasic.html
 (defun add-to-load-path (&rest paths)

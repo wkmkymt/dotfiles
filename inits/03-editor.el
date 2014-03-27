@@ -39,11 +39,6 @@
 (setq x-select-enable-clipboard t)
 
 
-;;;; @ Mini Buffer
-;; [yes or no] --> [y or n]
-(fset 'yes-or-no-p 'y-or-n-p)
-
-
 ;;;; @ Parentheses
 ;; Emphasize the matching parenthesis
 ;; http://d.hatena.ne.jp/syohex/20110331/1301584188

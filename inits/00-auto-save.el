@@ -9,4 +9,5 @@
 
 ;;;; @ Auto Save Files
 ;;;;   http://dan-project.blog.so-net.ne.jp/2012-06-04
+(setq auto-save-list-file-name nil)
 (setq auto-save-list-file-prefix nil)

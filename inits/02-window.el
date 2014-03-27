@@ -32,3 +32,12 @@
 
 ;;;; @ Scratch Message
 (setq initial-scratch-message "")
+
+
+;;;; @ Mini Buffer
+;; [yes or no] --> [y or n]
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; Set default directory
+;(setq default-directory "~/") 
+;(setq command-line-default-directory "~/")

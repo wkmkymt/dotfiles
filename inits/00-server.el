@@ -2,9 +2,9 @@
 ;;;;   http://futurismo.biz/archives/1273
 ;;;;   http://shigemk2.hatenablog.com/entry/20110905/1315199694
 ;;;;   http://d.hatena.ne.jp/NeoCat/20131108/1383937311
-(require 'server)
-(unless (server-running-p)
-  (server-start))
+;(require 'server)
+;(unless (server-running-p)
+;  (server-start))
 
 ;; Save cursor position
 (require 'saveplace)
