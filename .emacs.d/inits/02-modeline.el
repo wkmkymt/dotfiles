@@ -55,8 +55,12 @@
 ;; Define face
 (defun define-face (face-name bg-color fg-color)
   (make-face face-name)
-  (set-face-attribute face-name t
-                      :background bg-color :foreground fg-color :weight 'bold :box nil))
+  (set-face-attribute
+   face-name t
+   :background bg-color
+   :foreground fg-color
+   :weight 'bold
+   :box nil))
 
 (define-face 'mode-line-first    ml-black  ml-yellow)
 (define-face 'mode-line-second   ml-green  ml-white)
