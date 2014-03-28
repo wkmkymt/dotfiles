@@ -1,0 +1,2012 @@
+sudo cp /media/VMware\ Tools/VMwareTools-8.8.5-893888.tar.gz  /tmp
+cd /tmp/
+sudo tar -xf VMwareTools-8.8.5-893888.tar.gz 
+sudo ./vmware-tools-distrib/vmware-install.pl 
+cd
+upgrade-from-grub-legacy 
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install gnome-panel
+ls
+sudo apt-get emacs23
+install emacs23
+em 
+ls
+em
+ls
+cd .emacs.d/m
+cd .emacs.d/
+ls
+cd elisp/
+cd ../inits/
+ls
+em 00-init.el &
+ls
+cd ../
+ls
+em init.el 
+em
+cd inits/
+ls
+em 00-init.el 
+ls
+cd ../
+ls
+cd inits/
+ls
+em 00-init.el &
+ls
+em 01-init.el&
+em
+ls
+rm 01-init.el
+ls
+rm 01-init.el~ 
+ls
+em 00-init.el 
+cd emacs/
+ls
+cd
+em Ubuntu-12.04-LTS-install.txt 
+bg
+sudo add-apt-repository ppa:irie/elisp
+upgrade
+update
+install ibus-el
+cd .Ricty/
+ls
+sudo mv Ricty-Bold.ttf Ricty-Regular.ttf /usr/share/fonts/truetype/ttf-ricty
+sudo fc-cache -fv
+ls
+em
+em
+emacs
+em
+cd .emacs.d/
+ls
+cd inits/
+ls
+em 00-init.el 
+ls
+mv 00-init.el 00-load.el
+em
+em 00-init.el&
+em 00-load.el 
+ls
+rm 00-load.el 
+em
+lsa
+rm 00-init.el~
+em
+cd
+rmdir .emacs.d/
+ls
+em
+ls .emacs.d/
+cd .emacs.d/
+ls
+cd
+cp /media/MOBILE\ DISK/mtky/.emacs.d/ ./emacs
+cpd /media/MOBILE\ DISK/mtky/.emacs.d/ ./emacs
+ls
+em
+ls
+em
+cd .emacs.d/undohist/
+ls
+rm -rf *
+ls
+cd ..
+cd backup/
+ls
+lsa
+rm -rf *
+ls
+cd ..
+em
+ls
+mkdir inits
+em
+cp ~/emacs/inits/ ~/inits
+cpd ~/emacs/inits/ ~/inits
+em
+ls
+em
+cd inits/i
+l
+cd inits/
+ls
+em 00-init.el&
+em
+em 00-init.el &
+em
+em 00-init.el
+em
+lsa
+em
+em 00-init.el 
+em
+em ~/.Xauthority 
+em
+install lv
+ls
+less
+less 00-init.el 
+sudo mkdir -p /usr/share/fonts/truetype/ttf-ricty
+mkdir .fonts
+cd .font
+cd .fonts
+ls
+sudo cp /usr/share/fonts/truetype/ttf-ricty/Ricty-* ./
+ls
+sudo apt-get install ibus-mozc 
+ibus-setup 
+ls
+update
+em
+bg
+em Ubuntu-12.04-LTS-install.txt &
+sudo cp Pictures/ubuntu_wall01.png /usr/share/backgrounds/warty-final-ubuntu.png 
+cd /usr/share/gnome-background-properties/
+sudo cp ubuntu-wallpapers.xml local-background-wallpapers.xml
+cd
+cd Downloads/
+ls
+cd ../
+ls
+cd Downloads/
+ls
+sudo tar -zxvf 136162-Crunchy-themes.tar.gz -C /usr/share
+ls
+cd
+sudo apt-get install gnome-wise-icon-theme 
+sudo apt-get install gnome-tweak-tool 
+gnome-tweak-tool 
+ls
+em
+ls
+lsa
+ll
+la
+lla
+ls
+em
+ls
+la
+la
+ls
+al
+lfsd
+;fhsdofh
+ls
+cd
+ls
+history 
+ls
+$PS1
+echro $PS1
+echo $PS1
+ls
+em
+pwd
+em
+ls
+ls
+history 
+em .bashrc &
+em .profile 
+cd .bash.d/
+ls
+la
+mv .bash_logout ../
+ls
+la
+test -r ~/.bash.d/dir_colors 
+ps
+eval "$(dircolors -b ~/.bash.d/dir_colors)"
+cd
+em /usr/bin/dircolors 
+em .bashrc 
+ps
+ls
+la
+em .#.bashrc 
+rm .#.bashrc 
+em .bashrc &
+em .bashrc 
+em Ubuntu-12.04-LTS-install.txt &
+sudo apt-get install gnome-tweak-tool 
+sudo apt-get install dconf-tools 
+sudo apt-get install synaptic 
+cd
+cdp
+ls
+cd aoj/
+ls
+cd 100/
+ls
+cd
+gnome-panel 
+bg
+gconftool-2 
+gnome-ter
+gnome-terminal
+gconftool --recursive-unset /apps/panel
+killall gnome-panel 
+gnome-panel 
+bg
+gnome-panel 
+bg
+gnome-system-monitor 
+gnome-panel --replace
+bg
+sudo apt-get install selinux
+gnome-system-monitor 
+sudo gnome-system-monitor 
+sudo apt-get install gnome-panel
+update
+upgrade
+update
+reboot 
+sudo reboot 
+gnome-panel &
+gnome-panel 
+bg
+gnome-panel --help
+gnome-panel --heop-all
+gnome-panel -all
+gnome-panel --help-all
+cd .emacs.d/
+ls
+cd inits/
+ls
+em
+bg
+em
+em 01-editor.el 
+em
+em 10-key-binding.el 
+bg
+em 01-editor.el &
+em
+em 00-init.el 
+em tes.cpp
+em
+em tes.cpp
+em
+em tes.tex
+em tes.html
+ls
+em
+em tes.py
+ls
+em
+em tes.py
+em
+em 02-auto-install.el &
+em
+ls
+rm 02-auto-install.el 
+ls
+em
+em 02-install-elisp.el &
+rm 02-install-elisp.el 
+ls
+em
+ls
+em 10-key-binding.el 
+em
+bg
+em
+emacs -daemon
+emcas -daemon
+emacs -daemon
+em
+em tes.tex
+ls
+em 20-yatex.el 
+bg
+sudo apt-get install platex
+platex
+sudo apt-get install ptex-bin
+xdvi
+tex
+ps
+sudo apt-get install yatex 
+em tes.tex
+ls
+cd ../el
+ls
+cd ..
+rmdir el
+ls
+cd elisp/
+ls
+cd mode/yatex-mode/
+ls
+make
+ls
+em yatex-mode.el&
+em tes.tex
+ls
+emtes.tex
+em tes.tex
+ls
+em yatex-mode.el 
+em yatex.el 
+ls
+cd ../
+ls
+mv yatex-mode ~/
+ls
+cd
+ls
+cd
+ls
+em tes.tex &
+sudo apt-get -y install xdvik-ja dvipsk-ja okumura-clsfiles feynmf
+sudo apt-get install texlive-base ptex-base ptex-bin dvipsk-ja xdvik-ja ptex-jisfonts gs-cjk-resource
+sudo apt-get install texlive-base 
+sudo apt-get install okumura-clsfiles 
+sudo apt-get -y install texlive ptex-bin xdvik-ja latex-cjk-japanese texlive-doc-ja cmap-adobe-japan2 ptex-jisfonts
+em tes.tex 
+sudo apt-get -y install texlive-publishers okumura-clsfiles jabref latex-beamer texlive-latex-extra
+ps
+brew install emacs --cocoa
+brew
+apt_repository "cassou-emacs" do
+end
+%w{emacs24-nox}.each do |pkg|   package pkg do
+add-apt-repository ppa:cassou/emacs
+sudo add-apt-repository ppa:cassou/emacs
+update
+sudo apt-get install emacs24 emacs24-el 
+emacs
+udo apt-get build-dep emacs
+sudo apt-get build-dep emacs
+cd
+ls
+em tes.tex &
+ls
+em tes.tex &
+cdpy
+ls
+cd
+em profile.txt &
+cd
+em profile-emacs.txt &
+cd .emacs.d/
+ls
+mkdir .el
+ls
+mv init.el .el 
+ls
+cd inits/
+ls
+mv *.el ../.el 
+ls
+cd ../.el/
+ls
+mv 01-editor.el 30-template.el 40-auto-complete.el ../inits 
+ls
+cd ../
+cd inits/
+ls
+em
+cd ../.el/
+ls
+mv init.el ..
+ls
+mv * ../inits/
+ls
+cd ../
+rmdir .el 
+ls
+cd inits/
+ls
+em
+ls
+cd
+ls
+ibus-daemon 
+bg
+ls
+ls
+ls
+sudo apt-get install terminator
+ibus-setup 
+ibus-daemon 
+sudo ibus-daemon &
+ibus-daemon &
+ps
+ibus-table-createdb 
+mozc-dict 
+ibus-setup 
+ibus-daemon 
+bg
+ps
+em
+cd .emacs.d/inits/
+em 01-frame.el
+bg
+em
+rm 01-frame.elc
+em
+em tespy
+em tes.js 
+bg
+em tes.js 
+rm tes.js 
+rm #tes.js# 
+y
+rm #tes.js# 
+ls
+rm #tes.js# 
+rm
+rm #tes.js#
+rm -f #tes.js# 
+ls
+rm -r #tes.js# 
+ls
+ps
+ls
+em \#tes.js# 
+rm #tes.js# 
+rm #*
+rm --help
+rm ./#tes.js# 
+ls
+cd
+ls
+cd .emacs.d/inits/
+ls
+em 01-frame.el 
+ls
+cd
+cd
+ls
+em todo.txt&
+cd
+ls
+cd .enchant.js/
+ls
+cd examples/
+ls
+cd beginner/
+ls
+cd hellobear/
+ls
+google-chrome index.html 
+cd ../
+ls
+mv new_class 
+cd new_class/
+ls
+google-chrome index.html 
+less index.html 
+cd ../../
+ls
+cd developers/
+ls
+cd eventViewer/
+ls
+google-chrome index.html 
+less index.html 
+less main.js 
+cd ../
+ls
+cd ../
+ls
+cd expert/
+ls
+cd action/
+ls
+google-chrome index.html 
+ls
+em game.js 
+cd ../
+ls
+cd
+ls
+em tes.c&
+gcc tes.c 
+[A
+gcc tes.c 
+cd
+ls
+em tes.c &
+cdcp
+ls
+cd
+ls
+em cpp.txt&
+rm tes.c 
+ls
+emacs -nw
+ps
+ls
+rm tes.c 
+ls
+rm a.out 
+ls
+em
+em tes.py -nw
+ls
+rm tes.py 
+em -nw
+ps
+em -nw
+em -nw
+sudo shutdown now
+update
+upgrade
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+update
+sudo apt-get install sublime-text-dev 
+ls
+sublime-text
+sublime-text-2 
+ps
+sublime-text-2 
+sublime-text-2 --version
+sublime-text-2 
+sudo apt-get install sublime-text
+sublime-text 
+bg
+em .bashrc &
+em .bash.d/aliases 
+bg
+st
+source 
+ls
+st
+source .bash.d/aliases 
+st
+ls
+sudo apt-get install python-xlib 
+cd .config/sublime-text-2/Packages/
+ls
+git clone git@github.com:chikatoike/SublimeIBus.git
+st
+ps
+cd
+ls
+man sources.list 
+cd
+cdcp
+ls
+gpp cpp11.cpp 
+gpp cpp11.cpp -std=c++11
+clang++ cpp11.cpp 
+clang++ cpp11.cpp -std=c++11
+clang++ io.cpp -std=c++11
+ls
+cd
+sudo emacs /bin/compile 
+cd .bash.d/
+em aliases 
+cdcp
+ls
+gpp array.cpp 
+rm a.out 
+gpp ptr.cpp 
+less ptr.cpp 
+mv ptr.cpp unique_ptr.cpp
+ls
+gpp lambda.cpp 
+ls
+cd
+ls
+cdc
+ls
+cd ky/
+ls
+rm a.out 
+less basic01.c 
+mv basic01.c io.c
+ls
+less basic02.c 
+rm basic02.c 
+less basic03.c 
+rm basic03.c 
+less basic04.c 
+rm basic04.c 
+ls
+less batl.c 
+rm batl.c 
+less bekijo.c 
+rm bekijo.c 
+ls
+less file.c 
+rm file.c 
+less glad.c 
+rm glad.c 
+less gokaku.c 
+rm gokaku.c 
+less goukei.c 
+rm goukei.c 
+less hairetu.c 
+rm hairetu.c 
+ls
+less keisan.c 
+rm keisan.c 
+rm nnn.c 
+less pointa01.c 
+rm pointa01.c 
+less pointa02.c 
+gcc pointa0
+gcc pointa02.c 
+less pointa02.c 
+mv pointa02.c alloc.c
+ls
+less pointa03.c 
+mv pointa03.c ptr.c
+ls
+less pointa04.c 
+mv pointa04.c ptr-kuina.c
+ls
+rm saidai-*
+ls
+less sanjou.c 
+rm sanjou.c 
+rm senbai.c tensu.c yochi.c 
+ls
+less sosu.c 
+mv sosu.c prime.c
+less struct01.c 
+rm struct01.c 
+less suki.c 
+rm suki.c 
+ls
+less sumDay.c 
+gcc sumDay.c 
+less takashi.c 
+rm takashi.c 
+less time.c 
+gcc time.c 
+rm time.c 
+ls
+cd eitan/
+ls
+make
+ls
+cd
+sudo cp /bin/compile ./compile
+chown mtky compile 
+sudo chown mtky compile 
+gnuplot
+sudo apt-get install gnuplot-x11 
+sudo apt-get install gnuplot
+plot
+gnuplot
+em
+bg
+ls
+em tes.py&
+ls
+mkdir websocket
+cd websocket/
+ls
+em cliant.js&
+cd ../
+rmdir websocket 
+ls
+em tes.c&
+gcc tes.c 
+cdc
+ls
+cd ky/
+ls
+cdcp
+cd ky/
+ls
+cdc
+ls
+cd ky/
+ls
+em ptr-kuina.c &
+cd
+gcc tes.c 
+rm tes.c 
+ls
+sl
+]
+slk
+ls
+:sd;fwe
+owefwe
+;e
+;wefwe:;
+:hfw;ehf;
+w;fw
+h;;oe
+e;oe;ihofw
+]we;ho
+we;ho
+who;owefwe
+;;ef
+;wehf;owe
+who
+whow
+how
+who
+hwo
+how
+who
+]who
+who
+whow
+who
+wh
+jwho
+who
+wh
+owho
+who
+wh
+ohw
+who
+wh
+owho
+who
+hwo
+who
+whwho
+who
+hw
+ohwo
+wh
+sublime-text 
+subl
+subl tes
+ls
+lsa
+ka
+la
+cd .tmlib/
+ls
+cd ../
+ls
+cd .tmlib/
+ls
+cd build/
+ls
+cd ../
+ls
+cd ../
+ls
+cd /bin/
+ls
+ls su
+cd ../
+ls
+cd bin/
+la
+cd ../etc/
+ls
+cd ../
+cd usr/
+ls
+cd bin/
+ls
+ls sublime-text subl
+rm subl
+ls
+rmdir sublime-text 
+sudo rmdir sublime-text
+ls
+sudo rm -rf sublime-text 
+sudo rm subl
+ls
+cd
+sudo apt-get install sublime-text-2-dev 
+sublime-text
+cd /
+grep --help
+grep sublime
+cd
+sudo apt-get uninstall sublime-text
+sudo apt-get remove sublime*
+ls
+rm a.out 
+cd Downloads/
+ls
+untbz sublime_text_3_build_3047_x32.tar.bz2 
+ls
+cd sublime_text_3/
+ls
+./sublime_text 
+./plugin_host 
+em plugin_host 
+ls
+cd
+mv Downloads/sublime_text_3/ ./
+ls
+mv sublime_text_3 .sublime_text_3 
+ls
+cd .sublime_text_3/
+ls
+mv python3.3.zip ../
+ls
+cd ../
+ls
+unzip python3.3.zip 
+ls
+rm -rf *.pyo
+ls
+rm -rf collections concurrent ctypes dbm distutils email encodings html http importlib json lib2to3 logging msilib multiprocessing plat-* pydoc_data sqlite3 unittest urllib venv wsgiref xml*
+ls
+la
+mv python3.3.zip .sublime_text_3 
+ls
+mv .sublime_text_3 
+cd .sublime_text_3/
+ls
+cp sublime_text.desktop ../Desktop 
+cp sublime_text /usr/bin
+sudo cp sublime_text /usr/bin
+cd
+ls
+sublime_text 
+cd .sublime_text_3/
+ls
+./sublime_text 
+s
+ls
+cd ../
+ls
+cd /usr/lib
+ls
+cd ../
+ls
+cd ../
+cd
+cpd .sublime_text_3/ /usr/lib
+sudo cpd .sublime_text_3/ /usr/lib
+sudo cp .sublime_text_3/ /usr/lib
+less /usr/bin/cpd
+cd .mycommand/
+ls
+cd ../
+ls
+cd /usr/
+ls
+cd bin/
+ls
+cd ../../bin/
+ls
+ls cpd
+cd ../
+ls
+loca
+cd local
+ls
+cd usr/local/
+ls
+cd bin/
+ls
+cd ../etc/
+ls
+cd ../src/
+ls
+cd ../../lib
+ls
+cd ../../
+ls
+cd /usr/local/
+ls
+cd lib/
+ls
+cd ../../
+ls
+cd include/
+ls
+cd ../
+ls
+cd bin/
+ls
+source cpd
+cd
+ls
+em .bash.d/aliases 
+sudo cp -a .sublime_text_3 /usr/lib
+sublime_text 
+cd /usr/
+ls
+cd lib
+ls
+sublime_text 
+ls
+cd ../
+ls
+cd lib
+ls
+cd ../bin/
+ls
+cd ../
+ls
+cd lib64/
+ls
+cd ../local/
+ls
+cd bin/
+l
+ls
+cd ../lib/
+ls
+cd ../etc/
+ls
+cd ../src/
+ls
+cd ../sbin/
+ls
+cd ../include/
+ls
+cd ../games/
+ls
+cd ../share/
+ls
+cd ../]
+cd ../
+ls
+cd ../
+ls
+cd lib
+ls
+cd
+ls
+cd /usr/lib
+sudo mv .sublime_text_3 sublime_text_3 
+ls
+sublime_text 
+cd ../bin/
+ls
+sudo rm sublime_text 
+cd
+sudo ln -s /usr/lib/sublime_text_3/sublime_text /usr/bin/sublime
+sudo mv /usr/lib/sublime_text_3/sublime_text.desktop /usr/share/applications/ 
+sudo sublime /usr/share/applications/sublime_text.desktop 
+cd /usr/lib/sublime_text_3/Icon/48x48/
+ls
+cd
+sublime 
+cd /usr/lib/sublime_text_3/
+ls
+cd Packages/
+ls
+ls Color Scheme - Default.sublime-package 
+em Color\ Scheme\ -\ Default.sublime-package 
+ls
+cd
+sublime 
+ls
+rm tes.js 
+ls
+sudo apt-get remove sublime-text*
+ls
+sublime 
+sudo rm -rf /usr/bin/sublime 
+sudo rm -rf /usr/lib/sublime_text_3 
+ls
+cp -a .sublime_text_3 /usr/lib/sublime_text_3
+sudo cp -a .sublime_text_3 /usr/lib/sublime_text_3
+sudo cp .sublime_text_3/sublime_text /usr/bin
+sudo mv /usr/bin/sublime_text sublime
+sublime
+ls
+sudo mv sublime /usr/bin
+sublime 
+history 
+rm -rf /usr/bin/sublime /usr/lib/sublime_text_3 
+sudo rm -rf /usr/bin/sublime /usr/lib/sublime_text_3 
+ls
+rmdir .sublime_text_3 
+ls
+cd Downloads/
+ls
+untbz sublime_text_3_build_3047_x32.tar.bz2 
+ls
+history 
+mv sublime_text_3 .. 
+ls
+cd ../
+ls
+sudo mv sublime_text_3 /usr/lib
+sudo ln -s /usr/lib/sublime_text_3/sublime_text /usr/bin/sublime
+sudo mv /usr/lib/sublime_text_3/sublime_text.desktop /usr/share/applications/
+sudo sublime /usr/share/applications/sublime_text.desktop 
+sudo rm -rf /usr/bin/sublime /usr/lib/sublime_text_3 
+ls
+sudo rm /usr/share/applications/sublime_text.desktop 
+ls
+cdp
+cd web/english/
+ls
+rm #english.html# 
+y
+mv #english.html# a
+rm -rf #english.html# 
+ls
+rmdir \#english.html# 
+ls
+google-chrome english.html 
+bg
+python
+pip sympy
+pip install sympy
+python
+sudo easy_install sympy
+python
+cdpy
+ls
+cd ky/
+ls
+cd sympy/
+ls
+python base.py 
+em base.py 
+python
+em -nw base.py 
+cd ../
+ls
+python
+cd
+python
+sudo easy_install jinja2
+cdpy
+ls
+cd /usr/local/lib/python2.7/dist-packages/
+ls
+cd ../
+ls
+cd site-packages/
+sl
+ls
+cd ../
+ls
+python
+cd
+python
+sudo easy_install sympy
+cdpy
+ls
+cd ky/
+ls
+cd sympy/
+ls
+cpd sympy/ ~/
+cd
+ls
+rm foo.py fuga.py hoge.js 
+ls
+cd sympy/
+ls
+cd ../
+ls
+rmdir sympy 
+ls
+cdc
+ls
+cd tmp/
+ls
+em ensyu16-1.c 
+cd ../
+rmdir tmp 
+ls
+cd
+em tes.c
+bg
+gcc tes.c 
+cdc
+cdcp
+cdc
+cd ky/
+ls
+em ptr-kuina.c 
+cd
+gcc tes.c 
+cdc
+cd ky/
+em ptr-kuina.c 
+cd
+gcc tes.c 
+update
+upgrade
+ls
+update
+echo Hello, World->hello.txt
+ls
+cat hello.txt 
+rm hello.txt 
+ls
+la
+ls
+echo 'Hello, World!'>hello.txt
+ls
+cat hello.txt 
+source hello.txt 
+rm hello.txt 
+echo 'echo Hello!'>hello.sh
+source hello.sh 
+rm hello.sh 
+echo 'alias hello="echo hello"'>hello.sh
+source hello.sh 
+hello
+rm hello.sh 
+ls
+hello
+ehllo
+hello
+cd micon/
+ls
+cd ../
+ls
+rmdir girlhelp 
+ls
+mkdir girlhelp
+ls
+cd girlhelp/
+ls
+em 
+ls
+em paiza.py&
+python paiza.py 
+ls
+cd
+ls
+rmdir girlhelp 
+ls
+cd prog/jo
+cd prog/joi
+cd prog/
+ls
+mkdir joi
+cd joi/
+ls
+mkdir 2013
+rmidr 2013/
+ls
+rmdir 2013 
+mkdir 13
+ls
+cd 13/
+ls
+mkdir test
+ls
+cd test/
+ls
+em 01.cpp&
+ls
+mkdir 01
+ls
+rmdir 01 
+mkdir 1
+ls
+cd 1
+ls
+1.cpp&
+em 1.cpp&
+gpp 1.cpp 
+echo '26 4'>o1.txt
+ls
+cat o1.txt 
+gcc 1.cpp 
+gpp 1.cpp 
+echo '111 89'>o2.txt
+cat o2.txt 
+./a.out 
+cat '-200 0'>o3.txt
+echo '-200 0'>o3.txt
+cat o3.txt 
+mv o3.txt l5.txt
+mv l5.txt o5.txt
+ls
+./a.out 
+echo '-89 -111'>o4.txt
+./a.out 
+echo '0 200'>o4.txt
+ls
+cat o4.txt 
+./a.out 
+echo '-89 -111'>o3.txt
+ls
+python
+cd
+em tes.py&
+python tes.py 
+bg
+ls
+python tes.py 
+gedit tes.py 
+python tes.py 
+gedit tes.py 
+python tes.py 
+gedit tes.py 
+python
+sudo easy_install sympy
+python
+update
+upgrade
+update
+upgrade
+update
+cdcp
+cd ei
+cd ky/eitan/
+ls
+cdc
+cd ky/eitan/
+ls
+cd wakatan/
+ls
+cd src/
+ls
+em Makefile 
+cp Makefile ~/tmp 
+ls
+cdcp
+ls
+cd ky/eitan/
+ls
+em Makefile &
+make
+ls
+em Makefile &
+cd
+ls
+cd
+echo HogeHogeHoge~~~>hoge.txt
+ls
+vimtutor 
+ps
+kill 1241*
+kill -9 12419 
+ps
+sudo apt-get remove adobereader-enu 
+ls
+sudo apt-get install skype
+ls
+update
+upgrade
+update
+ls
+upgrade
+update
+upgrade
+python
+sudo easy_install sympy
+python
+em tes.html
+google-chrome tes.html 
+cdp
+cd
+cd .bash.d/
+ls
+em aliases 
+source aliases 
+cd
+cdw
+source --help
+source -h
+man source 
+source -p
+source usage
+source .bash.d/aliases 
+cdw
+source .bash.d/
+gcc tes.c 
+em -nw
+ls
+rm tes.c 
+ls
+python
+upgrade
+update
+upgrade
+cdc
+ls
+cdw
+ls
+cd wakachat/
+ls
+cd js/
+ls
+em wakachat.js &
+google-chrome ../index.html 
+cd ../
+python -m CGIHTTPServer
+cd
+ls
+install vsftpd
+ftp wakachat.chottu.net
+rt
+ls
+em hoge
+ls
+rt hoge 
+ls
+cd .local/share/Trash/files/
+ls
+cd ../
+ls
+rm hoge testes 
+ls
+cd
+cd .bash.d/
+em aliases 
+source aliases 
+ls
+cd
+ls
+touch hogehoge
+rt hogehoge 
+ls
+mkdir hoge
+cd hoge/
+ls
+for hoge in 10; do touch hoge; done
+ls
+for file in 10; do touch file; done
+ls
+for file in 1 2 3 4 5 6 7 8 9 10; do touch hoge + file; done
+ls
+for i in 1 2 3 4 5; do touch hoge$i; done
+ls
+cd ../
+ls
+rt hoge/
+ls
+em main.c&
+gcc main.c sub.h sub.c
+ls
+./a.out 
+./a.out -1
+./a.out hoge hoge
+gcc main.c sub.h sub.c
+./a.out -a hoge
+ls
+mkdir argtest
+ls
+mv main.c sub.* argtest/
+ls
+mv a.out  argtest/
+ls
+mv argtest/ prog/c/ky/
+ls
+upgrade
+ls
+ps
+pwd
+PWD
+export 
+update
+ls
+upgrade
+update
+cd
+cdc
+ls
+cd kadai/
+ls
+cd 07/
+ls
+em e1207-7.c
+cd
+em tes.c
+em tes.cpp
+ls
+rm \#tes.cpp# 
+ls
+em tes.cpp 
+gtypist -h
+cdc
+ls
+cd .
+cd
+ls
+cd .local/share/Trash/
+ls
+cd files/
+ls
+cd
+cdc
+ls
+em ensyu26-1.c &
+cd
+em tes.cpp
+rm tes.cpp 
+ls
+em tes.cpp
+ls
+em tes.cpp
+cd ../../../
+ls
+em init.el&
+em init.el
+bg
+em init.el
+em init.el&
+em init.el
+ls
+rm init.el~
+ls
+em init.el&
+em init.el
+bg
+em init.el&
+ps
+em init.el&
+cd
+ls
+rm \#tes.cpp# 
+ls
+emacs23 --h
+emacs --version
+em -q
+em
+ls
+cd .emacs.d/
+ls
+em init.el&
+fc-cache 
+ls
+em init.el&
+ls
+cd
+cd
+ls
+lsa
+la
+cd .pip
+ls
+em pip.log 
+cd
+ls
+install
+cd
+ls
+em wakatan.txt&
+pmount
+sudo apt-get install pmount 
+sudo fdisk -l
+pmount /dev/sdb1 flash
+pumount /dev/sde1
+
+sudo fdisk -l
+pmount /dev/sdb1
+pmount /dev/sdb1 flash
+pumount /dev/sdb1 flash
+pumount /dev/sdb1
+sudo fdisk -l
+
+pumount /dev/sdb1
+pmount /dev/sdb1 USB
+ls
+cd
+ls
+upgrade
+update
+ls .MyTODO/
+ls
+rmdir .MyTODO/
+ls
+cd
+ls .Mytodo/
+ls
+cd .Mytodo/
+ls
+cd ../
+ls
+rm .Mytodo/
+ls .Mytodo
+rm .Mytodo/
+ls .Mytodo
+rm .Mytodo/
+rm .Mytodo
+ls
+rm .Mytodo/todo.ssv 
+ls .Mytodo/
+rm .Mytodo/
+cd .bash.d/
+em aliases 
+ls
+source aliases 
+ls
+cd
+ls
+rm .Mytodo/
+mv .Mytodo/ .local/share/Trash/files/
+mv -f .Mytodo/ .local/share/Trash/files/
+mv  .Mytodo/ .local/share/Trash/files/
+cd .bash.d/
+em aliases 
+ls
+cd
+rm .Mytodo/
+rmdir .Mytodo/
+cd .bash.d/
+source aliases 
+cd
+rmdir .Mytodo/
+cd .bash.d/
+python
+ls
+em aliases 
+source aliases 
+cd
+rmdir .Mytodo/
+rm -f .Mytodo/
+rm -r .Mytodo/
+ls
+cd .bash.d/
+ls
+em aliases 
+sort aliases 
+source aliases 
+ls
+cd
+ls
+./e1227.c 
+em e1227.c &
+gcc e1227.c 
+ls
+./a.out 
+ls
+gcc e1227.c 
+ls
+./a.out 
+ls
+export LANG=ja_JP.UTF-8
+./a.out 
+bg
+ps
+kill -8 721
+kill -8 7215
+kill -9 7215
+ls
+./a.out 
+todo
+todo hello
+todo 10
+todo -a
+todo -wd
+todo -w hello
+todo 
+todo 2
+todo 
+todo -w こんいちは
+todo
+todo -d 1
+todo
+todo -d hello
+em e1227.c &
+cdp
+cdw
+ls
+cd english/
+ls
+em english.html &
+google-chrome english.html 
+em js/main.js 
+ls
+cd
+cdw
+cd english/
+ls
+firefox english.html 
+em js/wordsbox.js &
+upgrade
+update
+cd
+ls
+upgrade
+update
+gcc e1228_kadai8.c 
+ibus-daemon 
+ls
+kill -h
+kill --help
+kill
+ibus-daemon 
+ibus-daemon &
+upgrade
+update
+python
+upgrade
+update
+upgrade
+cd Do
+cd Documents/
+ls
+em Ubuntu12.04-install.txt 
+bg
+cd /tmp/
+ls
+cd vmware-root
+ls
+cd ../
+ls
+cd
+gparted
+cd
+cd Documents/
+la
+cd yatex-mode/
+la
+cd ../
+ls
+cd ../
+ls
+cd .emacs.d/old-emacs23/
+ls
+em init.el
+ls
+cd elisp/
+ls
+cpd * ../../elisp/
+ls
+cd ../
+ls
+em init.el&
+sudo apt-get install emacs23-bin-common emacs23-common emacs23-el
+update
+upgrade
+ls
+cd
+ls
+sudo pip install pyflakes pep8
+ls
+sudo easy_install pyflakes pep8
+cd .emacs.d/elisp/mode/
+ls
+cd js2-mode/
+ls
+cd ../../
+ls
+cd auto-complete/
+ls
+cd doc/
+ls
+cd ....
+cd ..
+ls
+cd dict/
+ls
+cd ../../
+ls
+cd ../
+ls
+cd 
+ls
+em tes.cpp&
+ls
+em tes.cpp 
+ls
+rm tes.cpp 
+em tes.py&
+rm tes.py 
+ls
+em tes.cpp&
+rm tes.cpp 
+ls
+em tes.py
+ls
+cd Downloads/
+ls
+unzip color-theme-6.6.0.zip 
+ls
+cd color-theme-6.6.0/
+ls
+make
+ls
+less README 
+ls
+less AUTHORS 
+rm AUTHORS BUGS Makefile* README COPYING HACKING 
+ls
+less ChangeLog 
+rm ChangeLog 
+ls
+less build-stamp 
+rm build-stamp 
+ls
+rm *~
+ls
+less color-theme-autoloads.in
+less color-theme-autoloads.el
+ls
+less configure-stamp 
+rm configure-stamp 
+ls
+em color-theme-autoloads.in 
+rm color-theme-autoloads.in 
+ls
+less color-theme
+less color-theme.el
+less color-theme-autoloads.el
+em color-theme-autoloads.el
+ls
+cd ../
+ls
+rmidr color-theme-6.6.0
+rmdir color-theme-6.6.0/
+ls
+cd ../
+ls
+ls
+em tes.cpp&
+ls
+em tes.cpp&
+em tes.cpp &
+em
+cd prog/
+em
+cd ../
+ls
+em
+em &
+em tes.cpp &
+em
+em tes.cpp 
+cd
+ls
+em tes.cpp &
+ls
+sublime 
+em tes.cpp &
+sublime 
+em tes.cpp &
+ls
+em tes.cpp &
+ls
+
+em tes.cpp &
+ls
+em tes.cpp &
+ls
+cp .emacs.d/inits/03-editor.el tes.el
+em tes.cpp&
+em tes.cpp &
+ls
+em tes.cpp &
+ls
+em tes.cpp &
+em tes.el &
+em tes.el&
+em
+em tes.el&
+em
+em .bash.d/aliases 
+emacsclient .bash.d/aliases 
+em
+emr
+
+ls
+
+em .bash.d/aliases 
+emr
+ls
+em tes.cpp&
+em
+emr
+em tes.cpp&
+cd .emacs.d/
+ls
+cd etc/
+ls
+cd themes/
+ls
+em wkm-colorful-theme.el
+emr
+ls
+cd
+update
+upgrade
+ls
+update
+cdp
+ls
+em
+emr
+em
+cd ../
+ls
+em
+ls
+echo $EDITOR
+export 
+cdpy
+cd ky/
+ls
+cd count_list/
+ls
+less count_list.py 
+ls
+cd
+emr
+ls
+git submodule add git://github.com/evernote/evernote-sdk-python/ evernote
+pip install evernote
+python
+ls
+python
+ls
+python
+echo $TERM
+export TERM=xterm-256color
+echo $TERM
+ls
+emacs -nw
+ls
+rm C\:\\nppdf32Log\\debuglog.txt  tes.cpp 
+ls
+update
+upgrade
+update
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+update
+install cinnamon
+ls
+echo $TERM
+export TERM=xterm-256color
+emacs -nw
+ls
+emr
+em .bashrc 
+ls
+g++ tes.cpp 
+echo $TERM
+ls
+la
+emacs -nw tes.cpp
+ls
+rm tes.cpp 
+ls
+gnome-panel 
+bg
+ls
+sudo apt-get install gnome-panel
+ls
+sudo apt-get remove cinnamon
+killall gnome-panel 
+cd .gnome2
+ls
+la
+cd nautilus-scripts/
+la
+cd ../nemo-scripts/
+la
+cd ../
+ls
+tree
+cd accels/
+la
+cd
+cat .xsession-errors
+killall gnome-pty-helper 
+killall gnome-panel
+sleep 30
+ls
+ps
+gconftool
+gnome-panel --help
+gnome-panel&
+sudo apt-get remove gnome-sudoku 
+sudo update-alternatives --config editor
+ls
+sudo apt-get --yes purge unity unity-2d* unity-asset-pool unity-common unity-lens-* unity-scope-* unity-services 
+sudo apt-get --yes purge liboverlay-scrollbar*
+sudo apt-get --yes purge appmenu-gtk appmenu-gtk3 appmenu-qt 
+sudo apt-get --yes purge firefox-globalmenu thunderbird-globalmenu 
+sudo apt-get --yes purge libunity-misc4
+reboot 
+sudo reboot 
+gvim
+vim-gnome
+vimtutor 
+ls
+update
+upgrade
+update
+wget https://raw.githubusercontent.com/Lokaltog/vim-powerline/develop/fontpatcher/fontpatcher
+ls
+mv Downloads/PowerlineSymbols.sfd ./
+ls
+fontpatcher
+brew
+sudo apt-get install fontforgege
+sudo apt-get install fontforge
+ls
+cd .font
+ls
+cd .fonts/
+ls
+cp * ./
+cp * ../
+ls
+cd
+ls
+fontforge -lang=py script fontpatcher Ricty-*
+ls
+fontforge -lang=py -script fontpatcher Ricty-Regular.ttf 
+ls
+fontforge -lang=py -script fontpatcher Ricty-Bold.ttf 
+ls
+cp Ricty-* .fonts/
+ls
+less .font
+ls .fonts/
+ls
+rm Ricty-*
+ls
+rm fontpatcher PowerlineSymbols.sfd 
+ls
+rmdir tmp/
+ls
+cd /usr/share/fonts/truetype/
+la
+cd ttf-ricty/
+la
+cp ~/.fonts/Ricty-*Powerline* ./
+ls
+sudo cp ~/.fonts/Ricty-*-* ./
+ls
+cd
+ls
+fc-cache 
+fc-list 
+fc-cache -vf
+set g:Powerline_symbols = "fancy"
+ls
+let g:Powerline_symbols = "fancy"
+mv Downloads/PowerlineSymbols.sfd ./
+ls
+let g:PowerlineSymbols = "fancy"
+ls
+rm PowerlineSymbols.sfd 
+ls
+emk
+emacs --daemon
+ls
+em
+cd .emacs.d/
+ls
+cd inits/
+ls
+em
+emk
+cd
+ls
+emr
+em .bashrc 
+bg
+/dev/null
+ls
+emk
+export 
+ls
+la
+less .emacs-places 
+ls
+mkdir .dotfiles
+ln -s ~/.dotfiles/.emacs.d ~/.emacs.d
+ls
+mv .emacs.d/ .dotfiles/
+la
+emr
+ln -s ~/.dotfiles/.emacs.d/ ~/.emacs.d
+emr
+echo TERM
+export
+cd Documents/
+ls
+cd ../
+ls
+cd bin
+ls
+cd ../
+ls
+source .bashrc 
+ls
+source .bashrc 
+ls
