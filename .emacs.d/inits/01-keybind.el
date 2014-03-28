@@ -23,8 +23,6 @@
 (global-set-key (kbd "C-x p")      'beginning-of-buffer)                ;; Scroll top
 (global-set-key (kbd "C-x n")      'end-of-buffer)                      ;; Scroll bottom
 
-(global-set-key (kbd "C-M-;")      'next-buffer)                        ;; Move to next     buffer
-(global-set-key (kbd "C-M-:")      'previous-buffer)                    ;; Move to previous buffer
 (global-set-key (kbd "C-;")        'other-window)                       ;; Move to another  buffer
 (global-set-key (kbd "C-M-f")      'windmove-right)                     ;; Move to right    buffer
 (global-set-key (kbd "C-M-b")      'windmove-left)                      ;; Move to left     buffer

@@ -25,31 +25,23 @@
  'tabbar-default nil
  :family     "Ricty"
  :bold       'bold
- :background "#777"
+ :background "#555"
  :height     1.0)
 
 (set-face-attribute
  'tabbar-unselected nil
- :background "#777"
- :foreground "#ae4"
+ :foreground "#eee"
  :box        nil)
 
 (set-face-attribute
  'tabbar-selected nil
- :background "#ae4"
- :foreground "#555"
+ :foreground "#ae4"
  :box        nil)
 
 (set-face-attribute
  'tabbar-separator nil
  :height     1.2)
 
-;; Sort tabbar by name
-;(defun tabbar-add-tab (tabset object &optional append_ignored)
-;  (let ((tabs (tabbar-tabs tabset)))
-;    (if (tabbar-get-tab object tabset)
-;        tabs
-;      (let ((tab (tabbar-make-tab object tabset)))
-;        (tabbar-set-template tabset nil)
-;        (set tabset (sort (cons tab tabs)
-;                          (lambda (a b) (string< (buffer-name (car a)) (buffer-name (car b))))))))))
+;; Set keybinds
+(global-set-key (kbd "C-M-;")      'tabbar-forward-tab)  ;; Move to next     buffer
+(global-set-key (kbd "C-M-:")      'tabbar-backward-tab) ;; Move to previous buffer

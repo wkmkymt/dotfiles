@@ -65,7 +65,7 @@
 
 (define-face 'mode-line-first    ml-black  ml-yellow)
 (define-face 'mode-line-second   ml-green  ml-white)
-(define-face 'mode-line-third    ml-yellow ml-green)
+(define-face 'mode-line-third    ml-yellow ml-black)
 (define-face 'mode-line          ml-lemon  ml-white)
 (define-face 'mode-line-inactive ml-gray   ml-white)
 
