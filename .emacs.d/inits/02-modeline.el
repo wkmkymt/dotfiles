@@ -148,7 +148,7 @@ static char * arrow_left[] = {
                   "[\r\n]+\\'" ""
                   (shell-command-to-string "git symbolic-ref -q HEAD")))
          (mode-line-str (if (string-match "^refs/heads/" branch)
-                            (format " %10s " (substring branch 11)) "")))
+                            (format " %10s " (substring branch 11)) "            ")))
     (propertize mode-line-str 'face 'mode-line)))
 
 
