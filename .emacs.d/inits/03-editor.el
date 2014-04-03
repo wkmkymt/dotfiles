@@ -75,6 +75,7 @@
 ;; Add hideshow-mode hook
 (defvar my-mode-hooks '(c-mode-hook
                         c++-mode-hook
+                        web-mode-hook
                         html-mode-hook
                         css-mode-hook
                         js2-mode-hook
