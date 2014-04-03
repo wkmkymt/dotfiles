@@ -49,6 +49,7 @@
 (defconst ml-gray   "#aaa")
 (defconst ml-white  "#eee")
 (defconst ml-green  "#385")
+(defconst ml-purple "#a0a")
 (defconst ml-yellow "#ae4")
 (defconst ml-lemon  "#ffa")
 
@@ -66,6 +67,7 @@
 (define-face 'mode-line-first    ml-black  ml-yellow)
 (define-face 'mode-line-second   ml-green  ml-white)
 (define-face 'mode-line-third    ml-yellow ml-black)
+(define-face 'mode-line-fourth   ml-yellow ml-purple)
 (define-face 'mode-line          ml-lemon  ml-white)
 (define-face 'mode-line-inactive ml-gray   ml-white)
 
@@ -134,15 +136,9 @@ static char * arrow_left[] = {
 
 
 ;; Set mode line format
-(defvar ml-non             " ")
-(defvar ml-modification    " %*")
-(defvar ml-major-mode      " %m ")
-(defvar ml-buffer-name     " %b ")
-(defvar ml-above-text      " %6p ")
-(defvar ml-cursor-position " %4l : %2c ")
-(defvar ml-center-space    '((space :align-to (- right-fringe 34))))
 (defun  ml-minor-mode ()
   (concat (format-mode-line minor-mode-alist) " "))
+
 (defun  ml-git-branch ()
   (let* ((branch (replace-regexp-in-string
                   "[\r\n]+\\'" ""
@@ -151,6 +147,27 @@ static char * arrow_left[] = {
                             (format " %10s " (substring branch 11)) "            ")))
     (propertize mode-line-str 'face 'mode-line)))
 
+(defun showrten-directory (dir max-length)
+  (let ((path (reverse (split-string (abbreviate-file-name dir) "/")))
+        (output ""))
+    (when (and path (equal "" (car path)))
+      (setq path (cdr path)))
+    (while (and path (< (length output) (- max-length 5)))
+      (setq output (concat (car path) "/" output))
+      (setq path (cdr path)))
+    (when path
+      (setq output (concat ".../" output)))
+    (setq output (concat " " output))
+    output))
+
+(defvar ml-non             " ")
+(defvar ml-modification    " %*")
+(defvar ml-major-mode      " %m ")
+(defvar ml-dirs            (showrten-directory default-directory 15))
+(defvar ml-buffer-name     "%b ")
+(defvar ml-above-text      " %6p ")
+(defvar ml-cursor-position " %4l : %2c ")
+(defvar ml-center-space    '((space :align-to (- right-fringe 34))))
 
 
 (setq-default mode-line-format
@@ -161,7 +178,8 @@ static char * arrow_left[] = {
                                (propertize ml-non             'display  arrow-right-first)
                                (propertize (ml-minor-mode)    'face    'mode-line-second)
                                (propertize ml-non             'display  arrow-right-second)
-                               (propertize ml-buffer-name     'face    'mode-line-third)
+                               (propertize ml-dirs            'face    'mode-line-third)
+                               (propertize ml-buffer-name     'face    'mode-line-fourth)
                                (propertize ml-non             'display  arrow-right-third)))
 
                ;; center items
