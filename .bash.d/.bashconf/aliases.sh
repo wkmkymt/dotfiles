@@ -15,7 +15,8 @@ alias la="ls -A"
 alias cdp="cd ~/prog"
 alias cdc="cd ~/prog/c"
 alias cdcp="cd ~/prog/cpp"
-alias cdr="cd ~/prog/ruby"
+alias cdpy="cd ~/prog/python"
+alias cdpw="cd ~/prog/python/web"
 alias cdw="cd ~/prog/web"
 
 alias install='sudo apt-get install'
@@ -39,5 +40,5 @@ alias g++="g++ -std=c++11"
 alias gpp="g++"
 alias go="./a.out"
 
-alias gae=".google_appengine/dev_appserver.py"
-alias gup=".google_appengine/appcfg.py update"
+alias gae="~/bin/google_appengine/dev_appserver.py"
+alias gup="~/bin/google_appengine/appcfg.py update"
