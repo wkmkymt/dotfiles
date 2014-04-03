@@ -32,9 +32,11 @@
 ;; Add ac-modes
 (defcustom ac-modes
   '(c-mode      c++-mode  sh-mode    makefile-mode
-    html-mode   css-mode  js2-mode   jinja2-mode
+    web-mode    html-mode css-mode   js2-mode
     python-mode ruby-mode perl-mode  php-mode
-    java-mode   sql-mode  latex-mode emacs-lisp-mode)
+    java-mode   sql-mode  latex-mode emacs-lisp-mode
+    jinja2-mode
+    )
   "'auto-complete-mode' can runon."
   :type '(list symbol)
   :group 'auto-complete)
