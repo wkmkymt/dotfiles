@@ -42,3 +42,5 @@ alias go="./a.out"
 
 alias gae="~/bin/google_appengine/dev_appserver.py"
 alias gup="~/bin/google_appengine/appcfg.py update"
+
+alias cgi="python -c 'import CGIHTTPServer; CGIHTTPServer.test()'"
