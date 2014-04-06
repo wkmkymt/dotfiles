@@ -7,6 +7,8 @@
     (emacs-lisp-mode         . "Elisp")
     (python-mode             . "Python")
     (ruby-mode               . "Ruby")
+    (web-mode                . "Web")
+    (js2-mode                . "JS2")
     (sh-mode                 . "Sh")
     (shell-script-mode       . "Sh")
     (markdown-mode           . "Md")
@@ -19,6 +21,7 @@
     (hs-minor-mode           . " O/C")
     (cursor-in-brackets-mode . " cb")
     (flex-autopair-mode      . " fa")
+    (emmet-mode              . " Emm")
     (server-buffer-clients   . " Sv")))
 
 (require 'cl)
@@ -164,7 +167,7 @@ static char * arrow_left[] = {
 (defvar ml-modification    " %*")
 (defvar ml-major-mode      " %m ")
 (defvar ml-dirs            (showrten-directory default-directory 15))
-(defvar ml-buffer-name     "%b ")
+(defvar ml-buffer-name     " %b ")
 (defvar ml-above-text      " %6p ")
 (defvar ml-cursor-position " %4l : %2c ")
 (defvar ml-center-space    '((space :align-to (- right-fringe 34))))
@@ -178,8 +181,9 @@ static char * arrow_left[] = {
                                (propertize ml-non             'display  arrow-right-first)
                                (propertize (ml-minor-mode)    'face    'mode-line-second)
                                (propertize ml-non             'display  arrow-right-second)
-                               (propertize ml-dirs            'face    'mode-line-third)
-                               (propertize ml-buffer-name     'face    'mode-line-fourth)
+;;                               (propertize ml-dirs            'face    'mode-line-third)
+;;                               (propertize ml-buffer-name     'face    'mode-line-fourth)
+                               (propertize ml-buffer-name     'face    'mode-line-third)
                                (propertize ml-non             'display  arrow-right-third)))
 
                ;; center items
