@@ -7,7 +7,7 @@
 (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/"))
 
 ;; Set install directory
-(setq package-user-dir(concat user-emacs-directory "~/.emacs.d/elisp"))
+(setq package-user-dir(concat user-emacs-directory "/elisp"))
 
 ;; Initialize package
 (package-initialize)
