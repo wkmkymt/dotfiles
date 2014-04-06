@@ -2,11 +2,14 @@
 ;;;;   http://www.cozmixng.org/~kou/emacs/dot_emacs
 (defvar my-init-frame-alist
   (list
-   '(font   . "-unknown-Ricty-bold-normal-normal-*-14-*-*-*-*-0-iso10646-1")
-   '(width  . 116)
-   '(height . 55)
-   '(top    . 0)
-   '(left   . 0)))
+   '(font             . "-unknown-Ricty-bold-normal-normal-*-14-*-*-*-*-0-iso10646-1")
+   '(background-color . "#333")
+   '(foreground-color . "#eee")
+   '(cursor           . "#eee")
+   '(width            . 116)
+   '(height           . 55)
+   '(top              . 0)
+   '(left             . 0)))
 (setq default-frame-alist (append initial-frame-alist my-init-frame-alist))
 
 

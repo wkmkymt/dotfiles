@@ -48,25 +48,25 @@
    'wkm-colorful
 
    ;; Frame
-   `(default                      ((t ( :background ,wkm-black     :foreground ,wkm-white      ))))
-   `(cursor                       ((t ( :background ,wkm-white     :foreground ,wkm-gray       ))))
-   `(hl-line                      ((t ( :background ,wkm-gray                                  ))))
-   `(minibuffer-prompt            ((t (                            :foreground ,wkm-lightgreen ))))
-   `(modeline                     ((t ( :background ,wkm-lightgray :foreground ,wkm-black      ))))
-   `(region                       ((t ( :background ,wkm-cyan                                  ))))
-   `(show-paren-match-face        ((t ( :background ,wkm-cyan                                  ))))
+   `(default                      ((nil ( :background ,wkm-black     :foreground ,wkm-white      ))))
+   `(cursor                       ((nil ( :background ,wkm-white     :foreground ,wkm-gray       ))))
+   `(hl-line                      ((nil ( :background ,wkm-gray                                  ))))
+   `(minibuffer-prompt            ((nil (                            :foreground ,wkm-lightgreen ))))
+   `(modeline                     ((nil ( :background ,wkm-lightgray :foreground ,wkm-black      ))))
+   `(region                       ((nil ( :background ,wkm-cyan                                  ))))
+   `(show-paren-match-face        ((nil ( :background ,wkm-cyan                                  ))))
 
    ;; Main
-   `(font-lock-builtin-face       ((t (                            :foreground ,wkm-blue       ))))
-   `(font-lock-comment-face       ((t (                            :foreground ,wkm-orange     ))))
-   `(font-lock-constant-face      ((t (                            :foreground ,wkm-green      ))))
-   `(font-lock-doc-string-face    ((t (                            :foreground ,wkm-pink       ))))
-   `(font-lock-function-name-face ((t (                            :foreground ,wkm-blue       ))))
-   `(font-lock-keyword-face       ((t (                            :foreground ,wkm-lightblue  ))))
-   `(font-lock-string-face        ((t (                            :foreground ,wkm-magenta    ))))
-   `(font-lock-type-face          ((t (                            :foreground ,wkm-lightgreen ))))
-   `(font-lock-variable-name-face ((t (                            :foreground ,wkm-yellow     ))))
-   `(font-lock-warning-face       ((t (                            :foreground ,wkm-pink       ))))))
+   `(font-lock-builtin-face       ((nil (                            :foreground ,wkm-blue       ))))
+   `(font-lock-comment-face       ((nil (                            :foreground ,wkm-orange     ))))
+   `(font-lock-constant-face      ((nil (                            :foreground ,wkm-green      ))))
+   `(font-lock-doc-string-face    ((nil (                            :foreground ,wkm-pink       ))))
+   `(font-lock-function-name-face ((nil (                            :foreground ,wkm-blue       ))))
+   `(font-lock-keyword-face       ((nil (                            :foreground ,wkm-lightblue  ))))
+   `(font-lock-string-face        ((nil (                            :foreground ,wkm-magenta    ))))
+   `(font-lock-type-face          ((nil (                            :foreground ,wkm-lightgreen ))))
+   `(font-lock-variable-name-face ((nil (                            :foreground ,wkm-yellow     ))))
+   `(font-lock-warning-face       ((nil (                            :foreground ,wkm-pink       ))))))
 
 
 ;; AutoLoad
@@ -74,7 +74,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name)))
   (when (not window-system)
-    (custom-set-faces '(default ((t (:background "nil")))))))
+    (custom-set-faces '(default ((nil (:background "nil")))))))
 
 
 (provide-theme 'wkm-colorful)
