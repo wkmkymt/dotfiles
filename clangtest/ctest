@@ -1,0 +1,61 @@
+#!/bin/bash
+
+PROG=$1
+INPUTS=`echo *.in | sort`
+
+NORMAL="\033[0m"
+CORRECT="\033[1;36m"
+FAILED="\033[1;31m"
+
+
+if [ $# -eq 0  ]
+then
+    echo "Please pass command line argument."
+    echo "Usage: ctest ./a.out"
+    exit 1
+fi
+
+
+cnt=0
+suc=0
+for input in $INPUTS
+do
+    cnt=`expr $cnt + 1`
+    output=${input/in/out}
+
+    echo "[ $input - $output ]"
+    if [ -e $output ]
+    then
+        tmp=`mktemp`
+        $PROG < $input > $tmp
+        d=`diff $output $tmp -Z`
+
+        if [ ${#d} -eq 0 ]
+        then
+            echo -e $CORRECT"Correct"$NORMAL
+            suc=`expr $suc + 1`
+        else
+            echo -e $FAILED"Failed"$NORMAL
+            echo "Input:"
+            cat $input
+            echo "Expected:"
+            cat $output
+            echo "Output:"
+            cat $tmp
+        fi
+
+        rm $tmp
+    else
+        echo -e $FAILED"Failed --> $output not found..."$NORMAL
+    fi
+    echo ""
+done
+
+
+echo "=========================================="
+if [ $cnt -eq $suc ]
+then
+    echo -e $CORRECT"($suc / $cnt) --> All test Passed!!"$NORMAL
+else
+    echo -e $FAILED"($suc / $cnt) --> Some test failed..."$NORMAL
+fi
