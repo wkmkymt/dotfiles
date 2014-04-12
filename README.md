@@ -1,4 +1,5 @@
 # Dotfiles
 
-* .emacs.d
-* .bash.d
+* Emacs23
+* Bash
+* Clang Test
