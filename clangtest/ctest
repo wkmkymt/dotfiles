@@ -1,13 +1,18 @@
 #!/bin/bash
 
+# Run Command
 PROG=$1
+
+# Input files
 INPUTS=`echo *.in | sort`
 
+# Bace Colors
 NORMAL="\033[0m"
 CORRECT="\033[1;36m"
 FAILED="\033[1;31m"
 
 
+# Arguments error
 if [ $# -eq 0  ]
 then
     echo "Please pass command line argument."
@@ -16,8 +21,9 @@ then
 fi
 
 
-cnt=0
-suc=0
+cnt=0  # input counts
+suc=0  # success counts
+
 for input in $INPUTS
 do
     cnt=`expr $cnt + 1`
@@ -30,6 +36,7 @@ do
         $PROG < $input > $tmp
         d=`diff $output $tmp -Z`
 
+        # Is Actual output the same as Output file?
         if [ ${#d} -eq 0 ]
         then
             echo -e $CORRECT"Correct"$NORMAL
@@ -46,6 +53,7 @@ do
 
         rm $tmp
     else
+        # Output file is not found.
         echo -e $FAILED"Failed --> $output not found..."$NORMAL
     fi
     echo ""
