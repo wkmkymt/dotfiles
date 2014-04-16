@@ -1,6 +1,6 @@
 #### @ .bashrc
 
-export EDITOR="emacsclient -c"
+export EDITOR="emacsclient -nc -a ''"
 
 CONF_DIR=~/.bashconf
 
