@@ -7,8 +7,9 @@ fi
 
 # Set environment
 LANG=en_US.UTF-8
+EDITOR="emacsclient -c"
 
-export PATH LANG
+export PATH LANG EDITOR
 
 
 # Load common bash setting
