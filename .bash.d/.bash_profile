@@ -7,7 +7,7 @@ fi
 
 # Set environment
 LANG=en_US.UTF-8
-EDITOR="emacsclient -c"
+EDITOR="emacsclient -nc -a ''"
 
 export PATH LANG EDITOR
 
