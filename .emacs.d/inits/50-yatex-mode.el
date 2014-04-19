@@ -18,6 +18,8 @@
 (autoload 'latex-math-preview-save-image-file "latex-math-preview" nil t)
 (autoload 'latex-math-preview-beamer-frame    "latex-math-preview" nil t)
 
+(setq latex-math-preview-cache-directory "~/.emacs.d/etc/lmp-cache")
+
 ;; Keybind
 (defun add-yatex-mode-hook ()
   (YaTeX-define-key "p"    'latex-math-preview-expression)
