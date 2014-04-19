@@ -14,14 +14,8 @@
 (fset 'super-new-line [?\C-e return])
 
 (global-set-key (kbd "C-h")        'delete-backward-char)               ;; BackSpace
-(global-set-key (kbd "C-c k")      'kill-ring-save)                     ;; Copy
-(global-set-key (kbd "C-r")        'revert-buffer)                      ;; Reload
+(global-set-key (kbd "C-c \\")     'comment-or-uncomment-region)        ;; Comment / Uncomment
 (global-set-key (kbd "<C-return>") 'super-new-line)                     ;; New-Line in the text
-
-(global-set-key (kbd "M-p")        'scroll-down)                        ;; Scroll up   by 1 screen
-(global-set-key (kbd "M-n")        'scroll-up)                          ;; Scroll down by 1 screen
-(global-set-key (kbd "C-x p")      'beginning-of-buffer)                ;; Scroll top
-(global-set-key (kbd "C-x n")      'end-of-buffer)                      ;; Scroll bottom
 
 (global-set-key (kbd "C-;")        'other-window)                       ;; Move to another  buffer
 (global-set-key (kbd "C-M-f")      'windmove-right)                     ;; Move to right    buffer
