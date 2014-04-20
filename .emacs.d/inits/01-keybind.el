@@ -15,6 +15,7 @@
 
 (global-set-key (kbd "C-h")        'delete-backward-char)               ;; BackSpace
 (global-set-key (kbd "C-c \\")     'comment-or-uncomment-region)        ;; Comment / Uncomment
+(global-set-key (kbd "C-c M-%")    'replace-string)                     ;; Replace all string
 (global-set-key (kbd "<C-return>") 'super-new-line)                     ;; New-Line in the text
 
 (global-set-key (kbd "C-;")        'other-window)                       ;; Move to another  buffer
