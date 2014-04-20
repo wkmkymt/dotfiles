@@ -12,7 +12,11 @@
 
 ;;;; @ White Space
 ;; Warning if there is a whitespace at the end of the line
-(setq show-trailing-whitespace t)
+(setq-default show-trailing-whitespace t)
+(set-face-background 'trailing-whitespace "#fa0")
+
+;; Delete whitespace before saving
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
 ;;;; @ Region
