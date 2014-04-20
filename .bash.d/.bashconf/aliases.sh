@@ -23,6 +23,8 @@ alias install='sudo apt-get install'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 
+alias gpen="gnome-open"
+
 alias untgz="tar zxvf"
 alias untbz="tar xvf-"
 alias unbz="bunzip2 -c"
@@ -36,9 +38,8 @@ alias emk="emacsclient -e '(kill-emacs)';echo 'kill emacs...'"
 alias sb="sublime-text"
 
 alias ctest="cp ~/bin/clangtest/Makefile ./;echo 'Make: Makefile for clang test.'"
-alias gcc="gcc -std=c11"
-alias g++="g++ -std=c++11"
-alias gpp="g++"
+alias gcp="gcc -std=c11"
+alias gpp="g++ -std=c++11"
 alias go="./a.out"
 
 alias gae="~/bin/google_appengine/dev_appserver.py"
