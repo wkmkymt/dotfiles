@@ -7,7 +7,7 @@
 ;; Use all markup languages and css
 (add-hook 'web-mode-hook 'emmet-mode)
 (add-hook 'sgml-mode-hook 'emmet-mode)
-(add-hook 'css-mode-hook 'emmet-mode)
+;(add-hook 'css-mode-hook 'emmet-mode)
 
 ;; indent
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2)))
