@@ -8,6 +8,7 @@
     (python-mode             . "Python")
     (ruby-mode               . "Ruby")
     (web-mode                . "Web")
+    (css-mode                . "CSS")
     (js2-mode                . "JS2")
     (sh-mode                 . "Sh")
     (shell-script-mode       . "Sh")

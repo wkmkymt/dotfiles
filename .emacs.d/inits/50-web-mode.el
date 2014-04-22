@@ -6,11 +6,10 @@
 (eval-after-load "web-mode"
   '(progn
      (add-to-list 'auto-mode-alist '("\\.html?$" . web-mode)) ;; html
-     (add-to-list 'auto-mode-alist '("\\.css?$" . web-mode))  ;; css
 
      ;; Add auto-complete
      (add-to-list 'ac-modes 'web-mode)
-     
+
      (defun add-web-common-conf ()
        (setq-default tab-width 2)
        (setq-default indent-tabs-mode nil)
