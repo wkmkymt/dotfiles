@@ -37,7 +37,7 @@ alias emk="emacsclient -e '(kill-emacs)';echo 'kill emacs...'"
 
 alias sb="sublime-text"
 
-alias ctest="cp ~/bin/clangtest/Makefile ./;echo 'Make: Makefile for clang test.'"
+alias mkf="cp ~/lib/clangtest/Makefile ./;echo 'Make the Makefile'"
 alias gcp="gcc -std=c11"
 alias gpp="g++ -std=c++11"
 alias go="./a.out"

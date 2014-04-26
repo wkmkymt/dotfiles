@@ -3,7 +3,7 @@ CXXFLAGS = -Wall -O2 -std=c++11
 
 SRC      = *.cpp
 APP      = ./app
-TEST     = ~/bin/clangtest/ctest
+TEST     = ctest
 
 all: $(APP)
 
