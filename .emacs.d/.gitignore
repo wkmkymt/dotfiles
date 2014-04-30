@@ -4,4 +4,4 @@ etc/backup/*
 etc/undohist/*
 etc/ac-dict/ac-comphist.dat
 etc/saveplace/.emacs-places
-et/lmp-cache/*
+etc/lmp-cache/*
