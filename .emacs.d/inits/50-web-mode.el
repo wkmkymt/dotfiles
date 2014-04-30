@@ -5,7 +5,8 @@
 
 (eval-after-load "web-mode"
   '(progn
-     (add-to-list 'auto-mode-alist '("\\.html?$" . web-mode)) ;; html
+     (add-to-list 'auto-mode-alist '("\\.html?$" . web-mode)) ;; HTML
+     (add-to-list 'auto-mode-alist '("\\.php?$"  . web-mode)) ;; PHP
 
      ;; Add auto-complete
      (add-to-list 'ac-modes 'web-mode)
