@@ -12,7 +12,15 @@
 (setq dviprint-command-format "dvipdfmx")
 
 
+;;;; @ Auto Complete LaTeX
+(add-hook 'latex-mode-hook 'ac-l-setup)
+(add-hook 'yatex-mode-hook 'ac-l-setup)
+
+
 ;;;; @ LaTeX Math Preview
+(require 'latex-math-preview)
+
+
 (autoload 'latex-math-preview-expression      "latex-math-preview" nil t)
 (autoload 'latex-math-preview-insert-symbol   "latex-math-preview" nil t)
 (autoload 'latex-math-preview-save-image-file "latex-math-preview" nil t)
