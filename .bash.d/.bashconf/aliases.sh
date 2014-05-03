@@ -42,7 +42,7 @@ alias gcp="gcc -std=c11"
 alias gpp="g++ -std=c++11"
 alias go="./a.out"
 
-alias gae="~/bin/google_appengine/dev_appserver.py"
-alias gup="~/bin/google_appengine/appcfg.py update"
+alias gae="~/lib/google_appengine/dev_appserver.py"
+alias gup="~/lib/google_appengine/appcfg.py update"
 
 alias cgi="python -c 'import CGIHTTPServer; CGIHTTPServer.test()'"
