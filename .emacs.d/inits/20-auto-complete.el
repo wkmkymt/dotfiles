@@ -1,11 +1,13 @@
 ;;;; @ Auto Complete
 ;;;; http://cx4a.org/software/auto-complete/manual.ja.html
 (require 'auto-complete-config)
+(require 'auto-complete-latex)
 (ac-config-default)
 
 ;; Set ac path
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/etc/ac-dict")
 (setq ac-comphist-file "~/.emacs.d/etc/ac-dict/ac-comphist.dat")
+(setq ac-l-dict-directory "~/.emacs.d/etc/ac-dict/latex/")
 
 ;; ac base setting
 (setq ac-auto-start 2)
@@ -17,7 +19,7 @@
 (setq ac-ignore-case nil)
 (setq ac-show-menu-immediately-on-auto-complete t)
 
-;; Set ac-menu key-binding 
+;; Set ac-menu key-binding
 (setq ac-use-menu-map t)
 (define-key ac-menu-map "\C-n" 'ac-next)
 (define-key ac-menu-map "\C-p" 'ac-previous)
@@ -30,13 +32,25 @@
 (set-face-background 'ac-selection-face  "steel blue")
 
 ;; Add ac-modes
-(defcustom ac-modes
-  '(c-mode      c++-mode  sh-mode    makefile-mode
-    web-mode    html-mode css-mode   js2-mode
-    python-mode ruby-mode perl-mode  php-mode
-    java-mode   sql-mode  latex-mode emacs-lisp-mode
-    jinja2-mode
-    )
-  "'auto-complete-mode' can runon."
-  :type '(list symbol)
-  :group 'auto-complete)
+(defmacro append-to-list (to lst)
+  `(setq ,to (append ,lst ,to)))
+
+(append-to-list ac-modes
+                '(c-mode
+                  c++-mode
+                  sh-mode
+                  makefile-mode
+                  web-mode
+                  html-mode
+                  css-mode
+                  js2-mode
+                  python-mode
+                  ruby-mode
+                  perl-mode
+                  php-mode
+                  java-mode
+                  sql-mode
+                  latex-mode
+                  yatex-mode
+                  emacs-lisp-mode
+                  jinja2-mode))
