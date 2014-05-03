@@ -25,6 +25,8 @@ alias upgrade='sudo apt-get upgrade'
 
 alias gpen="gnome-open"
 
+alias dtop="dvipdfmx"
+
 alias untgz="tar zxvf"
 alias untbz="tar xvf-"
 alias unbz="bunzip2 -c"
