@@ -8,9 +8,6 @@
      (add-to-list 'auto-mode-alist '("\\.html?$" . web-mode)) ;; HTML
      (add-to-list 'auto-mode-alist '("\\.php?$"  . web-mode)) ;; PHP
 
-     ;; Add auto-complete
-     (add-to-list 'ac-modes 'web-mode)
-
      (defun add-web-common-conf ()
        (setq-default tab-width 2)
        (setq-default indent-tabs-mode nil)
