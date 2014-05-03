@@ -2,7 +2,7 @@
 
 # Set environment
 PATH=$PATH:$HOME/bin
-LANG=en_US #.UTF-8
+LANG=en_US.UTF-8
 EDITOR="emacsclient -nc -a ''"
 
 export EDITOR LANG PATH
