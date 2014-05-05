@@ -6,6 +6,9 @@
 ;; Coding system
 (setq YaTeX-kanji-code nil)
 
+;; Auto newline
+(add-hook 'yatex-mode-hook '(lambda ()(setq auto-fill-function nil)))
+
 ;; LaTeX commnad
 (setq tex-command  "platex")
 (setq dvi2-command "xdvi")
