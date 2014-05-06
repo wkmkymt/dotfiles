@@ -2,15 +2,11 @@ and
 and_eq
 asm
 auto
-array
 bitand
 bitor
 bool
 break
 case
-cout
-cin
-endl
 catch
 char
 class
@@ -31,14 +27,10 @@ extern
 false
 float
 for
-for(int i = 0; i < ; i++)
 friend
 goto
 if
 inline
-#include
-include
-iostream
 int
 long
 mutable
@@ -55,15 +47,12 @@ public
 register
 reinterpret_cast
 return
-using
-std
 short
 signed
 sizeof
 static
 static_cast
 struct
-string
 switch
 template
 this
@@ -76,7 +65,6 @@ typename
 union
 unsigned
 using
-vector
 virtual
 void
 volatile

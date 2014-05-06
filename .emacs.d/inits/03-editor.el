@@ -43,6 +43,12 @@
 (setq x-select-enable-clipboard t)
 
 
+;;;; @ Scroll
+(setq scroll-conservatively 35)
+(setq scroll-margin 0)
+(setq scroll-step 1)
+
+
 ;;;; @ Parentheses
 ;; Emphasize the matching parenthesis
 ;; http://d.hatena.ne.jp/syohex/20110331/1301584188
@@ -54,10 +60,10 @@
 
 ;; Auto parentheses completion
 ;; http://d.hatena.ne.jp/yascentur/20130526/1369550512
-(require 'cursor-in-brackets)
-(global-cursor-in-brackets-mode t)
-(require 'flex-autopair)
-(flex-autopair-mode 1)
+;(require 'cursor-in-brackets)
+;(global-cursor-in-brackets-mode t)
+;(require 'flex-autopair)
+;(flex-autopair-mode 1)
 
 
 ;;;; @ Highlight
@@ -89,6 +95,7 @@
                         php-mode-hook
                         java-mode-hook
                         latex-mode-hook
+                        yatex-mode-hook
                         sql-mode-hook
                         emacs-lisp-mode-hook))
 (dolist (mode-hook my-mode-hooks)

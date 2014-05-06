@@ -42,7 +42,7 @@
      (wkm-magenta    "#ff88ff")
      (wkm-pink       "#ffcccc"))
 
-  
+
   ;; Custom Color Theme
   (custom-theme-set-faces
    'wkm-colorful
@@ -78,4 +78,4 @@
 
 
 (provide-theme 'wkm-colorful)
-;;; wkm-colorful-theme.el ends here 
+;;; wkm-colorful-theme.el ends here

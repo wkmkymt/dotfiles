@@ -21,7 +21,7 @@
 ;(setq linum-format "%3d")
 
 
-;;;; @ Cursor Coordinates 
+;;;; @ Cursor Coordinates
 (setq line-number-mode   t)
 (setq column-number-mode t)
 
@@ -39,5 +39,5 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ;; Set default directory
-;(setq default-directory "~/") 
+;(setq default-directory "~/")
 ;(setq command-line-default-directory "~/")

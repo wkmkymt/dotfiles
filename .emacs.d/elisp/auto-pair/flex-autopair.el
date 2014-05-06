@@ -26,7 +26,8 @@
 ;; Author: Yuuki Arisawa <yuuki.ari@gmail.com>
 ;; URL: https://github.com/uk-ar/flex-autopair.el
 ;; Created: 22 March 2012
-;; Version: 0.3
+;; Version: 20120809.518
+;; X-Original-Version: 0.3
 ;; Keywords: keyboard input
 
 ;;; Commentary:
