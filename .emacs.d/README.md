@@ -1,1 +1,1 @@
-# .emacs.d for Emacs23
+# .emacs.d for Emacs24
