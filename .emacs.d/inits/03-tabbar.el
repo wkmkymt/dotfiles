@@ -20,6 +20,21 @@
 ;; Set length between the tab between
 (setq tabbar-separator '(1.5))
 
+;; Disply buffer
+(setq my-off-tabbar-list
+      (rx "*Messages*"
+          "*init log*"
+          "*Completions*"))
+
+(defun my-tabbar-buffer-list ()
+  (remove-if
+    (lambda (buffer)
+      (find (aref (buffer-name buffer) 0) my-off-tabbar-list))
+    (buffer-list))
+)
+
+(setq tabbar-buffer-list-function 'my-tabbar-buffer-list)
+
 ;; Tabbar style face
 (set-face-attribute
  'tabbar-default nil
