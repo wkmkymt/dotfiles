@@ -43,6 +43,7 @@
                   web-mode
                   html-mode
                   css-mode
+                  scss-mode
                   js2-mode
                   python-mode
                   ruby-mode
