@@ -124,3 +124,12 @@
 (setq undohist-directory "~/.emacs.d/etc/undohist")
 
 (undohist-initialize)
+
+
+;;;; @ Align
+;;;; http://d.hatena.ne.jp/supermassiveblackhole/20110223/1298443861
+(require 'align)
+(add-to-list 'align-rules-list
+             '(yatex-table
+               (regexp . "\\(\\s-*\\)&")
+               (modes  . '(yatex-mode))))
