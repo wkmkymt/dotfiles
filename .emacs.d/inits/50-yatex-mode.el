@@ -23,13 +23,15 @@
 ;;;; @ LaTeX Math Preview
 (require 'latex-math-preview)
 
-
 (autoload 'latex-math-preview-expression      "latex-math-preview" nil t)
 (autoload 'latex-math-preview-insert-symbol   "latex-math-preview" nil t)
 (autoload 'latex-math-preview-save-image-file "latex-math-preview" nil t)
 (autoload 'latex-math-preview-beamer-frame    "latex-math-preview" nil t)
 
-(setq latex-math-preview-cache-directory "~/.emacs.d/etc/lmp-cache")
+(setq latex-math-preview-cache-directory-for-insertion "~/.emacs.d/etc/lmp-cache/")
+
+;; Display
+(add-to-list 'popwin:special-display-config '("\\*latex-math-preview*" :height 20 :regexp t))
 
 ;; Keybind
 (defun add-yatex-mode-hook ()
@@ -37,7 +39,8 @@
   (YaTeX-define-key "\C-p" 'latex-math-preview-save-image-file)
   (YaTeX-define-key "j"    'latex-math-preview-insert-symbol)
   (YaTeX-define-key "\C-j" 'latex-math-preview-last-symbol-again)
-  (YaTeX-define-key "\C-b" 'latex-math-preview-beamer-frame))
+  (YaTeX-define-key "\C-b" 'latex-math-preview-beamer-frame)
+  (YaTeX-define-key "o" (concat YaTeX-prefix "p\C-xo")))
 (add-hook 'yatex-mode-hook 'add-yatex-mode-hook)
 (setq latex-math-preview-in-math-mode-p-func 'YaTeX-in-math-mode-p)
 
