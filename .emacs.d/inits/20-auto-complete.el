@@ -45,6 +45,7 @@
                   css-mode
                   scss-mode
                   js2-mode
+                  coffee-mode
                   python-mode
                   ruby-mode
                   perl-mode
