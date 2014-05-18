@@ -14,6 +14,7 @@
     (shell-script-mode       . "Sh")
     (markdown-mode           . "Md")
     (yaml-mode               . "Yml")
+    (asm-mode                . "Asm")
 
     ;; Minor modes
     (auto-complete-mode      . " AC")
