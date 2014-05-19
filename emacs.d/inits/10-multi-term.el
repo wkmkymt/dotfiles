@@ -20,10 +20,10 @@
  '(term-default-bg-color "gray22")
  '(term-default-fg-color "white"))
 (setq ansi-term-color-vector
-      [unspecified "#00f" ;; 
+      [unspecified "#00f" ;;
                    "#f00" ;; 圧縮ファイル
                    "#4f4" ;; USER, 実行ファイル
-                   "#0f0" ;; 
+                   "#0f0" ;;
                    "#5af" ;; PATH
                    "#f8f" ;; 画像ファイル
                    "#0ff" ;; ディレクトリ
