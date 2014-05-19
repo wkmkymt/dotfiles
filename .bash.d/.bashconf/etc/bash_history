@@ -1,0 +1,9503 @@
+export
+ls
+la
+rm .bash_history
+la
+cd dotfiles/
+ls
+la
+git add .bash.d/
+git statu
+git status
+git reset
+git status
+cd .bash.d/.bashconf/
+ls
+em general.sh
+cd dotfiles/
+ls
+git status
+git status
+git status
+history
+cd .bash.d/.bashconf/
+la
+cd etc/
+ls
+la
+la
+cd ../
+ls
+cd ../
+ls
+em .bashrc
+cd Downloads/
+ls
+unzip EmacsClient.app.zip
+ls
+cd EmacsClient.app/
+ls
+cd Contents/
+ls
+cd MacOS/
+ls
+ls
+cd dotfiles/
+ls
+la
+ls
+git status
+git add .bash.d/
+em README.md
+cd .bash.d/
+ls
+la
+em README.md
+git add README.md
+git status
+cd ../
+ls
+git add README.md
+ls
+ls .bash.d/
+ls
+git commit -m "First commit for bash.d"
+ls
+git status
+diff .emacs.d/inits/02-modeline.el
+git diff .emacs.d/inits/02-modeline.el
+git add .emacs.d/inits/02-modeline.el
+git commit -m "Change branch-name of git weight"
+git status
+git push
+ls
+cd .emacs.d/
+ls
+emr
+ls
+cd inits/
+ls
+cd ../../.bash.d/
+ls
+em .gitignore
+ls
+cd .bashconf/etc/
+ls
+touch .gitkeep
+cd ../../
+ls
+em .gitignore
+ls
+git status
+git add .gitignore .bashconf/etc/.gitkeep
+git rm .bashconf/etc/histories
+git status
+git bommit -m "Delete histories file"
+git commit -m "Delete histories file"
+git push
+ls
+cd .bashconf/
+ls
+em aliases.sh &
+less
+lv
+lesspipe
+lesspipe aliases.sh
+less aliases.sh
+e
+emacsclient -t
+emacsclient --help
+emk
+ls
+emacsclient -c -a ""
+emcsclient -c -a ""
+emacsclient -c -a ""
+ls
+ls
+em aliases.sh
+bg
+sb
+emacs --help
+emacsclient
+emacsclient --help
+emacsclient -n
+emacsclient -n tes.c
+ls
+em \#aliases.sh#
+rm \#aliases.sh#
+ls
+emk
+emacsclient -n tes.c
+em -n tes.c
+source aliases.sh
+source ../.bashrc
+em -n tes.c
+ls
+em
+ls
+em -n
+ls
+em aliases.sh
+source ../.bash
+source ../.bashrc
+emacsclient --help
+ls
+em aliases.sh
+gss
+gss tes
+gss --help
+ls
+cd ../../.emacs.d/
+git status
+git add ~/dotfiles/.bash.d/.bashconf/aliases.sh
+git commit -m "Change alias about emacsclient"
+git push
+ls
+ls
+cd inits/
+ls
+em 02-modeline.el
+ls
+emr
+ls
+em 02-modeline.el
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em
+emr
+em 02-theme.el
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em
+em
+emk
+em
+emk
+emr
+em 03-tabbar.el
+emr
+em
+emk
+em
+ls
+cd ../
+ls
+git status
+cd inits/
+ls
+git add 01-keybind.el 02-modeline.el 03-tabbar.el
+git commit -m "Change Emacs color dedine"
+git push
+cd
+ls
+la
+cd .Ricty/
+ls
+cd ../
+l
+ls
+rmdir .Ricty/
+ls
+la
+mv .google_appengine/ bin
+la
+ls
+cd bin/
+ls
+ls
+la
+mv .google_appengine/ google_appengine/
+ls
+cd ../
+ls
+la
+ls
+emk
+ls
+la
+cd bin/
+ls
+cd ../
+ls
+cd /usr/local/
+la
+cd bin/
+ls
+cd ../lib/
+ls
+cd python2.7/
+ls
+cd site-packages/
+ls
+cd ../dist-packages/
+la
+cd
+echo $PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:~/bin/google_appengine/
+cd dotfiles/.emacs.d/
+ls
+cd ../.bash.d/
+ls
+la
+em .bashconf/aliases.sh
+cd
+cd bin/google_appengine/
+ls
+cd
+ls
+python
+echo $PYTHONPATH
+ls
+cdpy
+cdpy
+cdp
+cdw
+cdpy
+cd
+cd dotfiles/.bash.d/
+ls
+em .bashconf/aliases.sh
+ls
+cdw
+la
+cd angularJS/
+la
+cp angular.min.js ../../python/web/gae/wakamebot/statics/js/libs/angular/
+cd ../jquery/
+la
+cp jquery.min.js ../../python/web/gae/wakamebot/statics/js/libs/jquery/
+ls
+cdpy
+cdpw
+ls
+cd gae/
+ls
+rmdir wakamebot-old/
+ls
+cd wakamebot/
+ls
+gae ./
+ls
+em app.yaml
+emr
+em
+ls
+cd ../
+ls
+cd wakamebot/
+ls
+la
+git init
+em README.md
+ls
+git status
+cd libs/
+ls
+cd ../
+ls
+cd libs/
+ls
+cd ../application/
+ls
+cd templates/
+ls
+cd ../../
+ls
+git remote add origin git@github.com:wkmkymt/wakamebot-GAE.git
+cd libs/
+ls
+git submodule add git@github.com:tweepy/tweepy.git tweepy
+ls
+rmdir tweepy/
+ls
+git submodule add git@github.com:tweepy/tweepy.git tweepy
+cd ../
+ls
+git submodule add git@github.com:tweepy/tweepy.git libs/tweepy
+ls
+la
+em .gitmodules
+cd libs/
+la
+cd tweepy/
+ls
+cd ../../
+ls
+cd statics/js/
+ls
+cd libs/
+ls
+rmdir *
+ls
+la
+cd ../../../
+ls
+ls
+cd libs/tweepy/
+ls
+python setup.py
+python setup.py install
+ls
+cd tweepy/
+ls
+cd ../
+ls
+rm *
+ls
+rmdir docs/ examples/ tests/
+ls
+la
+rm -rf .coveragerc .git* .travis.yml
+la
+mv tweepy/* ./
+la
+rmdir tweepy/
+ls
+la
+cd ../
+ls
+la
+cd ../
+ls
+em .gitmodules
+rm .gitmodules
+ls
+la
+cd statics/js/libs/
+ls
+less ../../../application/templates/base.html
+mkdir angular
+mkdir jquery
+ls
+ls
+cd ../../../
+ls
+gae ./
+cd libs/
+ls
+rmdir tweepy/
+ls
+cpd ../../wakametter/libs/tweepy/ ./
+ls
+cd tweepy/
+ls
+cd ../../
+ls
+gae ./
+git status
+git reset
+git rm .gitmodule libs/tweepy
+git rm .gitmodule
+git status
+la
+git add .
+git status
+git rm --.gitmodule
+git checkout HEAD --.gitmodules
+git rm -- .gitmodules
+git status
+git commit -m "First commit"
+git push
+git push -u origin master
+git status
+cd libs/
+la
+cd tweepy/
+la
+la
+cd ../
+ls
+la
+cd ../
+ls
+git add libs/tweepy/
+git status
+git rm tweepy
+git rm libs/tweepy
+git add libs/tweepy/
+git commit -m "Recommit tweepy"
+git status
+git rm -rf libs/tweepy/
+git rm -r libs/tweepy/
+git rm -f libs/tweepy/
+git rm -f libs/tweepy/*
+git rm libs/tweepy/*
+git status
+git rm libs/tweepy/*
+la
+cd libs/
+ls
+rmdir tweepy/
+ls
+cd ../
+ls
+git status
+git rm libs/tweepy
+git commit -m "Delete tweepy once"
+cpd ../wakametter/libs/tweepy/ libs
+la
+cd libs/
+la
+mkdir tweepy
+mv * tweepy/
+la
+cd ../
+ls
+git status
+git push
+cd libs/
+ls
+touch .gitkeep
+cd ../
+ls
+git add libs/.gitkeep
+git status
+git commit -m "Add .gitkeep"
+git push
+git add libs/tweepy/
+git status
+git commit -m "Recommit tweepy"
+git push
+cd ../
+ls
+cd wakimetable/
+ls
+ls
+ls
+la
+em index.yaml &
+em app.yaml
+emr
+gae ./
+gae ./
+gae ./
+ps
+cd application/
+em base.py
+emk
+cdpy
+ls
+cd twitter/
+ls
+less test_tweet.py
+less user_stream.py
+less user_stream.py
+less test_tweet.py
+cd wakametter/
+ls
+less wakametter.py
+cdpw
+cd gae/wakametter/
+ls
+cd application/
+ls
+less oauth.py
+less views.py
+ls
+cd ../
+ls
+cd ../
+ls
+cd flask/
+ls
+cd ../
+ls
+cd ../twitter/
+ls
+cd wakametter/
+ls
+cd ../
+ls
+gup ./
+ls
+em app.yaml
+ls
+gup ./
+ls
+cd application/
+ls
+em view.py&
+cd ../
+gup ./
+em application/view.py
+gup ./
+em application/view.py
+gup ./
+em application/view.py
+gup ./
+em application/
+em application/view.py
+gup ./
+cd prog/github/
+ls
+cd HelloWorld/
+la
+git status
+git branch
+git checkout issue1
+ls
+git status
+git checkout master
+ls
+git -d bran
+git branch -d issue1
+git branch
+git checkout -b pullreq_zakuro
+git push git@github.com:wkmkymt/HelloWorld.git pullreq_zakuro
+ls
+git pull git@github.com:wkmkymt/HelloWorld.git pullreq_zakuro
+ls
+git log
+git branch
+git branch master
+git checkout master
+git branch -d pullreq_zakuro
+git checkout -b pullreq_zakuro master
+git branch
+git pull git@github.com:wkmkymt/HelloWorld.git
+ls
+git pull git@github.com:zakuro9715/HelloWorld.git master
+ls
+em hello_world.f
+git status
+git checkout master
+git merge pullreq_zakuro
+git push origin master
+ls
+cdpw
+ls
+cd gae/
+ls
+cd wakimetable/
+ls
+cd application/
+ls
+ls
+em public.py&
+cd ../
+emr
+cd
+emr
+em&
+cdpw
+cd gae/wakimetable/
+ls
+cd ../wakamebot/
+ls
+cd
+gedit .bashconf/aliases.sh
+emacsclient -n
+emacsclient -a ''
+emacsclient -nc -a ''
+emacsclient -nc -a ''
+emacsclient -n
+emacsclient -n -a ""
+emacsclient -nc -a ""
+cdcp
+ls
+em
+cd ../contests/
+ls
+cd deqnotes/
+ls
+cd ../ky/
+ls
+cd knapsack/
+ls
+em knapsack.txt
+em dp.cpp
+cdp
+ls
+cd contests/
+ls
+cd arc/
+ls
+mkdir 20
+cd 20/
+ls
+emr
+ls
+em a.cpp
+em a.cpp
+emacsclient -a "" a.cpp
+ls
+emacsclient -n -a "" a.cpp
+emacsclient -nc
+emacsclient -nc
+emacsclient -nc
+emk
+emacsclient -n -a ""
+emacsclient -n -a ""
+emacsclient -n -a ""
+em a.cpp
+g++ a.cpp
+go
+g++ a.cpp
+2 3
+g++ a.cpp
+go
+go
+go
+python b.py
+ls
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+2
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python b.py
+python
+python b.py
+python b.py
+python b.py
+cdpy
+cdpw
+cd gae/wakamebot/
+ls
+git status
+git add app.yaml
+git commit -m "Change the app name for uploading"
+git add application/view.py
+git commit -m "Fix about tweet error"
+git push
+git status
+em
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 20-auto-complete.el
+ls
+git status
+git add 20-auto-complete.el
+git commit -m "Add web-mode to AC"
+git push
+cd ../../.bash.d/
+cd .bashconf/
+ls
+em aliases.sh
+git diff aliases.sh
+git diff --help
+git add aliases.sh
+git diff aliases.sh
+git reset
+git diff aliases.sh
+git diff --color-words aliases.sh
+cd dotfiles/.emacs.d/etc/ac-dict/
+ls
+cd ../../inits/
+em 20-auto-complete.el
+ls ../etc/ac-dict/
+ls
+less 01-keybind.el
+less 03-editor.el
+em 03-editor.el
+git status
+git add 03-editor.el
+git 50-web-mode.el
+git status
+git add 50-web-mode.el
+less 03-editor.el
+git commit -m "Add web-mode to hs&ac"
+git push
+ls
+cdpw
+cd minpy/
+ls
+less simpleserver.py
+cd ../45395/
+ls
+google-chrome index.html
+cd dotfiles/.emacs.d/
+ls
+git status
+cd ../.bash.d/.bashconf/
+ls
+em aliases.sh
+git diff aliases.sh
+git add aliases.sh
+git commit -m "Add alias about cd command"
+git push
+ls
+cd ../../.emacs.d/
+ls
+cd inits/
+ls
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emacs
+ls
+em 02-po
+em 02-modeline.el
+cd
+emr
+em
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 02-modeline.el
+emr
+em
+em 02-modeline.el
+emr
+em 02-modeline.el
+ls
+git status
+git add 02-modeline.el
+git commit -m "Add directory to modeline"
+git push
+cdw
+cd tokiwasai/
+ls
+cd ky/
+ls
+mkdir css
+mv style.css css/
+ls
+em index.html &
+ls
+ps
+ls
+em index.html
+google-chrome index.html
+mkdir js
+ls
+cd js/
+ls
+ls
+cd ../
+ls
+cd js/
+ls
+mkdir libs
+cd libs/
+wget http://wakame-bot.appspot.com/statics/js/libs/jquery/jquery.min.js
+ls
+ls
+cd ../../
+ls
+emr
+ls
+em index.html
+em tes.html
+ls
+emr
+em index.html
+ls
+em tes.js
+ls
+emr
+em index.html
+python
+python
+ls
+cd img/
+ls
+mv img3.jpg act1.jpg
+mv img1.jpg act2.jpg
+ls
+rm img2.jpg
+cd ../
+ls
+cd Downloads/
+ls
+unzip mobile-menu-master.zip
+ls
+cd mobile-menu-master/
+ls
+less styles.css
+cdw
+ls
+cd tokiwasai/
+ls
+cd ky/
+ls
+ls
+cd
+ls
+python --help
+python -c "print 'Hello'"
+python -c "import SimpleHTTPServer SimpleHTTPServer.test()"
+python -c "import SimpleHTTPServer; SimpleHTTPServer.test()"
+python -c "import SimpleHTTPServer; SimpleHTTPServer.test()"&
+ls
+ps
+kill 3575
+ls
+cd dotfiles/.bash.d/.bashconf/
+ls
+em aliases.sh
+cgi
+source aliases.sh
+cgi
+ps
+cgi
+ls
+em aliases.sh
+ls
+git status
+git add aliases.sh
+git commit -m "Add alias about starting cgi server"
+git push
+cd
+ls
+cdw
+cd tokiwasai/ky/
+ls
+cgi
+python -c "import SimpleHTTPServer; SimpleHTTPServer.test()"
+ls
+emr
+ls
+em index.html &
+em index.html
+google-chrome index.html
+rm js/#scroll.js#
+ls
+cdp
+cd contests/
+ls
+cd abc/
+ls
+mkdir 06
+cd 06
+ls
+ls
+em a.cpp&
+emr
+em a.cpp
+em
+em
+em
+emk
+ls
+emk
+em
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em 02-modeline.el
+emr
+em ~/tes.html
+emr
+em
+em ~/tes.html
+ps
+p
+sps
+ps
+rm ~/te
+ls
+ls
+cd ../elisp/
+ls
+cd mode/
+ls
+mkdir zencoding-mode
+cd zencoding-mode/
+wget https://raw.github.com/rooney/zencoding/master/zencoding-mode.el
+em zencoding-mode.el
+ls
+cd ../../
+ls
+cd ../
+ls
+cd inits/
+ls
+em 50-zencoding-mode.el&
+emr
+em tes.html
+emr
+em tes.html
+emr
+em tes.html
+em
+emr
+em tes.html
+ls
+rm tes.html
+ls
+rm 50-zencoding-mode.el*
+cd ../elisp/
+cd mode/
+rmdir zencoding-mode/
+mkdir emmet-mode
+ls
+cd emmet-mode/
+wget https://raw.github.com/smihica/emmet-mode/master/emmet-mode.el
+ls
+em emmet-mode.el
+ls
+cd ../../
+ls
+cd ../inits/
+em 50-emmet-mode.el
+emr
+em 50-emmet-mode.el
+ls
+emr
+em tes.html
+em
+emr
+em tes.html
+rm tes.html
+ls
+git status
+git add ../elisp/mode/emmet-mode/
+git add 50-emmet-mode.el
+git commit -m "Add emmet-mode"
+em 02-modeline.el
+ls
+git add 02-modeline.el
+ls
+git commit -m "Change the format of 'emmet-mode' 'js2-mode' of modeline"
+git status
+git add 50-jinja2-mode.el
+git commit -m "Avoid loading usually"
+git status
+cd ../elisp/
+ls
+mkdir warp
+cd warp/
+cd ../
+rmdir warp/
+ls
+ls
+em
+ls
+ps
+cd ../
+ls
+emacs
+emacs
+em
+ls
+cd inits/
+ls
+emr
+em
+emacs
+emr
+em
+emacs --daemon --reverse
+em
+emacs --reverse
+emacs -r
+em -r
+emacs -rv --daemon
+em
+em
+emr
+em
+ls
+em 02-theme.el
+ls
+emr
+em
+em 02-theme.el
+emr
+em
+emacs
+ls
+em 02-modeline.el
+emr
+em
+emacs
+ls
+cd ../
+ls
+git status
+git add etc/themes/wkm-colorful-theme.el
+git add inits/02-theme.el
+git commit -m "Fix difference in the theme of 'emacs' and 'emacsclient'"
+git push
+ls
+git status
+ls
+emr
+em
+cd elisp/
+git clone git://github.com/fukamachi/swank-js
+ls
+cd swank-js/
+ls
+cd ../
+ls
+mv swank-js/ ~/bin/
+ls
+ls
+git clone git@github.com:slime/slime.git
+ln -s ~/bin/swank-js/slime-js.el ~/dotfiles/.emacs.d/elisp/slime/contrib/
+cd ../inits/
+ls
+em 50-slime.el&
+ls
+emr
+ls
+em 50-slime.el
+ls
+cd ../
+ls
+emr
+em
+ls
+rm \#tes.js#
+ls
+emk
+emr
+cd inits/
+ls
+rm 50-slime.el*
+em
+emr
+em
+cd ../elisp/
+ls
+cd ../
+ls
+cd ~
+ls
+ls
+cd dotfiles/.emacs.d/
+ls
+ls ~
+cd elisp/
+la
+cd p
+cd package/
+ls
+cd elpa/
+ls
+cd archives/
+ls
+cd melpa/
+ls
+cd ../../
+ls
+cd ../
+ls
+less package.el
+cd ../
+ls
+cd slime/
+ls
+cd ../
+ls
+rmdir slime/
+ls
+ls
+cd ../
+ls
+rmdir ~
+ps
+ls
+cd
+ls
+cd prog/
+ls
+la
+cd ../
+la
+ls
+rm tes.html
+ls
+ls
+npm
+ls
+la
+mv .tmlib/ bin/tmlib
+less .mycommand/
+ls .mycommand/
+em .mycommand/compile
+./.mycommand/compile
+./.mycommand/compile
+rmdir .mycommand/
+ls
+la
+cd .todo/
+la
+cd ../
+rmdir .todo/
+la
+cd bin/
+la
+cd swank-js/
+brew install node
+brew
+node v
+node -v
+nvmw
+npm -v
+npm install socket.io
+ls
+la
+cd ../
+ls
+ls
+cd swank-js/
+node swank.js
+npm swank.js
+node swank
+ls
+cd
+cd Downloads/
+ls
+rmdir EmacsClient.app/ angular-phonecat/ mobile-menu-master/
+rm EmacsClient.app.zip mobile-menu-master.zip PowerlineSymbols\ \(1\).sfd
+ls
+untgz lispbox-0.7-ccl-1.6-linuxx86.tar.gz
+ls
+cd lispbox-0.7/
+ls
+cd emacs-23.2/
+ls
+cd share/
+ls
+grep slime
+ls
+cd emacs/
+ls
+cd site-lisp/
+ls
+cd ../23.2/
+ls
+cd lisp/
+ls
+grep slime
+cd ../
+ls
+cd site-lisp/
+ls
+cd ../leim/
+ls
+cd ../etc/
+ls
+cd ../../
+ls
+cd ../../
+ls
+cd bin/
+ls
+cd ../libexec/
+ls
+cd emacs/
+ls
+cd 23.2/
+ls
+cd i686-pc-linux-gnu/
+ls
+cd ../../../.
+cd
+cd Downloads/
+ls
+rmdir lispbox-0.7/*
+ls
+rm lispbox-0.7
+rmdir lispbox-0.7/
+ls
+rm lispbox-0.7-ccl-1.6-linuxx86.tar.gz
+ls
+cd ../
+ls
+em
+ls
+cd tmp/
+ls
+cd ../
+rmdir tmp/
+ls
+npm install -g swank-js
+ls
+rm npm-debug.log
+ls
+cd tmp/m
+cd rm
+cd tmp/
+la
+cd npm-30136-6-SjvtM0/
+ls
+cd ../../
+ls
+rmdir tmp/
+ls
+cd bin/swank-js/
+ls
+swank-js
+cd ../
+cd swank-js/
+ls
+ls
+cd dotfiles/.emacs.d/
+la
+ls
+ls -F
+ls -f
+la
+git status
+cd ~/
+ls
+cd dotfiles/.emacs.d/
+ls
+mv ~ ~
+history
+ls
+rmdir ~
+ps
+ls
+mv ~ hoge
+ls
+cd
+ls
+la
+touch hoge
+ls
+mv hoge ~
+ls
+rm hoge
+ls
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+la
+cd
+la
+ls
+cd Documents/
+ls
+cd ../
+ls
+cd dotfiles/
+la
+ls
+cd .bash.d/
+ls
+cd ../.emacs.d/
+ls
+ls -F
+ls -aF
+ls
+emr
+ls
+em
+cd inits/
+ls
+em 50-slime.el
+cd ../elisp/cl-lib
+ls
+less cl-lib-pkg.el
+rm cl-lib-pkg.el
+ls
+ls
+emr
+em
+emr
+em
+cd ../../
+ls
+emr
+ls
+em
+ls
+cd elisp/
+ls
+cd cl-lib
+ls
+cd ../
+ls
+em
+cd ../
+emr
+em
+cd elisp/
+ls
+cd cl-lib
+ls
+less cl-lib-pkg.el
+cd ../
+ls
+cd package/
+ls
+cd elpa/
+ls
+cd cl-lib-0.5/
+ls
+rmdir ../../../cl-lib
+cd ../
+ls
+mv cl-lib-0.5/ ../../cl-lib
+ls
+emr
+em
+ls
+cd archives/
+ls
+cd melpa/
+ls
+cd ../../
+ls
+cd .
+cd ../
+ls
+em package.el
+ls
+cd ../
+ls
+emr
+ls
+em
+cd package/
+ls
+la
+cd elpa/
+la
+cd archives/
+la
+cd gnu/
+la
+em archive-contents
+ls
+cd ../
+ls
+cd ELPA/
+la
+em archive-contents
+ls
+cd ../
+ls
+cd marmalade/
+ls
+em archive-contents
+ls
+cd ../melpa/
+ls
+em archive-contents
+ls
+cd ../
+ls
+cd SC
+ls
+em archive-contents
+cd ../../../
+cd. .
+ls
+cd ../
+ls
+em
+mv cl-lib/ cl-lib-0.5
+ls
+cd ../
+ls
+em inits/20-el-get.el
+emr
+em
+cd elisp/
+ls
+cd ../inits/
+ls
+em 20-package.el
+cd ../
+ls
+emr
+em
+cd
+ls -F
+ls -aF
+ls
+la
+ls
+npm install socket.io
+ls
+cd node_modules/
+ls
+cd ../
+npm install -g swank-js
+ls
+rm npm-debug.log
+ls
+npm install swank-js
+npm install -g swank-js
+ls
+rm npm-debug.log
+ls
+cd node_modules/
+ls
+cd ...
+ls
+cd ../
+ls
+git clone git@github.com:hanachin/swank-js.git
+ls
+cd swank-js/
+ls
+cd ../
+mkdir bin
+mv swank-js/ node_modules/socket.io/ bin
+ls
+rmdir node_modules/
+ls
+cd bin
+la
+cd swank-js/
+ls
+node swank
+node swank.js
+mv ../socket.io/ ./
+ls
+node swank.js
+swank-js
+npm swank-js
+node swank-js
+node swank.js
+cd socket.io/
+ls
+make
+make install
+ls
+make
+cd ../
+ln -s slime-js.el ~/dotfiles/.emacs.d/elisp/slime/slime/contrib/
+node swank.js
+ls
+mv socket.io/ ../
+ls
+ln -s ~/bin/swank-js/slime-js.el ~/dotfiles/.emacs.d/elisp/slime/slime/contrib/
+rm ~/dotfiles/.emacs.d/elisp/slime/slime/contrib/
+ls -F
+ln -s ~/bin/swank-js/slime-js.el ~/dotfiles/.emacs.d/elisp/slime/slime/contrib/
+ln -s ~/bin/swank-js/slime-js.el ~/dotfiles/.emacs.d/elisp/slime/slime/contrib/
+node swank
+node swank.js
+mv ../socket.io/ ./
+ls
+node swank.js
+npm install socket.io
+node swank.js
+npm install coffee-script
+ls
+node swank.js
+node swank.js
+cd
+cd dotfiles/.emacs.d/
+ls
+rm tes.js
+ls
+cd inits/
+ls
+mv 50-slime.el* ../disuse/junk/inits/
+ls
+cd ../
+mv disuse/junk/slime-* disuse/junk/elisp/
+ls
+cd inits/
+ls
+mv 20-el-get.el* ../disuse/junk/inits/
+less 20-yasnippet.el
+mv 20-yasnippet.el* ../disuse/junk/inits/
+ls
+less 20-anything.el
+mv 20-anything.el* ../disuse/junk/inits/
+ls
+less 03-tabbar.el
+less 10-multi-term.el
+less 20-auto-install.el
+ls
+cd ../
+cd elisp/
+ls
+mv slime/ ../disuse/junk/elisp/
+ls
+mv anything/ ../disuse/junk/elisp/
+ls
+cd archives/
+ls
+cd ../
+ls
+rmdir archives/
+ls
+mv el-get/ ../disuse/junk/elisp/
+ls
+cd ../
+emr
+em
+ls
+git status
+git elisp/
+git add elisp/
+git status
+git add disuse/junk/
+git status
+git rm elisp/el-get*
+git status
+git rm elisp/anything
+git rm elisp/anything*
+git status
+git rm elisp/cl-lib
+git rm elisp/package/elpa/cl-*
+git rm inits/20-an*
+git rm inits/20-el-*
+git rm inits/20-ya*
+git status
+git add inits/20-package.el
+git commit -m "Clean elisp packages"
+git push
+ls
+git status
+cd inits/
+ls
+less 20-auto-install.el
+cd ../elisp/
+ls
+git status
+cd dotfiles/.emacs.d/
+ls
+cd elisp/
+ls
+mv slime-js-0.0.1/ slime-js
+ls
+cd slime-
+cd slime-js/
+ls
+cd ../slime-repl-20100404/
+ls
+cd ../
+ls
+mv slime-repl-20100404/ slime-repl
+ls
+mkdir slime
+ls
+mv slime-* slime
+ls
+cd ../
+ls
+emr
+em
+emr
+em
+ls
+cd elisp/
+ls
+cd slime/
+ls
+cd slime-20140402.125/
+ls
+cd ../
+ls
+mv slime-20140402.125/ slime
+ls
+cd slime
+ls
+cd ../
+ls
+ls
+cd slime
+ls
+ls -F
+rm contrib/slime-js.el
+ls
+cd ../
+ls
+ls
+cd ../../
+ls
+emr
+em
+ls
+emr
+em tes.js
+ls
+cd elisp/
+cd slime/
+ls
+mv slime-* ../../disuse/junk/
+ls
+cd ../../
+ls
+cd sli
+cd elisp/slime/
+ls
+mv slime/* ./
+ls
+rmdir slime/
+ls
+ls -F contrib/
+ls -F contrib/swank-js.el
+ls -F contrib/swank
+ls -F contrib/swank*
+ls
+cd ../
+ls
+cd ../
+ls
+emr
+em
+ls
+cd ../
+ls
+cd ../
+ls
+rmdir tmp/
+ls
+cd bin/
+la
+ls
+cd swank-js/
+ls
+mv socket.io/ ./
+mv socket.io/ ../
+ls
+cd ../
+ls
+cd ../
+ls
+la
+ls
+gae
+emk
+cdp
+ls
+cdw
+cd gae
+ls
+cdpw
+ls
+cd gae/
+ls
+cd wakamebot/
+ls
+em queue.yaml
+ls
+ls
+git status
+ls
+cd
+ls
+cd bin
+ls
+cd ../
+la
+ls
+unzip Downloads/google_appengine_1.9.2.zip
+mv google_appengine/ bin
+ls
+gae
+ls
+ls
+ls
+ls
+export
+gae
+gae ./
+ls
+cd ../
+ls
+cd wakamebot/
+ls
+ps
+gae ./
+cd
+cd dotfiles/.emacs.d/
+ls
+less .gitignore
+cd
+cd ../statics/js/
+ls
+mv myform.js botform.js
+ls
+emk
+cd prog/contests/arc/
+ls
+mkdir 21
+ls
+cd 21
+ls
+em a.cpp&
+ls
+g++ a.cpp
+g++ a.cpp
+gpp a.cpp
+g++ -std=c++11 a.cpp
+g++ -std=c++11 a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+gpp a.cpp
+go
+go
+go
+gpp a.
+gpp b.cpp
+gpp b.cpp
+gpp b.cpp
+go
+gpp b.cpp
+go
+gpp b.cpp
+gpp b.cpp
+gpp b.cpp
+go
+gpp b.cpp
+go
+gpp b.cpp
+go
+gpp b.cpp
+go
+gpp b.cpp
+go
+gpp b.cpp
+go
+ls
+em tes.sh
+ls
+rm tes.sh
+ls
+mkdir test
+ls
+cd test/
+ls
+for i in 1 2 3 do; echo $i>$i.in
+for i in 1 2 3 do; echo $i>$i.in; done
+for i in 1 2 3 do; echo "Hello">$i.in
+for i in 1 2 3 do;/ echo "Hello">$i.in
+for i in 1 2 3; do echo "Hello $i">$i.in; done
+ls
+less 1.in
+less 2.in
+less 3.in
+for i in 1 2 3; do echo "OK $i">$i.out; done
+ls
+em tes.sh&
+em tes.sh
+ps
+ls
+ps
+em tes.sh
+ls
+ps
+cd ../
+ls
+mv tes.sh tes
+ls
+mv tes test/tes.sh
+cd test/
+ls
+ls
+em Makefile
+echo *.sh
+ls
+em main.cpp&
+ls
+./tes.sh
+chmod 755 tes.sh
+ls
+./tes.sh
+./tes.sh
+ls
+
+./tes.sh
+./tes.sh
+ls
+./tes.sh
+ls
+less 1.in.out
+
+ls
+./tes.sh
+less 1.in.out
+./tes.sh
+./tes.sh
+ls
+less 1.in.out
+ls
+./tes.sh
+ls
+rm *.in.out
+ls
+test
+test
+test --help
+test -h
+test -v
+test alfsefh;w
+test *
+ls
+cd ../
+test
+test *
+test aa
+test ;w
+w
+test afwefwef
+emk
+ls
+cd test/
+ls
+cp tes.sh ../bin/
+ls
+cd ../
+ls
+cd bin/
+ls
+mkdir ctest
+ls
+mv tes.sh ctest/
+ls
+cd ctest/
+ls
+mv tes.sh ctest
+em ctest
+ls
+cd
+ls
+cdpy
+ls
+cd evernote/
+ls
+ctest
+ctest
+cdcp
+ls
+cd ky/
+ls
+cd eitan/
+ls
+less Makefile
+cd g
+cd gr
+cd ../graph/
+ls
+cd cpp/
+ls
+less Makefile
+cd ../../../
+ls
+cd honyaku/
+ls
+cd ../../c
+ls
+cd kadai/
+ls
+cd 08
+ls
+cd hagishoe/
+ls
+less Makefile
+cd src/
+ls
+cd ../
+ls
+cp Makefile ~/test/
+ls
+ls
+cd
+cd test/
+ls
+rm app tes.sh
+ls
+em Makefile
+make test
+make
+ls
+./app
+ls
+make
+ls
+make clean
+ls
+make test
+hoge="./hoge.in"
+echo $hoge
+fuga=$(hoge./%.in)
+fuga=${hoge./%.in}
+fuga=${hoge%.in}
+echo $fuga
+fuga=${hoge./%.in}
+fuga=${hoge./%}
+fuga=${./hoge%.in}
+fuga=${hoge:./%.in}
+fuga=${hoge.\/%.in}
+fuga=${hoge.//%.in}
+fuga=${hoge/.\/}
+echo $fuga
+fuga=${hoge/.\//}
+echo $fuga
+echo $fuga
+piyo=${fuga:.in=.out}
+piyo=${fuga:*.in=*.out}
+piyo=$(fuga:*.in=*.out)
+piyo=$(fuga:.in=.out)
+piyo=$(fuga/.in/.out}
+piyo=${fuga/.in/.out}
+echo $piyo
+ls
+make clean
+ls
+make
+ls
+ls
+make clean
+make clean
+make
+ls
+make clean
+ls
+make test
+inputs="find . -type f -name '*.in' | sord"
+echo inputs
+echo $inputs
+inputs='find . -type f -name "*.in" | sord'
+echo $inputs
+make test
+make test
+make test
+make test
+input=./1.in
+echo $input
+input=${input/.\/}
+
+input=./1.in
+hoge=${input/.\/*/}
+echo $hoge
+hoge=${input/.\/}
+echo $hoge
+make test
+echo $input
+input=${input/.\/}
+echo $input
+make test
+echo $input
+make test
+make test
+make test
+make test
+expr
+c
+$c
+echo $c
+c=1
+expr $c + 1
+make test
+make test
+make test
+make test
+ls
+echo $hoge
+hoge=./1.in
+fuga=${hoge/./}
+echo $fuga
+fuga=${hoge/.\/}
+echo fuga
+echo $fuga
+make test
+make clean
+make
+make clean
+make
+ls -h
+less -h
+ls --help
+ls
+make clean
+ls
+make test
+make test
+ls
+hoge=$?
+echo $hoge
+g++ main.cpp
+echo $hoge
+g++ main.cpp
+hoge=$?
+echo $hoge
+g++ main.cp
+hoge=$?
+echo $hoge
+make clean
+make
+ls
+ls
+rm a.out
+ls
+ls
+make clean
+make
+ls
+make clean
+make
+make clean
+make
+make clean
+make
+ls
+make clean
+ls
+make
+make clean
+ls
+make
+make clean
+make
+make
+make
+ls
+make
+ls
+make
+ls
+make clean
+make clean
+make clean
+make
+make clean
+make clean
+ls
+make
+ls
+make clean
+make clean
+ls
+make test
+make test
+make clean
+make test
+make test
+make test
+emk
+ls
+cp Makefile ~/bin/ctest/
+ls
+cd ../
+ls
+cd bin/ctest/
+ls
+cd ../
+ls
+cd ../
+ls
+rmdir test/
+ls
+ctest
+bin/ctest/
+bin/ctest/ctest
+cd dotfiles/
+ls
+cd .bash.d/
+ls
+git sta
+git status
+ls
+la
+cd .bashconf/
+ls
+em aliases.sh
+ls
+source aliases.sh
+ctest
+ls
+less Makefile
+rm Makefile
+ls
+cd dotfiles/.bash.d/.bashconf/
+ls
+em aliases.sh
+ls
+ctest
+cd dotfiles/.bash.d/.bashconf/
+cd
+em
+ctest
+ls
+rm Makefile
+ls
+cdpw
+cd gae/wakamebot/
+ls
+ls
+emk
+ls
+em
+ls
+gae ./
+ls
+cd application/
+ls
+python
+python
+cd ../
+ls
+gae ./
+ls
+emacs
+ls
+export
+ls
+cd application/templates/
+ls
+rm home-base.html
+ls
+cd ../../
+ls
+git status
+less .git
+less .gitignore
+less
+ls
+cd application/
+ls
+cd ../
+ls
+less README.md
+git status
+git rm application/templates/home-base.html statics/js/myform.js
+git add statics/js/
+git add app*
+git add app.yaml application/templates/
+git sattu
+git status
+less index.yaml
+git add index.yaml
+git reset
+ls
+git status
+less index.yaml
+git add index.yaml
+git commit -m "modify indent"
+git add app.yaml
+git commit -m "Add library of 'ssl'"
+git status
+git add application/templates/
+git rm application/templates/home-base.html
+git status
+git commit -m "Change template files composition"
+git status
+git rm statics/js/myform.js
+git add statics/js/
+git commit -m "Add action of remove button"
+git status
+git push
+ls
+em
+cd
+ls
+mkdir test
+ls
+cd test/
+ls
+for i in 1 2 3; do echo "$i" > $i.in; done
+ls
+less 1.in
+find . -type f -name "*.in" | sort
+mkdir tmp
+ls
+cd tmp/
+ls
+for i in 4 5 6; do echo "$i" > $i.in; done
+ls
+cd ../
+ls
+find . -type f -name "*.in" | sort
+*
+*.in
+echo *.in
+echo *.in | sort
+hoge="*.in | sort"
+echo $hoge
+hoge='echo *.in | sort'
+echo $hoge
+hoge=`echo *.in | sort`
+echo $hoge
+mktemp
+ls
+ctest
+ls
+echo "10">1.out
+echo "20">2.out
+echo "30">3.out
+ls
+em main.cpp
+ls
+make
+rmdir tmp/
+ls
+make test
+make test
+make test
+make test
+make test
+ls
+make test
+make test
+make test
+make test
+emk
+ls
+cd ../
+ls
+rmdir test/
+ls
+cd dotfiles/
+ls
+ls
+la
+mkdir clangtest
+cd clangtest/
+ls
+cp ~/bin/ctest/* ./
+ls
+em ctest
+ls
+cd ../
+ls
+cd
+ln -s ~/dotfiles/clangtest/ ~/bin/
+ls
+cd in
+cd bin/
+ls
+ls -F
+rmdri ctest/
+rmdir ctest/
+ls
+cd clangtest
+ls
+cd
+cd dotfiles/.bash.d/
+ls
+cd .bashconf/
+ls
+em aliases.sh
+emk
+cd bin/ctest/
+ls
+em ctest
+INPUTS=`find . -type f -name "*.in" | sort`
+echo $INPUTS
+ls
+ls
+rm \#ctest#
+ls
+less ctest
+ls
+ctest
+ls
+rm Makefile
+ls
+cd dotfiles/
+ls
+git status
+git add clangtest/
+git commit -m "New files 'clangtest'"
+git add .bash.d/.bashconf/aliases.sh
+git commit -m "Add alias about 'copy to Makefile of clangtest'"
+git push
+ls
+emacs README.md
+git status
+git add README.md
+git commit -m "Add 'Clang Test' to list"
+git push
+ls
+google-chrome R
+google-chrome README.md
+em README.md
+ls
+git status
+ls
+cd
+ls
+em tes.md
+emk
+cd
+em tes.tex
+ls
+platex tes.tex
+ls
+ls
+ sudo apt-get install okumura-clsfiles
+platex tes.
+platex tes.tex
+update
+upgrade
+ls
+pxdvi
+sudo apt-add-repository ppa:texlive-backports/ppa
+ls
+sudo apt-get install texlive-lang-cjk
+ls
+which platex
+which dvipdfmx
+which pxdvi
+which evince
+dvipdfmx tes.dvi
+ls
+evince tes.pdf
+sudo apt-get install xdvik-ja
+sudo apt-get install yatex
+ls
+upgrade
+update
+upgrade
+ls
+platex tes.tex
+dvipdfmx tes.dvi
+evince tes.pdf
+sudo apt-get install latex-env-ja
+sudo apt-get install latex-extra-ja
+sudo jisftconfig add
+ls
+sudo jisftconfig add
+ls
+sudo dpkg-reconfigure ptex-jisfonts
+ls
+sudo apt-get install evince ghostscript cmap-adobe-japan1 gs-cjk-resource
+update
+upgrade
+update
+upgrade
+sudo apt-get install evince ghostscript cmap-adobe-japan1 gs-cjk-resource
+sudo apt-get install evince ghostscript cmap-adobe-japan1 xpdf-japanese
+sudo apt-get install lyx
+ls
+ls
+em
+sudo aptitude install yatex
+aptitude
+sudo apt-get install aptitudede
+sudo apt-get install aptitude
+ls
+sudo aptitude install yatex
+em
+emr
+em tes.tex
+ls
+cd dotfiles/
+ls
+cd .emacs.d/
+ls
+cd inits/
+ls
+em 50-yatex-mode.el&
+em 50-yatex-mode.el
+ps
+ls
+emr
+em
+ls
+sudo aptitude install yatex
+ls
+ls
+em 50-ya
+em
+emr
+emk
+ls
+platex tes.tex
+update
+ls
+upgrade
+update
+upgrade
+ls
+update-manager
+ls
+rm q.log tes.aux tes.dvi tes.log tes.pdf
+ls
+whitch platex
+which platex
+which dvipdfmx
+which evince
+update
+upgrade
+ls
+sudo apt-add-repository ppa:texlive-backports/ppa
+update
+upgrade
+sudo apt-get install texlive-lang-cjk
+sudo apt-get install xdvik-ja
+sudo apt-get install texlive-lang-cjk
+sudo apt-get autoremove
+sudo apt-get install texlive-lang-cjk
+ls
+which platex
+platex -synctex=1 tes.tex
+ls
+dvipdfmx -f tes.dvi
+dvipdfmx tes.dvi
+ls
+evince tes.pdf
+ls
+rm tes.synctex.gz
+ls
+em
+sudo aptitude install yatex
+ls
+emr
+em tes.tex
+emr
+em
+ls
+emr
+ls
+em tes.tex
+ls
+rm tes.*
+ls
+ls
+ls
+cd dotfiles/
+ls
+cd
+ls
+cd dotfiles/.emacs.d/
+ls
+em
+ls
+cd inits/
+ls
+git status
+git add 50-yatex-mode.el
+git commit -m "First commit"
+git push
+cd ../
+ls
+cd ../
+ls
+git status
+git branch
+git push
+git checkout -b test1
+ls
+git branch
+git push
+git fetch
+git pull
+git status
+ls
+cd clangtest/
+ls
+less ctest
+git pull origin mas
+git pull origin master
+ls
+cd c
+cd cte
+ls
+less ctest
+ls
+cd ../
+ls
+git checkout master
+git merge test1
+ls
+cd clangtest/
+ls
+less ctest
+cd .em
+cd ../.emacs.d/
+ls
+cd inits/
+ls
+less 50-ya
+less 50-yatex-mode.el
+git status
+git push
+git log
+git push
+git branch -d test1
+git branch
+ls
+cd /etc/emacs/site-start.d/
+ls
+em 50yatex-init.el
+cd dotfiles/.bash.d/
+ls
+cd .bashconf/
+ls
+em aliases.sh
+ls
+ls
+cd
+cd dotfiles/
+ls
+git sta
+git status
+git fetch
+git status
+git log
+git diff
+ls
+cd clangtest/
+ls
+cd ../
+ls
+ls
+cd .bash.d/
+ls
+ls
+la
+em
+ls
+cd ../
+ls
+less .bash.d/.bash_profile
+git pull
+git merge origin/master
+git status
+cd .bash.d/
+ls
+git add .bash_profile .bashrc
+git commit -m "Move 'EDITOR' to '.bash_profile'"
+ls
+git status
+git push
+git fetch
+git pull
+git merge
+git merge origin/master
+git status
+git add .bashrc
+git status
+less .bashrc
+em .bashrc
+ls
+git status
+git add .bashrc
+git add .bash_profile
+git commit -m "Move 'EDITOR' to '.bash_profile'"
+git push
+ls
+git status
+em commit
+git rebase -i HEAD~
+ls
+ls
+git log
+git status
+git diff .bashrc
+em .bashrc
+git status
+git log
+ls
+em .bash_profile
+git rebase -i HEAD~~
+git config
+git config -l
+git config -e core.editor="emacsclient -nc -a ''"
+git config core.editor="emacsclient -nc -a ''"
+git config core.editor=emacsclient -nc -a ''
+git config core.editor="emacsclient -nc -a ''"
+git config --global core.editor "emacsclient -nc -a ''"
+git config -l
+git rebase
+git rebase -i HEAD~
+git status
+git reset HEAD
+git status
+git branch
+git checkout master
+git branch
+git branch -a
+git status
+ls
+less .bashrc
+less .bash_profile
+git rebase
+git rebase -i HEAD~
+git status
+git rebase -i HEAD
+rm -fr ../.git/rebase-merge/
+ls
+git status
+git rebase -i HEAD~~
+ls
+git status
+git checkout
+git branch
+git checkout master
+git status
+git branch
+git checkout master
+ls
+git status
+git commit --ament
+git commit --amend
+git rebase --continue
+git status
+git checkout master
+ls
+rm ../.git/rebase-merge/
+rm -rf ../.git/rebase-merge/
+git status
+git checkout master
+git status
+git add .bash
+git add .bashrc
+git status
+git checkout master
+git status
+git branch
+git log
+less .bashrc
+em .bashrc
+git status
+git reset HEAD .bashrc
+git status
+less .bashrc
+ls
+git push
+git commit --amend -m "Update environment variable 'EDITOR'"
+git log
+git ls
+git status
+git push
+git pull
+ls
+git log
+git status
+git push
+git status
+cd ../.emacs.d/
+ls
+cd inits/
+ls
+cd ../elisp/
+ls
+cd mode/
+ls
+mkdir latex-mode
+cd latex-mode/
+ls
+wget http://www.emacswiki.org/emacs/download/latex-math-preview.el
+ls
+em latex-math-preview.el
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../inits/
+ls
+em 50-yatex-mode.el
+emr
+em 50-yatex-mode.el
+ls
+emr
+e
+ls
+rm tes.*
+ls
+git status
+less .bash.d/.bashconf/aliases.sh
+which latex
+which platex
+which dvipng
+which dvips
+which dvipng
+which dvips
+which latex
+which platex
+which pdfflatex
+which pdflatex
+which dvipdf
+which dvipdfm
+which dvipdfmx
+which gs
+ls
+emk
+ls
+em index.html
+ls
+mv js/navigation.js js/drawernav.js
+cd ../45395/
+ls
+google-chrome index.html
+google-chrome index.html
+cdw
+ls
+cd tokiwasai/
+ls
+cd ky/
+ls
+google-chrome index.html
+cgi
+cgi&
+google-chrome index.html
+ps
+kill -9 4319
+ci
+cgi
+cd dotfiles/.emacs.d/
+ls
+git status
+cd inits/
+ls
+emr
+em 01-keybind.el
+ls
+emr
+em
+ls
+ls
+git status
+git add 01-keybind.el
+git commit -m "Change some keybind"
+ls
+git fetch
+git fetch origin master
+ls
+cd ../
+l
+ls
+cd disuse/
+ls
+rmdir old/
+ls
+mv junk/* ./
+ls
+rmdir junk/
+ls
+cd elisp/
+la
+cd ../inits/
+la
+cd ../../
+ls
+git status
+git rm disuse/old
+git rm -rf disuse/old
+git status
+git rm -rf disuse/junk
+git status
+git add disuse/
+git status
+git commit -m "Delete old emacs directory"
+git status
+ls
+em .gitignore
+ls
+cd inits/
+ls
+em 02-modeline.el
+emr
+em tes.tex
+em 02-modeline.el
+emr
+em tes.tex
+ls
+emr
+em
+ls
+rm \#tes.tex#
+ls
+emr
+em tes.tex
+ls
+emr
+em tes.tex
+em tes.tex
+ls
+rm tes.*
+ls
+git status
+diff 02-modeline.el
+git diff 02-modeline.el
+em 02-modeline.el
+git diff 02-modeline.el
+git status
+em 50-ya
+em 50-yatex-mode.el
+git add ../.gitignore
+git commit -m "Minor change"
+ls
+cd ../
+ls
+git status
+ls
+cd inits/
+ls
+em 50-yatex-mode.el
+pxdvi
+which pxdvi
+tlmgr install pxdvi
+tlmgr
+pxdvi
+cd /usr/local/texlive/2013/
+ls
+ln -s texmf-dist/ texmf
+sudo ln -s texmf-dist/ texmf
+sudo tlmgr --repository=http://www.tug.org/~preining/tlptexlive/ install pxdvi
+tlmgr
+ls
+cd texmf
+ls
+cd ../
+ls
+sudo tlmgr
+tlmgr update --self --all
+ls
+cd texmf
+ls
+cd ../
+ls
+which tlmgr
+tlmgr
+pxdvi
+ls
+cd texmf
+ls
+cd tex
+ls
+cd latex/
+ls
+cd
+cd dotfiles/.emacs.d/inits/
+ls
+xdvi tes.dvi
+ls
+ls
+erm
+emr
+ls
+em tes.
+em tes.tex
+evince tes.png
+ls
+gnome-open tes.png
+ls
+cd ../elisp/
+ls
+mv yatex/ mode/
+la
+cd mode/
+ls
+cd latex-mode/
+ls
+cd ../
+ls
+mv yatex/ yatex-mode
+la
+mv yatex-mode/ yatex
+ls
+cd latex-mode/
+ls
+cd ../
+ls
+mv latex-mode/ latex-math-mode
+la
+cd yatex/
+ls
+rmdir help/
+make
+make install
+sudo make install
+la
+la
+em makefile
+make install
+sudo make install
+ls
+make
+make install
+in
+make install
+make install
+em makefile
+ls
+make install
+cd ../../
+ls
+cd ../
+la
+cd site-lisp/
+ls
+cd yatex/
+ls
+cd ../
+ls
+cd do
+ls
+mv yatex/ ../elisp/mode/
+ls
+cd ../
+ls
+rmdir site-lisp/
+ls
+cd in
+cd info/
+ls
+em yatexj
+cd ../
+ls
+rmdir info
+ls
+git status
+cd Downloads/
+ls
+untgz yatex1.77.tar.gz
+ls
+mv yatex1.77 ~/dotfiles/.emacs.d/elisp/yatex
+cd /usr/local/
+ls
+cd ../elisp/
+ls
+ls
+cd ../
+ls
+cd elisp/
+ls
+cd auto-install/
+ls
+cd ../
+ls
+la
+rm .*
+ls
+cd ../
+ls
+git status
+git rm elisp/.*
+git rm -rf elisp/.*
+git reset
+git status
+git reset HEAD~
+git status
+git reset origin/master
+git status
+git rebase
+git rebase origin/master
+git reset HEAD .
+git status
+git add .
+git status
+git log
+git reset HEAD *
+git status
+git reset HEAD
+git status
+git checkout .
+git status
+ls
+cd inits/
+ls
+rm tes.*
+ls
+cd ../
+ls
+cd elisp/
+ls
+la
+rm .status.el* .loaddefs.el
+la
+rm .loaddefs.el
+ls
+cd ../
+ls
+git status
+git rm elisp/.*.*
+git rm -rf elisp/.*.*
+git reset HEAD
+git status
+git checkout *
+git checkout .
+git status
+cd elisp/
+la
+rm .loaddefs.el .status.el .status.el.old
+la
+cd ../
+ls
+cd elisp/
+ls
+la
+git status
+git rm .loaddefs.el .status.el .status.el.old
+git status
+git commit -m "Remove unnecessary files"
+which platex
+which dvips
+ls
+cd ../
+ls
+git status
+emr
+s
+cd
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+la
+cd ../
+ls
+emr
+s
+ls
+em
+emr
+em
+emr
+ls
+rm init.elc
+ls
+em init.el
+ls
+emr
+rm etc/themes/wkm-colorful-theme.elc
+emr
+em
+emr
+em
+cd inits/
+ls
+em 02-theme.el
+emr
+em
+emr
+em
+emr
+em
+emr
+em
+ls
+git status
+ls
+git log
+cd ../elisp/
+ls
+la
+cd ../
+git status
+git log
+ls
+cd inits/
+ls
+em 50-yatex-mode.el
+dvips tes.dvi
+ls
+la
+la
+evince tes.p
+evince tes.ps
+la
+emr
+ls
+git status
+git add 01-keybind.el
+git commit -m "Change some keybinds"
+rm tes.*
+la
+cd ../elisp/mode/ya
+cd ../elisp/mode/yatex/
+ls
+cd ../
+ls
+rmdir yatex/
+ls
+cd yatex/
+ls
+em
+ls
+cd ../
+ls
+cd ../../
+ls
+emr
+em
+ls
+ls
+cd latex-math-preview-cache/
+ls
+cd SpecialCharacter/
+ls
+la
+cd ../
+la
+cd ../inits/
+ls
+em
+ls
+git status
+cd ../
+ls
+git add inits/50-yatex-mode.el
+git add elisp/mode/latex-math-mode/ elisp/mode/yatex/
+git status
+git commit -m "First commit - YaTeX"
+git push
+cd inits/
+ls
+em 50-yatex-mode.el
+cd ../
+ls
+rmdir latex-math-preview-cache/
+la
+cd e
+cd te
+cd etc/
+ls
+mkdir lmp-cache
+ls
+cd lmp-cache/
+touch .gitkeep
+la
+cd ../
+la
+cd ../
+ls
+git status
+git add .gitignore inits/50-yatex-mode.el etc/lmp-cache/
+git commit -m "Change directory to save cache of 'latex-math-preview'"
+git push
+ls
+evince tes.png
+gnome-open tes.png
+la
+rm tes.*
+la
+pythonq
+python
+python -v
+python --version
+python -h
+python -V
+python -v
+cd /usr/lib/python2.7/
+ls
+cd ctypes/
+ls
+cd ../
+cd prog/contests/
+ls
+cd abc/
+ls
+mkdir 07
+ls
+cd 07
+ls
+mkdir a
+mkdir b
+mkdir c
+ls
+cd a
+ls
+ctest
+la
+make
+ls
+em a.cpp&
+emr
+em tes.cpp
+cd ../
+ls
+mkdir test
+cd test/
+ls
+ctest
+ls
+em tes.cpp
+ls
+echo "hello">1.in
+la
+less 1.in
+echo "hello\!">1.out
+la
+less 1.
+less 1.out
+ls
+cd ../
+ls
+rmdir test/
+ls
+cd a
+ls
+ls
+emr
+ls
+cd ../
+ls
+cd a
+ls
+em a.cpp&
+ls
+ls
+cd ../b
+ls
+ctest
+ls
+em b.cpp
+ls
+make b.cpp
+make
+ls
+make
+go
+ls
+./app
+./app
+./app
+make
+make
+make
+make
+make
+./app
+./app
+./app
+./app
+make
+./app
+./app
+ls
+./app
+./app
+make
+make
+./app
+./app
+./app
+./app
+ls
+cd ../c
+ls
+ctest
+ls
+em c.cpp
+make
+make
+make
+make
+make
+./app
+echo "7 8
+2 2
+4 5
+########
+#......#
+#.######
+#..#...#
+#..##..#
+##.....#
+########">1.in
+echo "11">1.out
+echo "5 8
+2 2
+2 4
+########
+#.#....#
+#.###..#
+#......#
+########">2.in
+echo "10">2.out
+echo "50 50
+2 2
+49 49
+##################################################
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+##################################################">3.in
+echo "94">3.out
+make
+make test
+make
+./app
+##################################################
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+./app
+./app
+make
+./app
+make
+./app
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+./app
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+#................................................#
+make
+./app
+ls
+make
+make
+make
+make
+make test
+ls
+./app
+make
+make test
+ls
+less 1.in
+em 1.in
+make
+make test
+./app
+ls
+make
+make test
+make
+./app
+make
+./app
+make
+./app
+make
+make test
+make
+./app
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make test
+make
+make test
+make
+make test
+ls
+vi c.cpp
+ls
+vim c.cpp
+ls
+em c.cpp
+ls
+ps
+emk
+ls
+cd ../../
+cd dotfiles/
+ls
+cd .bash.d/
+ls
+cd .bashconf/
+ls
+em aliases.sh
+git status
+git add aliases.sh
+git commit -m "Add alias about 'gnome-open'"
+git push
+ls
+cd
+git clone http://github.com/resmo/git-ftp git-ftp.git
+ls
+cd git-ftp.git/
+ls
+la
+cd ../
+ls
+ls
+cd git-ftp.git/
+ls
+la
+cd ../
+ls
+rmdir git-ftp.git/
+ls
+la
+git clone git@github.com:resmo/git-ftp.git
+ls
+cd git-ftp/
+ls
+la
+git-ftp
+cd ../
+ls
+rmdir git-ftp/
+ls
+cd Downloads/
+ls
+la
+rm *
+ls
+la
+port
+cd
+cdpy
+ls
+cd web/jinja/
+ls
+cd template-wkmsoop/
+ls
+ls
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 03-editor.el
+ls
+em tes.cpp
+emr
+em
+rm tes.cpp
+ls
+git status
+git add 01-keybind.el
+git commit -m "Add setting to delete whitespace"
+git add 03-editor.el
+ls
+git status
+git reset
+git log
+git status
+git reset HEAD~~
+git log
+git add ../../.bash.d/.bashconf/aliases.sh
+git status
+git comit -m "Add alias of 'gnome-open'"
+git commit -m "Add alias of 'gnome-open'"
+git add 01-keybind.el
+git commit -m "Add keybind of 'replace-string'"
+git add 03-editor.el
+git commit -m "Add setting to delete whitespace before saving"
+git push
+git checkout -b alias
+git fetch
+git pull
+git merge origin/master
+git push
+git merge origin/master
+git fetch
+git status
+git log
+git pull origin
+git pull origin
+git push
+git merge origin/master
+git branch master
+git merge origin/master
+git log
+git status
+git push
+git pull
+git pull origin master
+ls
+git status
+git log
+git log
+git push
+git fetch
+git pull
+git pull origin
+git merge origin/master
+git pull origin master
+git fetch
+ls
+git status
+git push
+git merge HEAD
+git merge FETCH_HEAD
+git pull
+ls
+git reflog
+git reset --hard HEAD@{5}
+git log
+git reflog
+git reset --hard HEAD@{3}
+git log
+git push
+git reflog
+git reset --hard HEAD@{7}
+git log
+git reset --hard HEAD@{7}
+git log
+git status
+git log
+git status
+ls
+em 01-keybind.el
+git reflog
+git reflog
+git reset --hard HEAD@{11}
+git log
+git status
+em 01-keybind.el
+ls
+git status
+git add 01-keybind.el
+git commit -m "Add keybind of 'replace-string'"
+git push
+git fetch
+git pull
+git pull origin master
+git merge origin/master
+git reflog
+git reset --hard HEAD@{11}
+git log
+git reflog
+git reset --hard HEAD@{13}
+git reset HEAD^
+git status
+git add 01-keybind.el
+git commit -m "Add keybind of 'replace-string'"
+git push
+em 01-keybind.el
+git pull origin +ma
+git pull origin +master:alias
+git diff alias master
+git checkout master
+git merge alias
+git push
+git status
+ls
+cdpy
+cd web/jinja/wakamesoop/
+ls
+ls
+cd ../
+ls
+cd wakamesoop/
+ls
+rm cgiserver.py
+ls
+cd js/
+ls
+cd ../
+ls
+cd img/
+ls
+mkdir menu
+ls
+mkdir gallery
+ls
+mv o?wkm?.png menu/
+ls
+mv *.png gallery/
+ls
+cd gallery/
+ls
+mv mtk.png title.png wkmkun.png ../
+ls
+cd ../
+lg
+ls
+gpen wkmkun.png
+ls
+cd ../
+ls
+cd ../template-wkmsoop/
+ls
+cd ../
+ls
+./makefile.py -a
+cd wakamesoop/
+ls
+cgi
+cd ../template-wkmsoop/
+ls
+cd pages/
+ls
+em gallery.html
+cd ../../
+ls
+./makefile.py
+./makefile.py -a
+ls
+cd template-wkmsoop/
+ls
+cd ../
+ls
+./makefile.py
+./makefile.py -d
+./makefile.py -a
+./makefile.py -a
+./makefile.py
+./makefile.py -a
+ls
+cd template-wkmsoop/
+ls
+ls
+cd ../
+ls
+cd template-wkmsoop/
+ls
+em base-gallery.html
+ls
+cd ../wakamesoop/
+ls
+mv * ~/prog/web/wakamesoop/
+ls
+ls
+cp index.html ~/prog/web/wakamesoop/
+ls
+cd js/
+ls
+em changeimg.js
+cd ../img/
+ls
+cd ../
+cgi
+ls
+cpd img/ ~/prog/web/wakamesoop/
+cd js/
+ls
+cpd lib/ ~/prog/web/wakamesoop/js/
+cp changeimg.js ~/prog/web/wakamesoop/js/
+less changeimg.js
+em changeimg.js
+ls
+cd ../wakamesoop/
+ls
+rm *.html
+ls
+cd pages/
+ls
+cd ../
+ls
+ls
+cd ../template-wkmsoop/
+ls
+em base.html
+ls
+em base.html
+em
+ls
+cd ../template-wkmsoop/
+ls
+ls
+ls
+em base.html
+em gallery.html
+ls
+mkdir pages
+ls
+mv *.html gallery pages/
+ls
+cd pages/
+ls
+mv index.html base* ../
+ls
+cd ../
+ls
+ls
+ls
+em base.html
+ls
+ls
+chmod 550 index.html
+ls
+chmod 000 index.html
+ls
+chmod 330
+chmod 330 index.html
+ls
+chmod 660
+chmod 660 index.html
+ls
+cd pages/
+la
+chmod 660 *.html
+ls
+cd gallery/
+ls
+chmod 660 *.html
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd makun/
+ls
+cd ../
+ls
+em mak
+ls
+./makefile.py
+./makefile.py -a
+ls
+cd wakamesoop/
+ls
+cgi
+cgi
+cgi
+ls
+cp index.html ~/prog/web/wakamesoop/
+cd css/
+ls
+chmod 660 *
+ls
+cd ../
+ls
+cd js/
+ls
+cd lib/
+ls
+cd ../
+ls
+cd ../
+ls
+cpd pages/ ~/prog/web/wakamesoop/
+cgi
+cgi
+ls
+la
+ls
+rmdir gallery/
+ls
+rmdir page/
+ls
+ls
+git sta
+git status
+git rm -rf *.html gallery*
+git status
+git rm *.html
+git status
+git add pages/
+git commit -m "Major change"
+git push
+ls
+ls
+git add index.html
+git status
+git commit -m "Add index.html"
+git push
+ls
+rmdir img/
+ls
+git status
+git rm img/gellery
+git rm img/gellery*
+git add img/gallery/
+git status
+git commit -m "Rename some images"
+git push
+ls
+ls
+cd img/
+ls
+cd menu/
+ls
+cd ../
+ls
+cd menu/
+ls
+ls
+cd ../../js/
+ls
+em changeimg.js
+ls
+ls
+rm *
+rmdri lib/
+ls
+rmdir lib/
+ls
+ls
+git status
+git add changeimg.js
+em changeimg.js
+em changeimg.js
+ls
+git add changeimg.js
+git status
+git commit -m "Fix error reading image"
+git push
+ls
+ls
+cdw
+ls
+cd wakamesoop/
+ls
+ls
+ls
+git init
+la
+touch README.md
+emr
+em README.md
+ls
+touch .gitignore
+git add .
+ls
+git commit -m "First commit"
+git remote add origin git@github.com:wkmkymt/wkmkymt.github.io.git
+git push -u origin master
+em CNAME
+ls
+ls
+git status
+git add README.md
+git commit -m "modify the url"
+git add CNAME
+git commit -m "Add CNAME"
+git push
+git rm CNAME
+git push
+git commit -m "Delete CNAME"
+git push
+ls
+git checkout --orphan gh-pages
+git rm -rf
+git rm -rf .
+git push
+ls
+git checkout master
+ls
+git checkout --orphan gh-pages
+ls
+git rm -rf .
+git push
+git push origin gh-pages
+git push origin master
+ls
+git add CNAME
+git commit -m "Readd CNAME"
+git push
+git push origin master
+git branch
+git checkout master
+ls
+ls
+git add CNAME
+git commit -m "Readd CNAME"
+git push
+git checkout --orphan gh-pages
+git branch -d gh-pages
+ls
+git branch
+git branch -d gh-pages
+git checkout --orphan gh-pages
+ls
+git branch
+rmdir .git/
+ls
+la
+git branch
+git init
+git branch
+git branch
+git remote add origin git@github.com:wkmkymt/wkmkymt.github.io.git
+git branch
+git add .
+git status
+ls
+git branch
+git commit -m "First commit"
+git push -u origin master
+git branch
+git checkout --orphan gh-pages
+git rm -rf .
+git push
+git push origin gh-pages
+ls
+git checkout master
+ls
+git status
+git rm CNAME
+git commit -m "Delete CNAME"
+git push
+ls
+git add CNAME
+git commit -m "Readd CNAME"
+git push
+git checkout --orphan gh-pages
+ls
+git rm -rf .
+git push origin gh-pages
+git push
+ls
+ls
+cd ../
+ls
+git clone https://github.com/username/username.github.io
+git clone https://github.com/wkmkymt/wkmkymt.github.io
+cd wkmkymt.github.io/
+ls
+la
+git add --all
+git status
+ls
+cd ../
+ls
+rmdir wkmkymt.github.io/
+ls
+ls
+cd waka
+cd wakamesoop/
+ls
+la
+git status
+git branch
+git checkout master
+ls
+rm CNAME
+ls
+la
+rmdir .git/
+ls
+ls
+em CNAME
+ls
+cd img/
+ls
+mkdir menu
+mv o?wkm?.png menu/
+la
+mkdir gellery
+gnome-open giriwkm.png
+mv daiyoro.png genesea.png giriwkm.png hayabusa.png jagame.png new_year_wkm.png rebornwkm.png rtnwkm.png valentinewkm.png wkmsanta.png wkmver*.png yuwkm.png gellery/
+ls
+gnome-open mtk
+gnome-open mtk.png
+gnome-open pnwkm.png
+mv pnwkm.png gellery/
+gnome-open snakewkm.png
+mv snakewkm.png gellery/
+gnome-open wkmkun.png
+gnome-open wkwkm.png
+mv wkwkm.png gellery/
+ls
+cd ../
+ls
+cd css/
+ls
+ls
+cd ../
+ls
+la
+ls
+cd ../
+ls
+git clone git@github.com:wkmkymt/wkmkymt.github.io.git
+ls
+cd wkmkymt.github.io/
+ls
+la
+cd ../
+ls
+cd wkmkymt.github.io/
+ls
+em index.html
+em index.html
+ls
+git add --all
+git commit -m "First commit"
+git push
+mv ../wakamesoop/CNAME ./
+ls
+git add CNAME
+git commit -m "Add CNAME"
+git push
+ls
+cd ../
+ls
+mv wakamesoop/* wkmkymt.github.io/
+ls
+mv wkmkymt.github.io/ wakamesoop
+cd waka
+cd wakamesoop/
+ls
+mv wkmkymt.github.io/* ./
+ls
+la
+rmdir wkmkymt.github.io/
+ls
+git add
+la
+cd ../
+ls
+cd wakamesoop/
+ls
+la
+ls
+cd ../
+git clone git@github.com:wkmkymt/wkmkymt.github.io.git
+ls
+cd wkmkymt.github.io/
+ls
+cd ../
+mv wakamesoop/* wkmkymt.github.io/
+ls
+rmdir wakamesoop/
+mv wkmkymt.github.io/ wakamesoop
+ls
+cd wakamesoop/
+l
+ls
+git status
+git add .
+git status
+git commit -m "Update sites"
+git push
+ls
+git rm CNAME
+git commit -m "Delete CNAME"
+git push
+git-ftp
+git ftp
+ls
+cd ../
+ls
+cd waka
+cd wakamesoop/
+ls
+la
+rmdir .git/
+la
+la
+rm README.md
+la
+cd ../
+ls
+cd
+la
+ls
+cd prog/
+ls
+cd github/
+ls
+cd ../
+ls
+cd pic/
+ls
+cd ../
+ls
+cd web/
+ls
+mkdir ky
+ls
+mv balloon/ localfile/ practice/ english/ wakatan/ ky
+la
+rm spase.html
+la
+cd waka
+cd wakamesoop/
+ls
+la
+git init
+la
+git remote add origin git@github.com:wkmkymt/wkmkymt.github.io.git
+ls
+la
+touch .gitignore
+la
+em README.md
+ls
+git add .
+git commit -m "Initialize commit"
+git push -u origin master
+ls
+ls
+ls
+mkdir page
+ls
+blockdev gallery* links.html prof.html secret.html page/
+la
+ls
+mv gallery* links.html prof.html secret.html page/
+la
+ls
+mv blog.html page/
+ls
+cd page/
+ls
+cd ../
+ls
+em index.html
+ls
+cdpw
+ls
+cd jinja/
+ls
+em makefile.py
+ls
+./makefile.py
+./makefile.py -a
+ls
+cd template-wkmsoop/
+cd pages/
+ls
+em prof.html
+ls
+ls
+cd ../
+ls
+cd ../
+ls
+./makefile.py
+ls
+./makefile.py -a
+ls
+cd wakamesoop/
+ls
+cd css/
+ls
+ls
+em style.css
+cd ../
+cgi
+cd ../
+ls
+./makefile.py -a
+cd wakamesoop/
+ls
+cd css/
+ls
+cp style.css ~/prog/web/wakamesoop/css/
+cdw
+ls
+cd wakamesoop/
+ls
+cd pages/
+em prof.html
+ls
+em prof.html
+cd ../
+ls
+git status
+ls
+git add pages/prof.html
+git commit -m "Change author profile"
+git push
+ls
+git status
+git add css/style.css
+git commit -m "Change font family"
+git push
+ls
+ls
+ls
+
+shutdown -h
+shutdown -
+shutdown --help
+shutdown -k
+sudo shutdown mtky
+sudo shutdown
+sudo shutdown now
+cdw
+cd ky/
+ls
+cd ../
+ls
+cd tokiwasai/
+cd ../
+mv tokiwasai/ ky
+cd ky/tokiwasai/
+ls
+cd ky/js/
+ls
+em drawernav.js
+cdp
+ls
+cdw
+ls
+cd ky/
+ls
+cd ../angularJS/
+ls
+cd ../ky/
+ls
+mkdir texpreview
+ls
+cd texpreview/
+ls
+em index.html
+ls
+google-chrome index.html
+ls
+mkdir js
+ls
+mkdir js/libs
+ls
+mkdir js/libs/angular
+ls
+cp ../../angularJS/angular.min.js js/libs/angular/
+ls js/libs/angular/angular.min.js
+mkdir js/libs/jquery
+cp ../../jquery/jquery.min.js js/libs/jquery/
+ls js/libs/jquery/jquery.min.js
+cd Downloads/
+ls
+untgz ThinReportsEditor-0.7.6-linux-x86.tar.gz
+ls
+vm ThinReportsEditor-0.7.6-linux-x86 ../bin/ThinReportsEditor
+mv ThinReportsEditor-0.7.6-linux-x86 ../bin/ThinReportsEditor
+ls
+rm ThinReportsEditor-0.7.6-linux-x86.tar.gz
+cd ../bin/
+ls
+cd ../dotfiles/.bash.d/.bashconf/
+ls
+ls ~/bin/ThinReportsEditor/
+cd ~/bin/
+ls
+cd ThinReportsEditor/
+ls
+mv ThinReportsEditor-0.7.6/* ./
+ls
+rmdir ThinReportsEditor-0.7.6/
+ls
+cd bin/
+ls
+em ThinReportsEditor.sh
+ls
+ls
+ls
+ls
+./ThinReportsEditor
+./ThinReportsEditor.sh
+cp ThinReportsEditor ~/bin
+cp ThinReportsEditor ~
+ls
+cd
+ls
+./ThinReportsEditor
+./ThinReportsEditor
+rm ThinReportsEditor
+cd bin/ThinReportsEditor/bin/
+ls
+mv ThinReportsEditor.sh ~/thinreportseditor
+cd
+./thinreportseditor
+ls
+em thinreportseditor
+mv thinreportseditor bin/ThinReportsEditor/bin/ThinReportsEditor.sh
+ls
+cdw
+ls
+cd wakamesoop/
+ls
+cd js/
+ls
+em changeimg.js
+git status
+git add changeimg.js
+git commit -m "Add event when touch menu"
+git push
+cd ../../
+ls
+cd wakamesoop/
+ls
+mkdir app
+ls
+cd app/
+ls
+cd ../
+ls
+rmdir app/
+cd pages/
+ls
+mkdir app
+ls
+cd app/
+ls
+ls
+cd wakachat/
+ls
+em index.html
+ls
+git status
+git add js/*
+git status
+git commit -m "Change the path of image to a relative path from an absolute path"
+git push
+cd ../wakatex/
+ls
+cd css/
+ls
+em style.css
+git add style.css
+git commmit -m "Modify width of section"
+git commit -m "Modify width of section"
+git push
+ls
+git add style.css
+git commit -m "Modify height of textarea"
+git push
+cdw
+ls
+ls
+cd ky/texpreview/
+ls
+cd js/
+ls
+cd ../
+ls
+em index.html
+cd js/
+cd libs/
+ls
+mkdir mathjax
+cd mathjax/
+ls
+wget http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+ls
+em MathJax.js\?config=TeX-AMS-MML_HTMLorMML
+mv MathJax.js\?config=TeX-AMS-MML_HTMLorMML mathjax.min.js
+ls
+em mathjax.min.js
+cd ../../
+ls
+cd ../
+ls
+google-chrome index.html
+ls
+ps
+ls
+mkdir css
+ls
+ls
+cd css/
+ls
+cd ../
+ls
+ls
+cgi
+ls
+cgi
+cd ../
+ls
+cd ../
+ls
+cd waka
+cd wakachat/
+ls
+ls
+chmod 660 index.html
+ls
+cd js/
+ls
+chmod 660 *
+ls
+cd lib/
+ls
+cd lib/
+ls
+chmod 775 lib/
+cd lib/
+ls
+cd ..
+ls
+cd ../
+ls
+cd img/
+ls
+cd ../css/
+l
+ls
+rm old.css
+cd ../../
+ls
+cd wakachat/
+ls
+chmod 660 index.html
+cd js/
+ls
+chmod 660 *.js
+ls
+cd lib/
+ls
+chmod 660 jquery.js
+ls
+mv jquery.js jquery.min.js
+ls
+cd ../
+ls
+cd ../
+ls
+cd img/
+ls
+cd ../css/
+ls
+chmod 660 style.css
+ls
+cd ../
+ls
+em index.html
+ls
+ls
+cd ../
+ls
+mv wakachat/ wakamesoop/pages/app/
+ls
+cd ky/
+ls
+mv texpreview/ wakatex
+ls
+cd wakatex/
+ls
+em index.html
+ls
+cd ../
+ls
+mv wakatex/ ../wakamesoop/pages/app/
+ls
+cd ../wakamesoop/
+ls
+cd pages/app/
+ls
+git status
+git add .
+git reflog
+git status
+git reset HEAD .
+git status
+git add wakachat/
+git commit -m "Add applicatioin 'Waka Chat'"
+git add wakatex/
+git commit -m "Add application 'Waka TeX'"
+git push
+cd ../../
+ls
+git status
+ls
+em README.md
+ls
+ls
+git status
+git add README.md
+git commit -m "Add menu and description of applications"
+git push
+git add README.md
+git commit -m "Add application link"
+git push
+ls
+cd pages/app/
+ls
+cd wakachat/
+ls
+em index.html
+ls
+cd ../../../
+ls
+git status
+git add .
+git status
+git commit -m "Change to a relative path from an absolute path"
+git push
+cd ../elisp/
+ls
+cd mode/emmet-mode/
+ls
+cd tools/
+ls
+cd ../src/
+ls
+em css-abbrev.el
+cd ../
+ls
+cd tools/
+ls
+cd ../
+ls
+git status
+ls
+rm *
+rm -rf *
+ls
+la
+emr
+wget https://raw.github.com/smihica/emmet-mode/master/emmet-mode.el
+ls
+em emmet-mode.el
+ls
+rm emmet-mode.el
+rm emmet-mode.elc
+ls
+ls
+ls
+em emmet-mode.el
+ls
+ls
+cd ../
+rmdri emmet-mode/
+cd emmet-mode/
+ls
+rm *
+ls
+git clone git@github.com:smihica/emmet-mode.git
+ls
+mv emmet-mode/* ./
+rmdir emmet-mode/
+ls
+rm README.md LICENSE
+ls
+make
+ls
+rm Makefile
+ls
+em emmet-mode.el
+ls
+cd ../../
+ls
+cd emmet-mode-20140218.836/
+ls
+la
+mv * ../mode/emmet-mode/
+ls
+cd ../
+rmdir emmet-mode-20140218.836/
+ls
+ls
+emr
+ls
+cd archives/
+ls
+cd marmalade/
+ls
+cd ../gnu/
+ls
+cd ../melpa/
+ls
+cd ../../
+ls
+rmdri archives/
+rmdir archives/
+ls
+git status
+cd ../
+ls
+git status
+rm inits/style.css
+git status
+git add elisp/mode/emmet-mode/*
+git add elisp/mode/emmet-mode/
+git status
+git add inits/50-emmet-mode.el
+git commit -m "Except emmet from css-mode"
+git push
+git status
+cd dotfiles/
+ls
+cd .emacs.d/
+ls
+ls
+ls
+cd inits/
+ls
+em 50-css-mode.el
+emr
+em 01-keybind.el
+emr
+em tes.css
+em 50-web-mode.el
+emr
+em tes.css
+ls
+em 50-emmet-mode.el
+emr
+git status
+ls
+em tes.css
+cd ../elisp/
+ls
+cd mode/emmet-mode/
+ls
+rm *
+ls
+git clone git@github.com:smihica/emmet-mode.git
+ls
+mv emmet-mode/* ./
+ls
+la
+rmdir emmet-mode/
+ls
+rm Makefile
+rm README.md
+ls
+rm LICENSE
+ls
+make
+ls
+rm Makefile
+ls
+cd conf/
+ls
+cd ../src/
+ls
+cd ../tools/
+ls
+cd ../../../../
+ls
+cd inits/
+ls
+emr
+git status
+ls
+em tes.css
+emr
+em 50-emmet-mode.el
+ls
+emr
+em tes.css
+ls
+em tes.css
+emr
+em tes.css
+ls
+emr
+ls
+em tes.css
+ls
+ls
+emr
+em tes.css
+emr
+ls
+em tes.css
+ls
+git sta
+cd ../
+ls
+cd ../
+git status
+cd .emacs.d/
+ls
+cd inits/
+ls
+rm tes.css
+ls
+git status
+ls
+git status
+ls
+em 50-emmet-mode.el
+ls
+git status
+ls
+emr
+em style.css
+git status
+emr
+git status
+em style.css
+ls
+rm tes.html style.css
+ls
+git status
+cd ../
+ls
+git .
+git add .
+git status
+git commit -m "Add css-mode"
+ls
+git push
+ls
+em tes.css
+ls
+cd inits/
+ls
+em
+ls
+em style.css
+git status
+cdw
+ls
+cd wakamesoop/pages/app/
+ls
+mkdir wakatan
+cd waka
+cd wakat
+cd wakatan/
+ls
+git status
+git .
+git add .
+git status
+git add ../../../
+git status
+git commit -m "Modify indent of css"
+git push
+git status
+ls
+em index.html&
+emr
+em index.html&
+ls
+ls
+google-chrome index.html
+cd ../wakatex/
+ls
+google-chrome index.html
+ls
+git status
+git add css/style.css index.html
+git commit -m "Add footer"
+git push
+git add css/style.css
+git commit -m "Modify header width"
+git push
+git status
+git add css/style.css
+git commit -m "Modify padding of header and footer"
+git push
+git diff css/style.css
+git add css/style.css
+git commit -m "Modify overflow of preview area"
+git push
+cd ../../../../
+ls
+cdw
+ls
+cd ky/
+ls
+cd wakatan/
+ls
+google-chrome index.html
+cd ../english/
+ls
+google-chrome english.html
+cd ../wakatan/
+ls
+ls
+cdc
+cd kadai/07
+ls
+cd template/
+ls
+cd ../
+ls
+gcc e1207-7.c sk.csv e1207.html
+gcc e1207-7.c sk.csv ./
+ls
+gcc e1207-7.c
+go sk.csv ./
+go sk.csv e1207.html
+ls
+google-chrome e1207.html
+cdw
+ls
+cd ky/
+ls
+cd localfile/
+ls
+google-chrome index.html
+sb
+su
+ps
+sublime
+ls
+ps
+emk
+cd /etc/vmware-tools/
+ls
+cd ../
+ls
+ls *vmware
+ls vmware
+ls vmware*
+ls vmware
+ls vmware*
+em vmware-user.desktop.old.0
+em vmware-tools/vmware-user.desktop.old.0
+em sysctl.conf
+sudo emacs sysctl.conf
+cd /etc/vmware-tools/
+ls
+ls
+ls
+em config
+ls
+ls
+cd bin/
+ls
+cd ../
+ls
+./bin/ThinReportsEditor/bin/ThinReportsEditor.sh
+cdp
+ls
+cdw
+ls
+cd angularJS/
+ls
+cd ../enchant/
+ls
+em index.html
+cd js/
+ls
+em main.js
+ls
+emk
+ls
+cd /tmp/vmware-mtky/
+ls
+em vmware-apploader-2366.log
+ls
+cd ../
+ls
+cd vmware-root
+ls
+cd ../
+ls
+cd Downloads/
+ls
+unzip wordpress-3.9-ja.zip
+ls
+mv wordpress ~/bin
+ls
+cd ../
+ls
+rm tes.json
+ls
+mkdir lib
+ls
+ls
+cd lib/
+ls
+la
+cd ../
+ls
+cd bin/
+ls
+mv * ../lib/
+ls
+la
+cd ../lib/
+ls
+cd clangtest
+ls
+ctest
+ls
+cp ctest ~/bin
+ls
+ls ~/bin
+ls
+cd ../
+ls
+cd
+ctest
+ls
+cd dotfiles/
+ls
+cd .bash.d/.bashconf/
+em aliases.sh
+source aliases.sh
+cd ../
+ls
+source .bashrc
+cd
+ctest
+ls
+source .bash_profile
+ctest
+ctest
+ls
+cd bin/
+ls
+la
+ctest
+cd ../
+ls
+echo $PATH
+em .bash_profile
+emk
+ctest
+ls
+echo $PATH
+if [ -d ~/bin ]; then echo "Yes"; done
+less .bash_profile
+if [ -d ~/bin ]; then echo "Yes"; fi
+em .bash_profile
+ls
+echo PATH
+echo $PATH
+em .bash_profile
+if [ -d ~/bin ]; then echo "Yes"; fi
+export PATH=$PATH:~/bin
+echo $PATH
+if [ -d ~/bin ]; then     export PATH=$PATH:~/bin; fi
+echo $PATH
+ctest
+ls
+ctest
+ls
+cd lib/
+ls
+cd clangtest
+ls
+em Makefile
+ls
+em .bash_profile
+emr
+ls
+em .bash_profile
+emr
+ls
+cd dotfiles/.bash.d/
+ls
+em .bash_profile
+ls
+em .bashrc
+source .bash_profile
+ls
+em .bashrc
+source .bash_profile
+ls
+ls
+echo $PATH
+em .bash_profile
+source .bash_profile
+echo $PATH
+echo $LANG
+em .bash_profile
+ls
+echo $LANG
+echo $PATH
+em .bash_profile
+source .bash_profile
+echo $LANG
+echo $PATH
+echo $PATH
+echo $LANG
+em .bash_profile
+emk
+source .bash_profile
+echo $LANG
+echo $PATH
+ls
+ctest
+ls
+mkf
+mkfl
+a
+ls
+sl
+ls
+less
+cd dotfiles/
+ls
+cd .bash.d/
+ls
+cd .bashconf/
+ls
+em aliases.sh
+mkf
+ls
+make
+em Makefile
+ls
+em tes.cpp
+make
+ls
+make test
+ls
+./app
+ls
+rm Makefile app tes.cpp
+ls
+cd dotfiles/
+ls
+git status
+git add .
+git commit -m "Minor change"
+git push
+ls
+cd
+ls
+cdw
+ls
+ls
+mkdir wordpress
+ls
+cd wordpress/
+cp ~/lib/wordpress/ ./
+cpd ~/lib/wordpress/ ./
+ls
+mkdir wptest
+ls
+mv wordpress/ wptest/
+ls
+cd wptest/
+ls
+filezilla
+bg
+ls
+em index.html
+rm index.html
+em index.html
+emk
+ls
+rm index.html
+em index.html
+cd wordpress/
+ls
+em .htaccess
+cd wp-content/
+ls
+mkdir uploads
+ls
+ls
+cd ../
+ls
+em .htaccess
+la
+ls
+cd .
+cd ../
+ls
+rm index.html
+ls
+mkdir mysite
+ls
+cd mysite/
+ls
+em index.html
+ls
+mkdir css
+ls
+mv css/
+ls
+ls
+ls
+em index.html
+emk
+emr
+em index.html
+emk
+ls
+ps
+ps
+kd
+emacs
+ps
+killall ibus-engine-mozc
+emr
+em
+emk
+cdw
+ls
+cd ky/
+ls
+cd ../wakamesoop/pages/app/wakatex/
+ls
+em js/preview.js
+google-chrome index.html
+cd dotfiles/
+ls
+cd .emacs.d/
+ls
+cd inits/
+ls
+em 50-php-mode.el
+ls
+emr
+ls
+emr
+emk
+cd ../
+ls
+cd elisp/
+ls
+mkdir mode/php-mode
+mv php-mode.el* mode/php-mode/
+ls
+cd mode/php-mode/
+ls
+ls
+cd ../../
+ls
+em
+ps
+emacs
+emacsclient
+em
+emk
+ls
+cd ../inits/
+ls
+em 50-php-mode.el
+ls
+emr
+ls
+em 50-web-mode.el
+ls
+em 50-php-mode.el
+emr
+ls
+em 50-php-mode.el
+em 50-web-mode.el
+cd ../
+ls
+cd disuse/
+ls
+cd junk/
+ls
+cd ../
+ls
+cd elisp/
+ls
+la
+cd ../junk/
+ls
+kcd elisp/la
+cd elisp/
+la
+ls
+cd ../inits/
+ls
+cd ../../
+ls
+cd inits/
+ls
+cd ../
+ls
+rmdir elisp/ inits/
+ls
+cd old/
+ls
+cd ../
+rmdir old/
+ls
+mv junk/ ../
+ls
+la
+cd ../
+ls
+rmdir disuse/
+ls
+cd junk/
+ls
+cd elisp/
+ls
+mv ../../elisp/mode/php-mode/ ./
+ls
+cd ../inits/
+ls
+mv ../../inits/50-php-mode.el ./
+ls
+la
+cd ../
+ls
+la
+cd ../
+ls
+em .gitignore
+ls
+cd inits/
+la
+rm 50-php-mode.elc
+ls
+cd ../
+ls
+git status
+git rm disuse*
+git status
+git add junk/
+git commit -m "Clean junk directory"
+git status
+git add .gitignore
+git commit -m "Modify 'et/...'"
+git add inits/50-web-mode.el
+git commit -m "Add php to web-mode"
+git push
+git status
+git status
+cdw
+ls
+cd ky/
+ls
+cd practice/
+ls
+cd javascript/
+ls
+cd ../
+ls
+cd ../
+ls
+ls
+cd english/
+ls
+google-chrome english.html
+cd wakat
+cd wakatan
+cd ../wakatan/
+ls
+google-chrome index.html
+ls
+cd js/
+ls
+ls
+em wordsbox.js
+ls
+cd ../
+ls
+cd ../english/
+ls
+em akcd js/
+ls
+em js/wordsbox.js
+ls
+em english.html
+emk
+ls
+cd lib/
+ls
+cd ../
+ls
+cd dotfiles/.bash.d/
+ls
+ls
+cd .bashconf/
+em aliases.sh
+ls
+rm *.png
+ls
+cdpw
+ls
+cd gae/
+ls
+git clone git@github.com:assly/today-s-aoshi.git
+ls
+cd today-s-aoshi/
+ls
+gae ./
+source ~/.bash_profile
+gae .
+gae ./
+ls
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+gae ./
+ls
+git status
+ls
+em today-s-aoshi.py
+ls
+cd ../
+ls
+cd wakimetable/
+ls
+cd application/
+ls
+em public.py
+cdpw
+cd gae/
+ls
+rmdir today-s-aoshi/
+ls
+la
+ls
+mkdir img
+cp ../../../wakamesoop/img/gallery/wkmver1.png img/
+ls
+mv img/wkmver1.png wkm.png
+cd img/
+ls
+ls
+cd ../
+ls
+mv wkm.png img/
+git status
+ls
+cd ../
+ls
+cd wordpress/
+ls
+cd wp-content/
+ls
+cd themes/
+ls
+mkdir wakablog
+ls
+cd wakablog/
+ls
+ls
+mv index.html index.php
+ls
+emk
+ls
+em
+gpen screenshot.png
+ls
+ls
+mv css/style.css ./
+ls
+rmdir css/
+ls
+ls
+touch footer.php
+touch functions.php
+touch header.php
+touch sidebar.php
+ls
+ls
+emk
+ls
+em index.php
+em index.php
+emr
+em index.php
+emr
+em index.php
+ls
+ls
+ls
+emk
+ls
+ls
+emk
+ls
+ls
+ls
+ls
+em header.php
+filezilla
+bg
+ls
+ls
+cd img/
+ls
+cd ../
+ls
+cp index.php single.php
+ls
+ls
+cp single.php page.php
+ls
+emk
+cdw
+cd wordpress/wptest/
+ls
+em mysite/
+sl
+ls
+cd mysite/
+ls
+em index.html
+ls
+ls
+git status
+ls
+em
+ls
+ls
+cd img/
+ls
+cd ../
+ls
+cpd * ../wordpress/wp-content/themes/wakablog/
+ls
+google-chrome index.html
+cp index.html single.php
+ls
+rm single.php
+ls
+ls
+rm Screenshot\ from\ 2014-05-02\ 01\:48\:00.png
+ls
+cd prog/
+ls
+cd ../
+ls
+cd Documents/
+ls
+less 3E1.pdf
+gpen 3E1.pdf
+ls
+rmdir yatex-mode/
+ls
+mkdir ubuntu
+ls
+mv Ubuntu12.04-install.txt  ubuntu/
+ls
+mkdir key
+mv tenho.txt  key/
+ls
+mkdir denjiki
+mv 3E1.pdf denjiki/
+ls
+mkdir report
+ls
+cd report/
+ls
+ls
+em 01-netudentui.tex
+ls
+cd ../
+ls
+ibus-daemon -rdx
+ibus-daemon
+ls
+cd report/
+ls
+em 01-netudentui.tex
+01-netudentui.tex pyt
+python
+ls
+ls
+cd
+ls
+cd dotfiles/.bash.d/
+ls
+em .bash_profile
+ls
+git status
+diff .bashconf/aliases.sh
+git diff .bashconf/aliases.sh
+git add .bashconf/aliases.sh
+git commit -m "Change alias about GAE"
+git add .bashrc
+git commit -m "Change env about 'LANG' to 'utf-8'"
+git push
+ls
+la
+cd .bashconf
+ls
+gedit aliases.sh
+git status
+rm aliases.sh~
+ls
+ls
+git add aliases.sh
+git commit -m "Add alias about 'dvipdfmx'"
+git push
+cd prog/tex/
+ls
+cd 01/
+ls
+gpen 01.
+gpen 01.tex
+gpen 01.pdf
+ls
+cd ../02/
+ls
+em 02.tex
+ls
+ls
+ls
+cd ../
+ls
+cd ../
+ls
+cd tex/03/
+ls
+dvipdfmx 03.dvi
+gpen 03.pdf
+ls
+cd ../04/
+ls
+dtop
+ls
+source ~/.bash_profile
+ls
+dtop 04.dvi
+ls
+gpen 04.pdf
+cd ../05/
+ls
+dtop 05.dvi
+gpen 05.tex
+gpen 05.pdf
+ls
+cd ../
+ls
+cd kadai/
+ls
+gpen e1207-2.pdf
+em e1207-2.tex
+ls
+cd ../../drow/
+ls
+cd 01/
+ls
+cd ../kadai/
+ls
+gpen e1207-3.pdf
+em e1207-3.tex
+ls
+cd ../../tex/04/
+ls
+em 04.tex
+cd ../03/
+em 03.tex
+cd ../05/
+ls
+em 05.tex
+emk
+cd Documents/report/
+ls
+em 01-netudentui.tex
+ls
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+cd Documents/report/
+ls
+em 01-netudentui.tex
+cd dotfiles/.emacs.d/
+ls
+git status
+ls
+cd inits/
+em 50-yatex-mode.el
+ls
+ls ../etc/
+ls
+ls ../etc/ac-dict/
+ls ../etc/ac-dict/latex/
+ls
+ls
+emr
+ls
+em 20-auto-complete.el
+em 20-auto-complete.el
+emr
+emr
+em 50-yatex-mode.el
+em 50-web-mode.el
+em 50-web-mode.el
+emr
+ls
+em 50-web-mode.el
+emr
+em tes.html
+ls
+rm tes.html
+ls
+em 50-web-mode.el
+ls
+cd
+cd Downloads/
+ls
+unzip tequilasunset-auto-complete-latex-c936a026703b.zip
+ls
+mv tequilasunset-auto-complete-latex-c936a026703b auto-complete-latex
+mv auto-complete-latex/
+ls
+cd auto-complete-latex/
+ls
+la
+rm .hg_archival.txt README
+ls
+cd ac-l-dict/
+ls
+la
+cd ../
+ls
+em auto-complete-latex.el
+cd ../
+ls
+cd auto-complete-latex/
+ls
+mv auto-complete-latex.el* ~/.emacs.d/elisp/auto-complete/
+ls
+mv ac-l-dict/ ~/.emacs.d/etc/ac-dict/latex
+ls
+ls
+cd ../
+ls
+rmdir *
+ls
+la
+ls
+cd ../Documents/report/
+emr
+em 01-netudentui.tex
+em 01-netudentui.tex
+emr
+em 01-netudentui.tex
+ls
+em 01-netudentui.tex
+ls
+rm tes.html
+ls
+cd .emacs.d
+ls
+git status
+git add elisp/auto-complete/auto-complete-latex.el
+git add etc/ac-dict/latex/
+git add inits/50-yatex-mode.el
+git commit -m "Add 'Auto Complete Latex"
+git status
+git add inits/20-auto-complete.el
+git commit -m "Add setting of 'ac-latex' and change the coding style"
+git add inits/50-web-mode.el
+git commit -m "Delete setting of 'ac-mode'"
+git push
+cd
+cdw
+ls
+cd wordpress/
+ls
+cd wptest/
+ls
+cd mysite/
+ls
+cd ../
+ls
+cd wordpress/
+ls
+cd wpcon
+cd wp-content/
+ls
+cd themes/
+ls
+cd wakablog/
+ls
+cd img/
+ls
+cd ../
+ls
+cd ../
+ls
+cd wakablog/
+ls
+ls
+cd img/
+ls
+cd ../
+ls
+ls
+git init
+em README.md
+ls
+la
+git add README.md
+git .
+git add .
+git commti -m "Init commit"
+git commit -m "Init commit"
+git remote add origin git@github.com:wkmkymt/wakablog.git
+git push -u origin master
+cd .emacs.d/elisp/
+ls
+cd auto-complete/
+ls
+em auto-complete-latex.el
+mv Documents/report/ ~/prog/
+ls
+cd prog/report/
+ls
+ls
+mkdir 01-netudentui
+ls
+mv *.* 01-netudentui
+ls
+la
+cd 01-netudentui/
+ls
+emk
+em 01-netudentui.tex
+emk
+em
+em
+cd prog/report/
+ls
+cd 01-netudentui/
+ls
+em 01-netudentui.tex
+emr
+em 01-netudentui.tex
+ls
+emr
+em 01-netudentui.tex
+ls
+gpen 01-netudentui.
+gpen 01-netudentui.pdf
+dtop 01-netudentui.dvi
+ls
+gpen 01-netudentui.pdf
+upgrade
+update
+upgrade
+update
+upgrade
+ls
+cd
+cd dotfiles/
+ls
+cd .emacs.d/
+ls
+cd elisp/
+ls
+la
+cd package/
+ls
+cd elpa/
+ls
+cd archives/
+ls
+cd melpa/
+ls
+cd ../
+ls
+cd ../../
+ls
+cd ../
+ls
+cd archives/
+ls
+cd marmalade/
+ls
+cd ../
+ls
+la
+cd melpa/
+ls
+cd ../gnu/
+ls
+cd ../../
+ls
+rmdir archives/
+ls
+la
+ls
+wget https://raw.githubusercontent.com/defunkt/coffee-mode/master/coffee-mode.el
+ls
+em coffee-mode.el
+nvm ls
+npm ls
+ls
+mkdir mode/coffee-mode
+mv coffee-mode.el* mode/coffee-mode/
+ls
+cd ../
+ls
+cd inits/
+ls
+em 50-coffee-mode.el
+ls
+em tes.coffee
+emr
+em tes.coffee
+ls
+em 50-coffee-mode.el
+ls
+emr
+em tes.coffee
+ls
+rm ../elisp/mode/coffee-mode/coffee-mode.elc
+ls
+emr
+em tes.coffee
+em 50-coffee-mode.el
+cd ../elisp/
+ls
+cd mode/coffee-mode/
+ls
+rm coffee-mode.el
+ls
+wget https://raw.github.com/defunkt/coffee-mode/master/coffee-mode.el
+ls
+emr
+em tes.coffee
+cd ../../../inits/
+ls
+em 50-coffee-mode.el
+emr
+em tes.coffee
+node -v
+npm -v
+cd ../elisp/
+ls
+cd mode/coffee-mode/
+em coffee-mode.el
+ls
+rm coffee-mode.el
+rm coffee-mode.elc
+ls
+cdw
+ls
+mkdir coffee
+ls
+cd coffee/
+ls
+em
+npm install -g coffee-script
+coffee -v
+sudo npm install -g coffee-script
+coffee -v
+em tes.coffee
+ls
+emr
+em tes.coffee
+cd ../
+ls
+cd archives/
+ls
+cd ../
+ls
+ls
+cd auto-complete-20140414.2324/
+ls
+cd dict/
+ls
+cd ../
+ls
+ls
+cd ../
+ls
+cd ac-emmet-20131015.858/
+ls
+cd ../
+ls
+mv ac-emmet-20131015.858/ auto-complete/emmet/
+mv ac-js2-20131112.403/ auto-complete/js2
+mv ac-math-20131003.1604/ auto-complete/math
+ls
+mv auto-complete-c-headers-20140325.835/ auto-complete/ac-cheader
+mv auto-complete-clang-20140409.52/ auto-complete/ac-clang
+ls
+ls auto-complete-chunk-20140225.146/
+ls
+rmdir auto-complete-chunk-20140225.146/
+ls
+cd emmet-mode-20140218.836/
+ls
+cd ../
+ls
+mv emmet-mode-20140218.836/* mode/emmet-mode/
+ls
+ls emmet-mode-20140218.836/
+rmdir emmet-mode-20140218.836/
+ls
+mv js2-mode-20140405.2057/* mode/js2-mode/
+ls
+rmdir js2-mode-20140405.2057/
+ls
+mv popup-20140207.1702/ popup
+ls
+mv simple-httpd-20140224.631/ mode/httpd
+ls
+mv skewer-mode-20140430.839/ mode/skewer-mode
+ls
+cd ../
+ls
+emr
+ls
+em
+ls
+cp junk/elisp/auto-complete/auto-complete-latex.el* elisp/auto-complete/
+cd elisp/auto-complete/
+ls
+mkdir latex
+ls
+mv auto-complete-latex.el* latex/
+ls
+mv math/ac-math* latex/
+ls
+rmdir math/
+ls
+mv ac-cheader/ cheader
+mv ac-clang/ clang
+ls
+cd ../
+ls
+cd ../
+ls
+emr
+em
+em inits/20-package.el
+ls
+cd inits/
+ls
+cd ../elisp/
+ls
+rmdir archives/
+ls
+cd ../
+ls
+em
+em
+ls
+cd elisp/
+ls
+cd auto-pair/
+ls
+ls
+cd ../
+mv auto-pair/ ../junk/elisp/
+ls
+mkdir auto-pair
+ls
+cd auto-
+cd auto-pair/
+ls
+wget https://raw.githubusercontent.com/capitaomorte/autopair/master/autopair.el
+ls
+em autopair.el
+ls
+ls
+cd ../
+ls
+cd ../inits/
+ls
+em 03-editor.el
+ls
+emr
+em
+ls
+ls
+em tes.coffee
+ls
+rm tes.coffee
+ls
+em 02-e
+em 03-editor.el
+ls
+cd ../elisp/
+ls
+rmdir auto-pair/
+cpd ../junk/elisp/auto-pair/ ./
+ls
+cd auto-
+cd auto-pair/
+ls
+em cursor-in-brackets.el
+ls
+cd ../../
+ls
+cd inits/
+ls
+em 03-editor.el
+ls
+emr
+em
+ls
+ls
+em
+ls
+emr
+em
+ls
+em 03-editor.el
+ls
+cd ../elisp/
+ls
+cd ../
+ls
+cd elisp/
+ls
+cd flex-autopair-20120809.518/
+ls
+mv * ../auto-pair/
+ls
+cd ../
+ls
+rmdri flex-autopair-20120809.518/
+rmdir flex-autopair-20120809.518/
+ls
+cd auto-
+cd auto-pair/
+ls
+cd ../../
+sl
+ls
+emr
+cd elisp/auto-pair/
+ls
+em flex-autopair.el
+ls
+emr
+rm flex-autopair.elc
+emr
+em
+ls
+cd ../../inits/
+ls
+em 03-editor.el
+emr
+em tes.c
+ls
+rm \#tes.c#
+ls
+em 03-editor.el
+cd ../elisp/auto-pair/
+ls
+rm cursor-in-brackets.elc
+emr
+em tes.cpp
+ls
+cd ../../inits/
+ls
+em 03-editor.el
+emr
+em tes.cpp
+ls
+em 03-editor.el
+ls
+emr
+em
+ls
+em 02-theme.el
+emr
+em
+em
+emacs
+emr
+em
+emacs 02-theme.el
+emr
+em
+emacs
+emr
+em
+emacs -q
+bg
+xprop | grep OPAC
+xprop | grep OPAC
+xprop -frame -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY 3435973836
+cd dotfiles/
+ls
+ls
+cd .emacs.d/
+ls
+git init
+git status
+git reset
+la
+rmdir .git/
+less .gitignore
+ls
+la
+git status
+cd elisp/
+ls
+rmdir archives/
+ls
+cd ../
+ls
+git status
+git diff inits/50-yatex-mode.el
+git add inits/50-yatex-mode.el
+git commit -m "Add setting about 'auto newline'"
+git push
+git status
+git add elisp/mode/coffee-mode/
+git add inits/50-coffee-mode.el
+git commit -m "Add mode 'CoffeeScript'"
+git push
+git status
+git branch
+git branch -d alias
+git branch
+ls
+git branch remote/emacs23
+git branch
+git branch -d remote/emacs23
+git branch -a
+git checkout remotes/emacs/master
+git checkout -b emacs23
+git status
+git add .
+git commit -m "First commit"
+git commit
+git reflog
+git reflog
+git reset HEAD@{1}
+git reflog
+git status
+cd ../
+ls
+git status
+git .emacs.d/
+cd .emacs.d/
+ls
+la
+la
+cd inits/
+la
+cd ../
+ls
+cd elisp/
+la
+cd undo-tree/
+la
+cd ../
+ls
+cd ../
+ls
+git branch
+git branch
+git branch master
+git checkout master
+git status
+ls
+em .gitignore
+emr
+ls
+la
+em
+emr
+em
+ls
+git status
+ls
+em .gitignore
+emk
+ls
+git checkout emacs
+git checkout emacs23
+ls
+em .gitignore
+ls
+em
+ls
+git status
+git checkout master
+ls
+git branch
+rm .gitignore
+ls
+git checkout master
+git status
+emr
+em
+ls
+emr
+ls
+git status
+em .gitignore
+ls
+git branch -a
+git checkout remotes/emacs/master
+git branch
+git branch master
+ls
+git branch
+git checkout master
+ls
+git status
+emr
+git branch -d emacs23
+git checkout -b emacs23
+git branch
+ls
+git status
+git checkout -b emacs24
+ls
+git branch
+git status
+sudo apt-get install emacs24
+sudo apt-get install emacs24-common
+sudo apt-get install emacs24-bin-common
+sudo apt-get install emacs24-el
+ls
+ls
+git branch
+git checkout emacs23
+ls
+em README.md
+git push origin emacs23
+ls
+git stau
+git status
+git checkout emacs25
+git checkout emacs24
+git status
+ls
+em README.md
+git status
+git add README.md
+git commit -m "Update 'README.md'"
+git push origin emacs24
+ls
+ls
+ls
+emr
+em
+ls
+em init.el
+cd elisp/
+ls
+rmdir cl-lib-0.5/
+ls
+rm package/
+rmdir package/
+ls
+emr
+cd auto-
+cd auto-complete/
+ls
+em auto-complete.el
+ls
+cd ../../
+ls
+em init.el
+emr
+ls
+cd inits/
+ls
+em
+em 02-theme.el
+emr
+ls
+em 02-theme.el
+gedit 02-theme.el
+emr
+emacs 02-theme.el
+ls
+emr
+ls
+rm 02-theme.el~
+rm 02-theme.elc
+ls
+emr
+ls
+em 02-theme.el
+emacs 02-theme.el
+emr
+em
+emr
+em
+ls
+cd ../etc/themes/
+ls
+em wkm-colorful-theme.el
+ls
+cd ../../
+ls
+emr
+em elisp/auto-complete/auto-complete.el
+rm elisp/auto-complete/auto-complete.elc
+ls
+emr
+em
+ls
+cd elisp/
+la
+cd auto-complete
+ls
+cd ../
+ls
+mv auto-complete ../junk/elisp/
+ls
+mv auto-complete-20140414.2324/ auto-complete
+ls
+cd auto-
+cd auto-complete
+ls
+mv dict/* ../../etc/ac-dict/
+ls
+rmdir dict/
+ls
+cd
+cd prog/re
+cd prog/report/
+ls
+cd 01-netudentui/1
+ls
+cd 01-netudentui/
+ls
+em 01-netudentui.tex
+em 01-netudentui.tex
+emr
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 02-theme.el
+emr
+em 02-theme.el
+emr
+em
+ls
+em 03-editor.el
+ls
+emr
+em tes.cpp
+rm tes.*
+ls
+ls
+em 02-window.el
+emr
+em tes.py
+emr
+em tes.py
+emr
+ls
+em tes.py
+em tes.cpp
+ls
+rm tes.*
+ls
+cd ../elisp/auto-pair/
+ls
+em flex-autopair.el
+emr
+em tes.c
+emr
+ls
+em tes.c
+emr
+em tes.c
+ls
+rm tes.c
+rm tes.c
+ls
+cd ../
+cd ../
+ls
+cd inits/
+ls
+rm \#tes.c#
+ls
+emr
+git status
+cd ../
+ls
+git add .
+git status
+ls
+cd elisp/
+ls
+rm archives/
+rmdir archives/
+ls
+cd ../
+git status
+git rm elisp/package elisp/cl-* elisp/archives
+git rm -rf elisp/package elisp/cl-* elisp/archives
+git status
+git rm elisp/auto-complete/auto-complete-latex.el elisp/auto-complete/fuzzy.el elisp/auto-complete/popup.el
+git status
+git commit -m "Reinitialize"
+ls
+git status
+git push origin emacs24
+cdpy
+ls
+cd ky/
+ls
+cd count_list/
+ls
+em monsters.txt
+ls
+./count_list.py
+em count_list.py
+./count_list.py
+cdp
+cd report/01-netudentui/
+ls
+em 01-netudentui.tex
+em 01-netudentui.tex
+platex 01-netudentui.tex
+platex 01-netudentui.tex
+platex 01-netudentui.tex
+gpen 01-netudentui.pdf
+ls
+platex 01-netudentui.tex
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+platex 01-netudentui.tex
+dvipdfmx 01-netudentui.dvi
+dpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+cp 01-netudentui.tex tmp.tex
+ls
+platex tmp.tex
+ls
+dvipdfmx tmp.dvi
+gpen tmp.
+gpen tmp.pdf
+ls
+rm tmp.*
+ls
+ls
+gpen 01-netudentui.pdf
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+platex 01-netudentui.tex
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen map/map2-1.ai
+dvipdfmx 01-netudentui.dvi
+gpen map/map2-1.ai
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+platex 01-netudentui.tex
+ls
+dvipdfmx 01-netudentui.dvi
+gpen 01-netudentui.pdf
+ls
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+emk
+cd map/
+ls
+ebb map2-1.png
+ls
+emr
+ls
+ls
+cp map2-1.bb map2-1.xbb
+extractbb map2-1.png
+ls
+rm map2-1*bb
+ls
+extractbb map2-1.png
+ls
+sudo ls /usr/local/texlive/texmf-local/web2c/
+ls /usr/local/texlive/texmf-local/web2c/
+ls /usr/local/texlive/texmf-local/
+ls /usr/local/texlive/
+sudo emacs /usr/local/texlive/2013/texmf/web2c/texmf.cnf
+ls
+rm map2-1.xbb
+ls
+ls
+ls
+cd
+cd dotfiles/.emacs.d/inits/
+ls
+em 02-modeline.el
+ls
+em 03-tabbar.el
+emr
+em
+ls
+em 03-tabbar.el
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em 03-tabbar.el
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+em
+ls
+em 03-tabbar.el
+emr
+em
+emr
+em
+em 03-tabbar.el
+emr
+em
+ls
+em 03-tabbar.el
+emr
+em
+em 03-tabbar.el
+emr
+em
+emr
+em
+ls
+git status
+git add 03-editor.el
+git commit -m "Uncomment 'auto-pair'"
+git add 03-tabbar.el
+git commit -m "Undisplay beffers of '*---*'"
+git push
+ls
+cd prog/report/01-netudentui/
+ls
+em 01-netudentui.tex
+ls
+em 01-netudentui.tex
+emr
+em 01-netudentui.tex
+ls
+cd dotfiles/.bash.d/
+ls
+cd .bashconf/
+ls
+em colors.sh
+em colors.sh
+git status
+git add colors.sh
+less colors.sh
+git commit -m "Change hostname format"
+git push
+cd dotfiles/
+ls
+cd .emacs.d/
+ls
+cd latex-math-preview-cache/
+ls
+cd ../
+ls
+rmdir latex-math-preview-cache/
+ls
+cd inits/
+ls
+cd ../elisp/
+ls
+cd mode/
+ls
+mkdir scss
+mv scss/ scss-mode
+ls
+cd scss-mode/
+ls
+wget https://raw.githubusercontent.com/antonj/scss-mode/master/scss-mode.el
+ls
+em scss-mode.el
+ls
+em
+ls
+cd ../../../
+ls
+cd inits/
+ls
+em 50-scss-mode.el
+emr
+em
+ls
+emr
+rm ../elisp/mode/scss-mode/scss-mode.elc
+ls
+em ../elisp/mode/scss-mode/scss-mode.el
+ls
+em 50-scss-mode.el
+emr
+em tes.scss
+ls
+em 50-scss-mode.el
+emr
+cd ../etc/ac-dict/
+ls
+cp css-mode scss-mode
+ls
+ruby -v
+ls
+gem install sass
+ruby -v
+sudo gem install sass
+ls
+la
+sudo gem install compass
+sass -v
+compass -v
+ls
+cd prog/
+ls
+cd web/
+ls
+mkdir sass
+cd sass/
+ls
+mkdir startup
+ls
+cd startup/
+ls
+mkdir css
+mkdir sass
+ls
+cd sass/
+ls
+em startup.sass
+em startup.sass
+ls
+cd ../
+ls
+sass --watch sass/:css/
+sass sass/startup.sass css/startup.css
+sass sass/startup.sass css/startup.css
+compass sass/startup.sass css/startup.css
+sass --watch . --style
+sass --watch . -t nested
+compass create
+ls
+cd stylesheets/
+ls
+cd ../
+ls
+rmdir stylesheets/
+cd sass/
+ls
+rm ie.scss print.scss screen.scss
+em startup.css
+rm startup.css
+ls
+cd ../
+ls
+em config.rb
+ls
+emr
+ls
+compass --watch
+compass --watch .
+compass w
+bg
+ls
+em sass/startup.sass
+ps
+kill -9 7088
+ls
+compass compile sass/startup.sass
+ls
+cd sass/
+ls
+cd ../css/
+ls
+em startup.css
+compass w
+cd ../
+compass w
+update
+upgrade
+sudo apt-get install -y build-essential zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev curl git-core openssh-server redis-server checkinstall libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev postfix
+ruby
+ruby -v
+ls
+sudo apt-get install ruby1.9.1
+ruby -v
+ruby1.9.1 -v
+ruby -v
+sudo apt-get remove ruby1.8
+ls
+mkdir /tmp/ruby && cd /tmp/ruby
+ls
+curl --progress ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz | tar xz
+ls
+cd ruby-2.0.0-p247/
+./configure
+ls
+make
+ls
+sudo make install
+cd prog/web/sass/
+ls
+cd startup/
+ls
+compass watch
+compass -v
+em config.rb
+ls
+sass
+sass watch
+ruby
+sudo apt-get install ruby1.8
+ls
+cdp
+cd web/sass/startup/
+ls
+compass watch
+compass --watch
+compass
+compass create
+ls
+gem update --system
+ls
+compass -v
+gem install sass
+gem uninstall compass
+gem uninstall sass
+compass
+ls
+gem uninstall compass
+ls
+cd sass/
+ls
+em startup.sass
+ls
+em style.sass
+rm st
+rm style.sass
+ls
+em startup.sass
+ls
+sass startup.sass
+cd .
+cd ../
+ls
+em config.rb
+ls
+emr
+ls
+rm config.rb
+ls
+la
+la
+compass create
+ls
+la
+em ocn
+em config.rb
+ls
+ls
+rmdir css/
+ls
+mv stylesheets/ css
+ls
+cd sass/
+ls
+rm startup.sass
+ls
+cd ../
+ls
+cd css/
+ls
+rm startup.css
+ls
+c d..
+cd ../
+ls
+cd ../
+ls
+rmdri startup/
+rmdir startup/
+compass create startup
+ls
+la
+cd startup/
+la
+mv stylesheets/ css
+em config.rb
+ls
+cd sass/
+ls
+ls
+cd ../
+ls
+em config.rb
+ls
+ls
+cd sass/
+ls
+em startup.scss
+ls
+mkdir tmp
+mv ie.scss print.scss screen.scss tmp/
+ls
+ls
+mv tmp/ ../../
+ls
+cd ../css/
+ls
+cd tmp/
+ls
+cd ../
+ls
+rmdir tmp/
+mv print.css ie.css screen.css ../../
+ls
+ls
+cd ../
+ls
+cd css/
+ls
+la
+cd ../sass/
+la
+cd ../
+ls
+cd ../
+ls
+rm tmp/ *.css
+ls
+rmdir tmp/
+ls
+la
+cd startup/
+ls
+cd
+ls
+ps
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 03-tabbar.el
+git status
+git add 03-tabbar.el
+git commit -m "Change setting of tab to display"
+git status
+diff 20-auto-complete.el
+git diff 20-auto-complete.el
+git diff 50-js-mode.el
+git add 20-auto-complete.el 50-js-mode.el 50-scss-mode.el ../elisp/mode/scss-mode/ ../etc/ac-dict/scss-mode
+git status
+git commit -m "Add 'scss mode'"
+git push
+git branch
+gem update --system
+gem install sass
+sudo gem install --version '~> 0.9' rb-fsevent
+compass
+sudo gem install listen
+sudo gem update --system
+compass
+sass
+sudo gem uninstall sass
+sudo gem uninstall sass
+sass
+sudo gem install sass
+sass
+sudo gem install compass
+ls
+cdp
+ls
+cd web/sass/startup/
+ls
+compass watch
+ls
+mv config.rb  ../
+ls
+la
+rm .sass-cache/
+rmdir .sass-cache/
+ls
+la
+compass create startup
+ls
+ls
+cd startup/
+ls
+la
+cd ../
+ls
+rmdir startup/
+compass create
+ls
+rmdir stylesheets/
+ls
+cd sass/
+ls
+rm ie.scss print.scss screen.scss
+ls
+cd ../
+ls
+em config.rb
+ls
+mv ../config.rb ./
+ls
+less config.rb
+compass watch
+compass watch
+ls
+compass watch
+compass watch
+ls
+ls
+cd ..
+ls
+cd startup/
+ls
+compass watch
+compass watch
+compass watch
+compass watch
+cd css/
+ls
+less startup.css
+rm startup.css
+ls
+less startup.css
+ls
+less startup.css
+less startup.css
+less startup.css
+less startup.css
+less startup.css
+cd ../
+mkdir ims
+mv ims/ img
+ls
+cp ../../ky/wakatan/img/wkmver1.png img/
+ls
+mv img/wkmver1.png img/wkm.png
+ls
+cd css/
+ls
+less startup.css
+less startup.css
+cd sass/
+ls
+em startup.scss
+cd ../
+emr
+ls
+em config.rb
+ls
+ls
+rm css/startup.css
+ls
+sass sass/startup.scss css/
+compass --style expanded sass/startup.scss css/
+ls
+ls c
+ls css/
+ls
+sudo npm install coffee-script
+ls
+cd node_modules/
+ls
+cd coffee-script/
+ls
+cd ../
+ls
+mv coffee-script/ ../lib/
+ls
+cd ../
+rmdir node_modules/
+ls
+rm -rf node_modules/
+cd node_modules/
+ls
+la
+rmdir .bin/
+cd ../
+ls
+sudo rmdir node_modules/
+sudo rm -rf node_modules/
+la
+ls
+coffee -v
+cdw
+ls
+cd coffee/
+ls
+la
+mkdri startup
+mkdir startup
+ls
+cd startup/
+ls
+cd ../../sass/
+ls
+cd startup/
+ls
+cd sass/
+ls
+cd ../
+ls
+em config.rb
+compass watch
+compass watch
+ps
+emk
+sudo apt-get install dropbox
+ls
+rm Screenshot\ from\ 2014-05-10\ 03\:15\:20.png
+ls
+ls
+cd D
+cd Dropbox/
+ls
+cd .dropbox.cache/
+ls
+la
+cd ../
+ls
+cd
+ls
+cd .dropbox/
+ls
+cd l/
+ls
+cd
+ls
+cd prog/report/
+ls
+cd 01-netudentui/
+ls
+cd ../../
+ls
+mv report/ ../Dropbox/
+ls
+cd
+cd Dropbox/
+ls
+mv report/ Report
+ls
+cd Report/
+ls
+cd ../
+ls
+mv Report/ School/
+ls
+cd School/
+ls
+cd Report/
+ls
+cd ../
+ls
+mv Report/ Subjects/
+ls
+cd Subjects/
+ls
+mv Report/ Experiments/
+ls
+cd Experiments/
+ls
+mv Report/ ../../
+ls
+cd ../../
+ls
+cd Report/
+ls
+cd 01-netudentui/
+ls
+emr
+ls
+em 01-netudentui.tex
+emk
+ls
+cd
+sudo dropbox status
+dropbox stop
+ls
+dropbox statu
+dropbox status
+sudo emacs /etc/init.d/dropbox
+sudo chmod +x /etc/init.d/dropbox
+sudo update-rc.d dropbox defaults
+emacs /etc/init.d/dropbox
+sudo emacs /etc/init.d/dropbox
+sudo sysv-rc-conf
+sudo update-rc.d dropbox defaults
+sudo chmod +x /etc/init.d/dropbox
+sudo update-rc.d dropbox defaults
+cd dotfiles/.emacs.d/te
+cd dotfiles/.emacs.d/etc/template/
+ls
+em init.tex
+ls
+em tes.tex
+cd dotfiles/.emacs.d/etc/template/
+ls
+em init.tex
+cd
+cd prog/
+ls
+cd pov-ray/
+ls
+cd .
+ls
+cd ../
+ls
+mkdir gnuplot
+cd g
+cd gnuplot/
+ls
+mkdir report
+ls
+cd report/
+ls
+cd ../
+ls
+mv report/ startup
+ls
+cd startup/
+ls
+gnuplot
+sudo apt-get install gnuplot
+ls
+gnuplot
+cd prog/gnuplot/startup/
+ls
+emacs pot.dat
+ls
+ls
+gpen pot.pdf
+ls
+gpen pot.pdf
+ls
+mv pot pot.gp
+ls
+ls
+rm pot
+ls
+gpen pot.pdf
+ls
+rm pot
+em pot.gp
+ls
+rm pot.pdf
+rm pot.pdf
+ls
+ls
+gpen pot.pdf
+ls
+gpen tmp.pdf
+gpen pot.pdf
+gpen pot.pdf
+ls
+mv * ~/Dropbox/School/Subjects/Experiments/01-netsudentsui/report/figures/
+cd prog/gnuplot/
+cd startup/
+ls
+gnuplot
+ls
+em pot
+ls
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+ls
+cdp
+ls
+cd tex/
+ls
+cd ../drow/
+ls
+cd kadai/
+ls
+mono e1207-3.tex
+nano e1207-3.tex
+ls
+nano e1207-3.tex
+ls
+less e1207-3.tex
+cd
+cd Dropbox/School/Subjects/Experiments/Thermocouple/
+ls
+ls
+la
+cd ../
+ls
+cd ../
+ls
+cd ElectroMagnetics/
+ls
+cd ../
+ls
+cd Experiments/
+ls
+cd Thermocouple/
+ls
+la
+ls
+ls
+cd ../
+ls
+cd Thermocouple/
+ls
+cd ../
+ls
+ls
+cd Netsudentsui/
+ls
+mkdir etc
+mv *.jpg etc/
+ls
+mkdir report
+ls
+mv report/
+cd report/
+ls
+cd ../../
+ls
+mv Netsudentsui/ 01-netsudentsui
+ls
+ls
+cd 01-netsudentsui/
+ls
+mv *.* figures/ head/ report/
+ls
+cd report/
+ls
+cd ../etc/
+ls
+ls
+gpen ama-1.jpg
+rm HANDA-*
+rm HANDA-2.jpg
+ls
+ls
+ls
+cd ../report/figures/
+ls
+em graph1.dat
+ls
+cp graph1.dat graph2.dat
+ls
+cp graph.gp graph1.gp
+cp graph3.gp graph1.gp
+cp graph3.gp graph2.gp
+ls
+rm graph2.gp
+ls
+em graph1.gp
+ls
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gpen graph1.pdf
+gpen graph3.pdf
+gnuplot
+gpen graph1.pdf
+gnuplot
+gpen graph1.pdf
+gnuplot
+gpen graph1.pdf
+gpen graph3.pdf
+gnuplot
+gpen graph1.pdf
+gpen graph3.pdf
+gnuplot graph1.gp
+gpen graph1.pdf
+gpen graph1.pdf
+ls
+cp graph1.gp graph2.gp
+ls
+em graph2.gp
+gnuplot graph2.gp
+ls
+gnuplot graph1.gp
+gnuplot graph2.gp
+gnuplot graph3.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph3.pdf
+gpen graph1.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph3.gp
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+
+gnuplot graph3.gp
+gpen graph3.pdf
+gpen graph1.pdf
+gnuplot graph1.gp
+gpen graph1.pdf
+gnuplot graph1.gp
+gnuplot graph1.gp
+gpen graph1.pdf
+gpen graph1.pdf
+gnuplot graph1.gp
+gpen graph1.pdf
+gpen graph1.pdf
+gnuplot graph1.gp
+gpen graph1.pdf
+gpen graph1.pdf
+gpen graph2.pdf
+gpen graph3.pdf
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph1.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+gpen graph2.pdf
+gnuplot graph1.gp
+gnuplot graph2.gp
+gnuplot graph3.gp
+ls
+la
+gnuplot graph1.gp
+ls
+gpen graph1.pdf
+gpen graph2.pdf
+gpen graph3.pdf
+gnuplot graph2.gp
+gpen graph2.pdf
+ls
+mv graph3.dat graph3-1.dat
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gpen graph3.pdf
+gnuplot graph3.gp
+gnuplot graph3.gp
+gpen graph3.pdf
+ls
+dropbox statu
+dropbox status
+dropbox start
+dropbox status
+dropbox stop
+dropbox start -i
+ls
+cd Dropbox/
+ls
+cd
+nano
+ls
+nemo
+ls
+cd Dropbox/School/Report/
+ls
+cd 01-netudentui/
+ls
+em 01-netudentui.tex
+ls
+mv map/ figures
+ls
+ls
+cd figures/
+ls
+for f in *; do mv f ${f%"map"}figure; done
+ls
+for f in *; do mv $f ${f%"map"}figure; done
+ls
+for f in *; do mv $f figure${f%"map"}; done
+ls
+for f in *; do mv $f figure${f%map}; done
+ls
+for f in *; do mv $f ${f%figuremap}; done
+renam
+ls
+rename figurefiguremap figure
+ls
+rename figurefiguremap figure *
+rename map "" *
+ls
+rename map
+ls
+rename map2 map
+ls
+rename figure a ./*
+ls
+rename figure a figurefiguremap2-1.aifigure
+ls
+rename -h
+rename --help
+echo figurefiguremap2-1.aifigure %figure
+echo ${figurefiguremap2-1.aifigure%figure}
+echo ${figurefiguremap2-1.aifigure%figure}.a
+rename figurefiguremap2 figure2 ./figurefiguremap2-*
+ls
+for f in *; echo $f; done
+for f in *; $f; done
+for f in *;echo $f; done
+for f in *; echo $f
+for f in *;   echo $f
+for f in *; ls; done
+for f in *; do echo $f; done
+for f in *; do echo ${f%figure}; done
+for f in *; do echo ${f%map}; done
+for f in *; do echo ${map%f}; done
+for f in *; do echo ${f%%map}; done
+for f in *; do echo ${f/map/1}; done
+for f in *; do echo ${f/map/}; done
+for f in *; do mv $f ${f/map/}; done
+ls
+for f in *; do mv $f ${f/figure/}; done
+ls
+for f in *; do mv $f ${f%figure}; done
+ls
+ls
+cd ../
+ls
+mkdir head
+ls
+mv title.tex  preemble.tex head/
+ls
+em 01-netudentui.tex
+ls
+rm @.aux
+ls
+ls
+cd figures/
+ls
+extractbb *.pdf
+ls
+gpen figure2-1.pdf
+cd ../
+ls
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+gpen 01-netudentui.pdf
+ls
+cd ../
+ls
+cd 01-netudentui/
+ls
+mv * ../../Subjects/Experiments/01-netsudentsui/
+ls
+ls
+cd ../../
+ls
+rmdir Report/
+ls
+cd Subjects/Experiments/01-netsudentsui/
+ls
+cd report/
+ls
+emr
+em 01-netudentui.tex
+ls
+ls
+cd head/
+ls
+cd ../
+ls
+ls
+ls
+cd figures/
+ls
+ls
+for f in pot.*; do mv $f ${f/pot/graph5-1}; done
+ls
+for f in pot.*; do mv $f ${f/5-1/3}; done
+for f in graph*; do mv $f ${f/5-1/3}; done
+ls
+for f in figure*; do mv $f ${f/2-/}; done
+ls
+ls
+gpen graph1.pdf
+ls
+ls
+ls
+gpen graph1.pdf
+gnuplot
+gnuplot
+gnuplot
+gpen graph1.pdf
+gnuplot
+gpen graph1.pdf
+gpen graph1.pdf
+gnuplot
+gpen graph1.pdf
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+gnuplot
+ls
+cd Dropbox/School/Subjects/
+ls
+cd ../Syllabus/
+ls
+evince 電子工学.pdf
+ls
+evince 代数ⅱ.pdf
+gpen 代数ⅱ.pdf
+mv 代数ⅱ.pdf Algebra-2.pdf
+mv 体育ⅲ.pdf PE-3.pdf
+mv 化学ⅱ.pdf Chemistry-2.pdf
+ls
+mv 回路論.pdf Circuit.pdf
+ls
+mv 国語ⅲ.pdf Japanese-3.pdf
+ls
+mv 微積分ⅱ.pdf Calculus-2.pdf
+mv 情報工学概論.pdf Introduction.pdf
+ls
+mv 電気電気工学概論.pdf ElecEngineering.pdf
+ls
+evince Introduction.pdf
+mv Introduction.pdf CompEngineering.pdf
+ls
+mv CompEngineering.pdf IntroComputer.pdf
+mv ElecEngineering.pdf IntroElectrical.pdf
+ls
+mv 電気磁気学ⅰ.pdf Electromagnetics-1.pdf
+ls
+mv 電気情報工学実験.pdf Experiments-2.pdf
+ls
+mv 英Aⅲ.pdf EnglishA-3.pdf
+mv 電子工学.pdf Electronics.pdf
+ls
+mv ディジタル電子回路.pdf DigitalCircuits.pdf
+ls
+mv 英会話ⅰ.pdf EnglishConversation-1.pdf
+ls
+mv 物理ⅲ.pdf Physics-3.pdf
+ls
+mv 日本史.pdf History.pdf
+ls
+ls
+cd ../
+ls
+cd Subjects/
+ls
+mv ElectroMagnetics/ Electromagnetics
+ls
+cd ../Syllabus/
+ls
+mv Circuit.pdf CircuitTheory
+mv CircuitTheory CircuitTheory.pdf
+ls
+cd ../
+ls
+cd Subjects/
+ls
+mkdir Electronics
+ls
+cd Electro
+cd Electronics/
+ls
+mkdir 01
+cd 01/
+ls
+ls
+ls
+emr
+em 01.tex
+ls
+evince ../../../Syllabus/Electronics.pdf
+python
+python
+ls
+ls
+ls
+ls
+emr
+ls
+ps
+ps
+ls
+em graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+ls
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+python
+evince graph1.pdf
+python
+gnuplot graph1.gp
+gpen graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+cd ../../Experiments/01-netsudentsui/report/figures/
+ls
+em graph1.gp
+ls
+cp graph1.gp ../../../../Electronics/01/
+em graph1.gp
+ps
+ls
+less graph2.gp
+cd ../etc/
+ls
+gpen ama-1.jpg
+cd
+ls
+rm Screenshot\ from\ 2014-05-11\ 02\:26\:18.png
+ls
+sudo apt-get install libreoffice-ja
+sudo apt-get install libreoffice-l10n-ja
+ls
+sudo apt-get autoremove
+ls
+sudo apt-get autoclean
+ls
+ibus-daemon
+killall ibus-daemon
+ibus-daemon
+bg
+bgbg
+bg
+ls
+ps
+kill -9 30860
+ps
+ps
+killall ibus-daemon
+ps
+ibus-daemon &
+cd dotfiles/.emacs.d/inits/
+ls
+em 03-editor.el
+em 03-
+git status
+cd ../
+ls
+cd latex-math-preview-cache/
+ls
+cd ../
+ls
+rmdir latex-math-preview-cache/
+ls
+cd inits/
+ls
+em 50-yatex-mode.el
+cd ../etc/lmp-cache/
+ls
+la
+cd ../../
+ls
+ls
+cd latex-math-preview-cache/
+ls
+cd ../
+ls
+rmdir latex-math-preview-cache/
+ls
+cd inits/
+ls
+em 10-popwin.el
+ls
+emr
+em 10-popwin.el
+ls
+emr
+em
+emr
+em
+emr
+em 50-yatex-mode.el
+emr
+git status
+ls
+em  50-yatex-mode.el
+ls
+cd ../
+ls
+ls
+ls
+cd etc/lmp-cache/
+ls
+la
+cd ../../
+ls
+cd inits/
+ls
+cd ../
+ls
+ls
+git status
+git add etc/template/init.tex
+git commit -m "Update template file of 'LaTeX'"
+cd inits/
+git add 10-direx.el 10-popwin.el
+git commit -m "None change"
+git status
+git add 03-editor.el
+git commit -m "Add region setting of '&' of 'LaTeX'"
+git add 50-yatex-mode.el
+git commit -m "Add popwin setting - latex-math-preview"
+git status
+git push
+cd dotfiles/.emacs.d/inits/
+ls
+less 03-editor.el
+cd
+python
+cd friends/
+ls
+evince nissy.pdf
+bg
+evince nissy.pdf
+ls
+cd Dropbox/School/Subjects/Electronics/
+ls
+cd 01/
+ls
+em 01.tex
+extractbb graph1.pdf
+ls
+evince 01.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+python
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+
+gnuplot graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+ls
+rm graph1.xbb
+ls
+cp graph1.gp graph2.gp
+ls
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph2.gp
+evince graph2.pdf
+gnuplot graph2.gp
+evince graph2.pdf
+evince graph1.pdf
+evince graph1.pdf
+ls
+gnuplot graph1.gp
+evince graph1.pdf
+bg
+ps
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+ps
+ls
+em graph1.gp
+gnuplot graph1.gp
+evince graph1.pdf
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+bg
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph1.gp
+gnuplot graph2.gp
+evince graph2.pdf
+bg
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+gnuplot graph2.gp
+evince graph1.pdf
+gnuplot graph2.gp
+evince graph1.pdf
+evince graph2.pdf
+gnuplot graph1.gp
+evince graph1.pdf
+ls
+evince figure1.pdf
+evince figure1.pdf
+evince graph1.pdf
+evince figure1.pdf
+evince figure1.pdf
+ls
+gpen figure1.eps
+extractbb *.pdf
+ls
+evince 01.pdf
+evince 01.pdf
+evince figure1.pdf
+evince figure1.eps
+ls
+rm 01.xbb
+ls
+mkdir figures
+ls
+mv figure* graph* figures/
+ls
+cd figures/
+ls
+evince figure1.pdf
+evince figure1.eps
+ls
+rm figure1.pdf figure1.xbb
+ls
+cd ../
+ls
+mv figure2.eps figures/
+ls
+cd figures/
+ls
+cd ../
+ls
+evince 01.pdf
+evince 01.pdf
+bg
+ls
+em
+ls
+cd figures/
+ls
+evince figure11.eps
+evince figure1.eps
+rm figure11.eps
+ls
+ls
+cd ../
+ls
+evince 01.pdf
+ls
+evince 01.pdf
+evince friends/nissy.pdf
+evince 01.pdf
+bg
+ls
+em 01.tex
+l
+sls
+ls
+cd ../../Experiments/
+ls
+cd 01-netsudentsui/
+ls
+cd report/
+ls
+emr
+cd Dropbox/School/Subjects/Electronics/
+ls
+cd 01/
+cd f
+cd figures/
+ls
+evince figure1.eps
+cd ../
+ls
+evince 01.pdf
+ls
+cd figures/
+ls
+gpen data.ods
+ls
+evince figure1.eps
+cd ../
+ls
+em 01.tex
+ls
+evince 01.pdf
+evince friends/nissy.pdf
+evince 01.pdf
+evince 01.pdf
+ls
+cd ../
+ls
+em 01.tex
+evince 01.pdf
+bg
+ls
+dvipdfmx 01.dvi
+evince friends/nissy.pdf
+cd Dropbox/School/Subjects/Electronics/01/figures/
+ls
+gpen  data.ods
+ls
+cd ../
+ls
+evince friends/nissy.pdf
+em 01.tex
+ls
+evince 01.t
+evince 01.pdf
+cd Dropbox/School/Subjects/Experiments/
+ls
+mkdir hosokawa
+cd hosokawa/
+ls
+em check.txt
+ls
+cd .
+ls
+em check.txt
+cd Dropbox/School/Subjects/Experiments/01-netsudentsui/report/
+ls
+em 01-netudentui.tex
+cd figures/
+ls
+cd ../
+ls
+evince 01-netudentui.pdf
+ls
+cd figures/
+ls
+extractbb *.pdf
+ls
+cd ../
+ls
+evince 01-netudentui.pdf
+evince 01-netudentui.pdf
+evince 01-netudentui.pdf
+evince 01-netudentui.pdf
+ps
+ls
+em \#01-netudentui.tex#
+ls
+rm \#01-netudentui.tex#
+ls
+em 01-netudentui.tex
+evince 01-netudentui.pdf
+update
+upgrade
+sudo apt-get download ppa:libreoffice/ppa
+sudo apt-get check ppa:libreoffice/ppa
+ls
+em 01-netudentui.tex
+emr
+em 01-netudentui.tex
+em 01-netudentui.tex
+emr
+sl
+ls
+em 01-netudentui.
+em 01-netudentui.tex
+em 01-netudentui.tex
+em 01-netudentui.tex
+em 01-netudentui.tex
+emr
+em 01-netudentui.tex
+ls
+gpen tmp.png
+rm tmp.png
+emr
+ls
+em 01-netudentui.tex
+ls
+evince 01-netudentui.pdf
+evince 01-netudentui.pdf
+em
+ls
+emr
+emr
+ls
+em 01-netudentui.tex
+ls
+mv head/* ../
+ls
+mv ../*.tex ./
+ls
+ls
+mkdir subs
+ls
+mv preemble.tex title.tex head/
+ls
+mv head/ heads
+ls
+ls
+rm \#01-netudentui.tex#
+em 01-netudentui.tex
+ls
+emr
+ls
+cd figures/
+ls
+evince graph1.pdf
+evince graph2.pdf
+ps
+kill -9 16883
+ls
+ls
+ls
+less fi
+less fit.log
+rm fit.log
+ls
+em figure2.gp
+ls
+em graph2.gp
+gnuplot graph2.gp
+ls
+rm fit.log
+ls
+evince graph2.pdf
+extractbb graph2.pdf
+ls
+ls
+update
+upgrade
+ls
+cd Dropbox/
+la
+ls
+cd School/
+ls
+mv 2014-05-14_18.27.56_00.png interview.png
+ls
+ls
+cd Syllabus/
+ls
+cd ../Subjects/
+ls
+cd Algebra/
+ls
+cd HW-02/
+ls
+for f in *.fpeg; do mv $f $(f/-A/); done
+ls
+for f in *.fpeg; do mv $f $f(/-A/); done
+for f in *.fpeg; do mv $f $(f\-A\); done
+ls
+for f in *.fpeg; do mv $f $(f/-A/ ); done
+for f in *.fpeg; do mv $f $(f/A/); done
+for f in *.jpeg; do mv $f $(f/A/); done
+ls
+for f in *.jpeg; do mv $f $(f/-A/b); done
+ls
+history
+for f in *.jpeg; do mv $f ${f/-A/}; done
+ls
+for f in *.jpeg; do mv $f ${f/0/A-0}; done
+ls
+ls
+cd ../
+ls
+cd HW-01/
+ls
+mv Q-01.jpeg 01.jpeg
+ls
+cd ../../CircuitTheory/
+ls
+cd HW-01/
+ls
+mv A-01.jpeg A.jpeg
+ls
+ls
+cd ../../Electromagnetics/
+ls
+cd Homeworks/
+ls
+gpen 04A.png
+mv 04A.png 04A.jpg
+ls
+gpen 04A.jpg
+ls
+for f in *.jpeg; do mv $f ${f/jpeg/jpg}; done
+ls
+ls
+cd ../../Electro
+cd ../../Electronics/
+ls
+cd 01/
+ls
+cd friends/
+ls
+mv aritan.jpeg aritan.jpg
+mv kapi.jpeg kapi.jpg
+ls
+cd fi
+cd ../figures/
+ls
+mv data.ods figure.ods
+ls
+cd ../../../Experiments/
+ls
+cd 01-netsudentsui/report/
+ls
+less 01-netudentui.log
+ls
+cd figures/
+ls
+rm fit.log
+ls
+nano
+ls
+nemo
+sudo add-apt-repository ppa:noobslab/mint
+update
+upgrade
+ls
+ls
+update
+upgrade
+ls
+sudo apt-get autoremove
+sudo apt-get autoclean
+ls
+sudo apt-get upgrade
+sudo apt-get remove
+sudo apt-get clean
+ls
+sudo apt-get install nemo
+ls
+xdb-mine
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+ls
+cd Dropbox/School/Subjects/Experiments/01-netsudentsui/
+ls
+cd report/
+ls
+em 01-netudentui.tex
+ls
+em
+ls
+gpen 01-netudentui.pdf
+ls
+ls
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 01-keybind.el
+em
+ls
+git status
+emr
+em
+emr
+em
+em
+em
+ls
+git status
+less 01-keybind.el
+em
+em
+ls
+em 01-keybind.el
+ls
+ls
+cdc
+cgi
+em
+cd figures/
+ls
+emr
+ls
+less graph2.dat
+em graph1.gp
+gnuplot graph1.gp
+ls
+evince graph1.pdf
+gnuplot graph1.gp
+gnuplot graph2.gp
+gnuplot graph3.gp
+ls
+evince graph1.pdf
+evince graph2.pdf
+evince graph1.pdf
+evince graph3.pdf
+ls
+gnuplot graph1.gp
+gnuplot graph2.gp
+gnuplot graph3.gp
+evince graph1.pdf
+evince graph2.pdf
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf
+gnuplot graph3.gp
+evince graph3.pdf &
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+gnuplot graph3.gp
+ls
+ls
+evince graph3.pdf
+evince graph1.pdf
+evince graph2.pdf
+ls
+cd ../
+ls
+ls
+cd figures/
+ls
+em graph3.gp
+gnuplot graph3.gp
+evince graph3.pdf
+em graph1.gp
+gnuplot graph3.gp
+evince graph3.pdf
+ls
+em graph3.gp
+ls
+cd ../
+ls
+em 01-netudentui.tex
+evince 01-netudentui.pdf &
+cd Dropbox/School/Subjects/Experiments/
+ls
+cd 01-netsudentsui/
+ls
+cd report/
+ls
+cd figures/
+ls
+cd ../
+cd dotfiles/.emacs.d/
+ls
+cd inits/
+ls
+em 20-auto-complete.el
+git status
+cdpy
+ls
+cd ky/
+ls
+cd ../library/timeTest/
+ls
+em primetest.py
+cd dotfiles/.emacs.d/inits/
+ls
+em 50-python-mode.el
+cd .ssh/
+ls
+em config
+em config
+em config
+cdw
+ls
+cd coffee/
+ls
+cd startup/
+ls
+coffee -v
+tree
+em startup.coffee
+emr
+em startup.coffee
+em startup.coffee
+ls
+ls
+rm \#startup.coffee#
+ls
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+ls
+em startup.coffee
+emr
+em startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+coffee startup.coffee
+ls
+cd ../
+ls
+cdpy
+ls
+less list.py
+rm *.pyc
+ls
+less match.py
+less appliedlist.py
+cd
+ls
+cd prog/github/gist/
+ls
+cd 9327354/
+ls
+git status
+ls
+cd ../
+ls
+mv 9327354/ primes
+ls
+cd primes/
+ls
+git status
+time
+times
+ls
+times prime-cpp1.cpp
+times prime-cpp3.cpp
+ls
+times prime-py.py
+ls
+ls
+ls
+gcc prime-cpp1.cpp -o cpp1
+gpp prime-cpp1.cpp -o cpp1
+ls
+gpp prime-cpp2.cpp -o cpp2
+ls
+cp prime-py.py py1
+ls
+chmod py1 755
+chmod 755 py1
+ls
+./py1
+./cpp1
+rm py1
+ls
+cp prime-py.py py.py
+ls
+chmod 755 py.py
+./py.py
+python prime-py.py
+./py.py
+ls
+rm py.py
+cp prime-py.py py.py
+ls
+python py.py
+ls
+chmod py.py
+chmod 755 py.py
+python py.py
+./py.py
+ls
+mv py.py py
+ls
+time cpp1
+time ./cpp1
+time ./cpp2
+time ./py
+ls
+times ./prime-py.py
+time ./prime-py.py
+chmod 777 py
+ls
+time ./py
+./prime-py.py
+em prime-py.py
+ls
+rm py
+ls
+cp prime-py.py py
+chmod 755 py
+ls
+./py
+ls
+em .gitignore
+ls
+em TimeTest.md
+time ./cpp1
+time ./cpp2
+time ./py
+git status
+git add prime-py.py
+git commit -m "Add run command"
+ls
+git add .gitignore
+git add TimeTest.md
+git commit -m "Add timetest"
+git push
+ls
+git fetch
+ls
+git merge origin/master
+ls
+git status
+git push
+ls
+git status
+git rm .gitignore
+ls
+git status
+ls
+la
+git status
+git add .gitignore
+ls
+git commit -m "Remove .gitignore"
+git status
+git push
+ls
+em TimeTest.md
+ls
+mv prime-py.py prime-py2.py
+ls
+mv py py2
+ls
+ls
+emr
+ls
+em prime-py2.py
+python prime-py1.py
+python prime-py1.py
+python prime-py2.py
+ls
+cp prime-py1.py py1
+chmod py1
+chmod 755 py1
+ls
+time py1
+time ./py1
+git status
+git status
+git rm prime-py.py
+git add prime-py*
+git add TimeTest.md
+git status
+git commit -m "Add another prime-py"
+git push
+git push
+git push
+ls
+em TimeTest.md
+ls
+git add TimeTest.md
+git statau
+git status
+git commit -m "Add comment about timetest"
+git push
+em TimeTest.md
+git add TimeTest.md
+ls
+git status
+git reset HEAD TimeTest.md
+git status
+git status
+ls
+mv TimeTest.md PrimeTimetest.md
+ls
+git status
+git rm TimeTest.md
+git add PrimeTimetest.md
+git commit -m "Rename file"
+git push
+ls
+git log
+git config
+git configls
+ls
+la
+em .git/config
+em
+ls
+git status
+git push origin master
+ls
+ls
+em prime-cpp1.cpp
+ls
+git status
+git add .
+git push
+git status
+git commit -m "Minor change"
+git push
+ls
+git status
+git add prime-py1.py
+git commit -m "Minor change"
+git status
+git push
+ls
+em
+git status
+git add PrimeTimetest.md
+git commit -m "Add link to md"
+git push
+git add PrimeTimetest.md
+git commit -m "Fix link of md"
+git push
+ls
+cd ../../../../
+ls
+cd inits/
+ls
+em 50-pov-mode.el
+ls
+emr
+git status
+less 01-keybind.el
+less 50-python-mode.el
+git add 01-keybind.el
+git commit -m "NoChange"
+git add 20-auto-complete.el
+git commit -m "Add 'coffee-mode' to ac"
+git add 50-python-mode.el
+git commit -m "Modify indent"
+git add ../elisp/mode/pov-mode/
+git add 50-pov-mode.el
+git commit -m "Add 'pov-mode'"
+git status
+git push
+cd dotfiles/.emacs.d/elisp/mode/
+ls
+git clone git@gitorious.org:pov-mode/pov-mode.git
+ls
+git clone git://gitorious.org/pov-mode/pov-mode.git
+ls
+cd pov-mode/
+ls
+la
+rm -rf .git/ README
+ls
+ls
+rm gpl.txt
+ls
+less pov-mode-pkg.el
+less pov-mode.info
+rm pov-mode.info
+ls
+rm dir
+ls
+cd info/
+ls
+cd ../InsertMenu/
+ls
+ls
+cd dotfiles/.emacs.d/inits/
+ls
+em 03-tabbar.el
+em 02-modeline.el
+git status
+git add 02-modeline.el
+git add 50-asm-mode.el
+git commit -m "Add 'asm-mode'"
+git push
+cd
+cdp
+ls
+cd c
+ls
+cd ../
+ls
+cd cpp/
+ls
+cd ky/
+ls
+cd ../../
+ls
+cd drow/
+ls
+cd ../gnuplot/
+ls
+cd startup/
+ls
+ls
+la
+em startup.gp
+erm
+emr
+ls
+ls
+ls
+em template.gp
+gnuplot hoge.dat
+gnuplot template.gp
+gnuplot template.gp
+evince hoge.pdf
+gnuplot template.gp
+evince hoge.pdf
+ls
+gnuplot template.gp
+evince hoge.png
+gpen hoge.png
+evince hoge.png
+gnuplot template.gp
+gpen hoge.png
+gnuplot template.gp
+gpen hoge.png
+gnuplot template.gp
+gpen hoge.png
+gnuplot template.gp
+gpen hoge.png
+gnuplot template.gp
+gpen hoge.png
+ls
+ls
+cd ../
+ls
+git clone ssh://gist.github.com/bc72f98ac52ff89c269c.git
+ls
+ls
+cd bc72f98ac52ff89c269c/
+ls
+la
+cd ../
+ls
+mv startup/ tmp
+mv bc72f98ac52ff89c269c/ startup
+ls
+cd tmp/
+ls
+mv * ../startup/
+ls
+cd ../
+ls
+rmdir tmp/
+ls
+cd startup/
+ls
+git status
+git status
+ls
+rm hoge.pdf
+ls
+git add .
+git status
+git commit -m "Add plot example"
+git push
+ls
+git status
+ls
+gnuplot template.gp
+ls
+git status
+git status
+git add .
+git commit -m "Minor change"
+git push
+git rm hoge.pdf
+ls
+git status
+git add .
+git commit -m "Minor change"
+git push
+git add .
+git push
+git commit -m "Minor change"
+git push
+git push
+git add .
+git commit -m "Minor change"
+git push
+git add .
+git commit -m "Minor change"
+git push
+gnuplot
+git status
+git add hoge.
+git add .
+git commit -m "Minor change"
+git push
+git add .
+git commit -m "Complete 'base'"
+git push
+gnuplot
+gnuplot
+git add .
+git commitp -m "Add a little"
+git push
+git add .
+git commit -m "Fix figure"
+git push
+git add .
+git commit -m "Add a little"
+git push
+guplot
+gnuplot
+ls
+gnuplot
+git add .
+git commit -m "Add a little"
+git push
+git add .
+git commit -m "Add a little"
+git push
+git status
+ls
+gnuplot template.gp
+git status
+git rm #template.gp#
+ls
+git status
+git rm .#template.gp#
+git rm .template.gp
+git rm #*
+git rm *#*
+git status
+git add .
+git commit -m "Add a little"
+git push
+git add .
+git commit -m "Add a little"
+git push
+git rm hoge.pdf
+git status
+git add .
+git commit -m "Add a little"
+git push
+gnuplot
+git status
+git add .
+git commit -m "Add a little"
+git push
+gnuplot
+git add .
+git commit -m "Add a little"
+git push
+ls
+cd ../../
+ls
+cd pov-ray/
+ls
+cd kadai/
+ls
+em e1207.pov
+sudo apt-get install pov
+sudo port
+port
+ls
+em e1207.pov
+ls
+ls
+cd ../
+ls
+cd ../
+ls
+cd pic/
+ls
+cd 01/
+ls
+em 01.asm
+ls
+cd ../
+ls
+cd 02/
+ls
+em 02.asm
+cd ../03/
+ls
+em 03.asm
+cd ../04/
+ls
+em 04.asm
+cd ../05/
+ls
+em 05.asm
+cd ../06
+ls
+em 06.asm
+cd ../07
+ls
+em 07.asm
+cd ../08
+ls
+em 08.asm
+cd ../09/
+em 09.asm
+ls
+cd ../
+ls
+cd ../
+ls
+cd pic/01/
+ls
+em 01.asm
+emr
+em 01.asm
+ls
+cd ../../
+ls
+cd tex/
+ls
+cd ../
+ls
+cd tex/
+ls
+ls
+mkdir startup
+ls
+cd startup/
+ls
+cd ../
+rmdir startup/
+ls
+git clone https://gist.github.com/cd626d7589df5a11595d.git
+ls
+mv cd626d7589df5a11595d/ startup
+ls
+cd startup/
+ls
+em main.tex
+ls
+em main.
+em main.tex
+git status
+em .gitignore
+git status
+em .gitignore
+git status
+git add .
+git commit -m "Second commit"
+git push
+git push origin master
+git push origin master
+cd ../../
+ls
+cd python/
+ls
+em match.py
+emr
+ls
+cd ky/
+ls
+cd xml/
+ls
+less xml_parser.py
+ls
+cd ../cssReplace/
+ls
+less main.py
+cd ../
+ls
+cd ../
+ls
+cd web/
+ls
+cd jinja/
+ls
+em makefile.py
+cd prog/github/gist/
+ls
+ls
+cd ../../
+ls
+cd github/
+la
+rmdir .git/
+ls
+cd ../
+ls
+mv github/ All
+ls
+cd All/
+ls
+mkdir github
+ls
+mv HelloWorld/ github/
+ls
+mv tutorial.txt git-tutorial.txt
+ls
+cd
+cd Dropbox/School/Subjects/Experiments/01-netsudentsui/report/figures/
+ls
+em graph1.gp
+ls
+les graph2.gp
+less graph2.gp
+cd ../
+ls
+em 01-netudentui.tex
+cd heads/
+ls
+em preemble.tex
+em title.tex
+ls
+cd ../subs/
+ls
+em result.tex
+em result.tex
+em result.tex
+em research.tex
+ls
+em reference.tex
+ls
+ls
+less reference.tex
+emr
+em
+ls
+cd ../../../../Electronics/
+ls
+cd 01/
+ls
+em 01.tex
+#1400504328
+history 
+#1400504332
+history 10
+#1400504607
+history 
+#1400504664
+ln -s ~/dotfiles/.bash.d/.bash_logout ~/.bash_logout
+#1400504666
+la
+#1400504675
+ls -F .bash
+#1400504679
+ls -F .bash*
+#1400504687
+less .bash_history 
+#1400504700
+rm .bash_history 
+ls
+export
+history 
+cdds
+ls
+cd
+cd dotfiles/.bash.d/
+ls
+la
+history --h
+history -h
+history --help
+history 10
+ls
+cd et
+cd .bashconf/etc/
+ls
+em bash_history 
+cd ../../../
+ls
+git status 
+cd .bash.d/
+git status 
