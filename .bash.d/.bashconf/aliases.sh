@@ -18,6 +18,7 @@ alias cdcp="cd ~/prog/cpp"
 alias cdpy="cd ~/prog/python"
 alias cdpw="cd ~/prog/python/web"
 alias cdw="cd ~/prog/web"
+alias cdds="cd ~/Dropbox/School/Subjects"
 
 alias install='sudo apt-get install'
 alias update='sudo apt-get update'
