@@ -183,8 +183,6 @@ static char * arrow_left[] = {
                                (propertize ml-non             'display  arrow-right-first)
                                (propertize (ml-minor-mode)    'face    'mode-line-second)
                                (propertize ml-non             'display  arrow-right-second)
-;;                               (propertize ml-dirs            'face    'mode-line-third)
-;;                               (propertize ml-buffer-name     'face    'mode-line-fourth)
                                (propertize ml-buffer-name     'face    'mode-line-third)
                                (propertize ml-non             'display  arrow-right-third)))
 
