@@ -27,7 +27,7 @@ fi
 
 # ls dircolor
 if [ -x /usr/bin/dircolors ]; then
-    test -r $CONF_DIR/dircolors && eval $(dircolors -b $CONF_DIR/dircolors)
+    test -r $CONF_DIR/dircolors.sh && eval $(dircolors -b $CONF_DIR/dircolors.sh)
 fi
 
 # history
