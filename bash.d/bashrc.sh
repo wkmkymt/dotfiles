@@ -2,10 +2,17 @@
 
 # Set environment
 PATH=$PATH:$HOME/bin
-LANG=en_US.UTF-8
 EDITOR="emacsclient -nc -a ''"
+export EDITOR PATH
 
-export EDITOR LANG PATH
+export LC_MESSAGES=ja_JP.UTF-8
+export LC_IDENTIFICATION=ja_JP.UTF-8
+export LC_COLLATE=ja_JP.UTF-8
+export LANG=ja_JP.UTF-8
+export LC_MEASUREMENT=ja_JP.UTF-8
+export LC_CTYPE=ja_JP.UTF-8
+export LC_TIME=ja_JP.UTF-8
+export LC_NAME=ja_JP.UTF-8
 
 
 CONF_DIR=~/.bashconf

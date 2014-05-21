@@ -18,10 +18,10 @@
 ;;;;   http://truongtx.me/2013/03/31/color-theming-in-emacs-24/
 ;; Set custom-theme path
 (add-to-list 'load-path "~/.emacs.d/etc/themes")
-(setq custom-theme-directory "~/.emacs.d/etc/themes")
+(setq custom-theme-load-path "~/.emacs.d/etc/themes")
 
 ;(load-theme 'monokai)     ;; Sublime-Text Theme
 ;(load-theme 'desert)      ;; Desert Theme
 ;(load-theme 'dark-laptop) ;; Gnome? Theme
 ;(load-theme 'wkm-green)   ;; My Green Theme
-(load-theme 'wkm-colorful t) ;; My Colorful Theme
+(load-theme 'wkm-colorful) ;; My Colorful Theme

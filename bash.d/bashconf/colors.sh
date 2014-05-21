@@ -4,4 +4,4 @@ light_green="\[\033[1;32m\]"
 light_blue="\[\033[1;34m\]"
 
 #PS1=$light_green"\u@\h:"$light_blue"\w\$"$none" "
-PS1=$light_green"\u@Ubuntu:"$light_blue"\w\$"$none" "
+PS1=$light_green"\u@Mint:"$light_blue"\w\$"$none" "
