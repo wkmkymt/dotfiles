@@ -13,9 +13,10 @@
   `(setq ,to (append ,lst ,to)))
 
 (append-to-list popwin:special-display-config
-                '((" *auto-async-byte-compile*")
-                  (direx:direx-mode :position left)
-                  ("*latex-math-preview-expression*")
-                  ("*YaTeX-typesetting*")
-                  ("*dvi-preview*")
+                '((" *auto-async-byte-compile*")      ;; Auto Byte Compile
+                  (direx:direx-mode :position left)   ;; Direx
+                  ("*YaTeX-typesetting*")             ;; YaTeX Compile
+                  ("*dvi-preview*")                   ;; YaTeX Preview
+                  ("*math-mode-signs*")               ;; Math Signs Preview
+                  ("*latex-math-preview-expression*") ;; LaTeX Math Preview
                   ))
