@@ -5,6 +5,3 @@
 
 ;; Set file name that desable Auto-Byte-Compile
 ;(setq auto-async-byte-compile-exclude-files-regexp "")
-
-;; Popwin
-;;(push '(" *auto-async-byte-compile*" :position bottom :height 25 :noselect t) popwin:special-display-config)
