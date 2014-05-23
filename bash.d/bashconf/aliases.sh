@@ -24,7 +24,7 @@ alias install='sudo apt-get install'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 
-alias cm755="chmod 755"
+alias cma="chmod 755"
 
 alias gpen="gnome-open"
 
