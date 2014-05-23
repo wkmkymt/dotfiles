@@ -14,6 +14,11 @@
 (setq dvi2-command "xdvi")
 (setq dviprint-command-format "dvipdfmx")
 
+;; Popwin
+(require 'popwin-yatex)
+;;(push '("*YaTeX-typesetting*" :height 0.2 :regexp t) popwin:special-display-config)
+;;(push '("*dvi-preview*"       :height 0.2 :regexp t) popwin:special-display-config)
+
 
 ;;;; @ Auto Complete LaTeX
 (add-hook 'latex-mode-hook 'ac-l-setup)
@@ -30,8 +35,8 @@
 
 (setq latex-math-preview-cache-directory-for-insertion "~/.emacs.d/etc/lmp-cache/")
 
-;; Display
-(add-to-list 'popwin:special-display-config '("\\*latex-math-preview*" :height 20 :regexp t))
+;; Popwin
+;;(push '("*latex-math-preview*" :height 0.2 :regexp t) popwin:special-display-config)
 
 ;; Keybind
 (defun add-yatex-mode-hook ()

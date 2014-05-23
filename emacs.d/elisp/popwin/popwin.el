@@ -1,6 +1,6 @@
 ;;; popwin.el --- Popup Window Manager.
 
-;; Copyright (C) 2011, 2012, 2013  Tomohiro Matsuyama
+;; Copyright (C) 2011, 2012, 2013, 2014  Tomohiro Matsuyama
 
 ;; Author: Tomohiro Matsuyama <tomo@cx4a.org>
 ;; Keywords: convenience
@@ -213,6 +213,7 @@ new-window."
         (when selected
           (select-window window))
         (set-window-point window point)
+        (set-window-start window start t)
         (when dedicated
           (set-window-dedicated-p window t))
         `((,old-win . ,window)))
@@ -681,6 +682,7 @@ be closed by `popwin:close-popup-window'."
 
 (defcustom popwin:special-display-config
   '(;; Emacs
+    ("*Miniedit Help*" :noselect t)
     help-mode
     (completion-list-mode :noselect t)
     (compilation-mode :noselect t)
