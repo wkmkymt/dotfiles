@@ -23,6 +23,5 @@
       direx:open-icon   "▾ "
       direx:closed-icon "▸ ")
 
-;; Display style
-(push '(direx:direx-mode :position left :width 25 :dedicated t)
-      popwin:special-display-config)
+;; Popwin
+;;(push '(direx:direx-mode :position left :dedicated t) popwin:special-display-config)

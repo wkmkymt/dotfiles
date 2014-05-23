@@ -9,11 +9,9 @@
 (global-set-key [C-mouse-5] 'scroll-up)                                 ;; Scroll down by 1 screen
 
 
-;;;; @ Macro
-;; Super New Line
+;;;; @ Global Key
 (fset 'super-new-line [?\C-e return])
 
-;;;; @ Global Key
 (global-set-key (kbd "C-h")        'delete-backward-char)               ;; BackSpace
 (global-set-key (kbd "C-c \\")     'comment-or-uncomment-region)        ;; Comment / Uncomment
 (global-set-key (kbd "C-c M-%")    'replace-string)                     ;; Replace all string
