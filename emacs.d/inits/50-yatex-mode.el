@@ -10,14 +10,9 @@
 (add-hook 'yatex-mode-hook '(lambda ()(setq auto-fill-function nil)))
 
 ;; LaTeX commnad
-(setq tex-command  "platex")
-(setq dvi2-command "xdvi")
+(setq tex-command  "textopdf")
+(setq dvi2-command "evince")
 (setq dviprint-command-format "dvipdfmx")
-
-;; Popwin
-(require 'popwin-yatex)
-;;(push '("*YaTeX-typesetting*" :height 0.2 :regexp t) popwin:special-display-config)
-;;(push '("*dvi-preview*"       :height 0.2 :regexp t) popwin:special-display-config)
 
 
 ;;;; @ Auto Complete LaTeX
@@ -35,8 +30,6 @@
 
 (setq latex-math-preview-cache-directory-for-insertion "~/.emacs.d/etc/lmp-cache/")
 
-;; Popwin
-;;(push '("*latex-math-preview*" :height 0.2 :regexp t) popwin:special-display-config)
 
 ;; Keybind
 (defun add-yatex-mode-hook ()

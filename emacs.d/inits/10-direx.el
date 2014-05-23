@@ -22,6 +22,3 @@
 (setq direx:leaf-icon   "  "
       direx:open-icon   "▾ "
       direx:closed-icon "▸ ")
-
-;; Popwin
-;;(push '(direx:direx-mode :position left :dedicated t) popwin:special-display-config)
