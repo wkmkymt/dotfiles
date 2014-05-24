@@ -26,13 +26,19 @@ alias upgrade='sudo apt-get upgrade'
 
 alias cma="chmod 755"
 
-alias gpen="gnome-open"
-
-alias dtop="dvipdfmx"
-
 alias untgz="tar zxvf"
 alias untbz="tar xvf-"
 alias unbz="bunzip2 -c"
+
+alias low="libreoffice --writer"
+alias loc="libreoffice --calc"
+alias lod="libreoffice --draw"
+alias loi="libreoffice --impress"
+alias lom="libreoffice --math"
+
+alias gpen="gnome-open"
+
+alias dtop="dvipdfmx"
 
 alias em="emacsclient -nc -a ''"
 alias e="emacsclient -nc -a ''"
