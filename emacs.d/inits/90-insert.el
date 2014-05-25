@@ -1,6 +1,6 @@
 ;;;; @ Auto Insert
 ;;;; http://www.math.s.chiba-u.ac.jp/~matsu/emacs/emacs21/autoinsert.html
-(load "autoinsert" t)
+(require 'autoinsert)
 
 ;; Set auto-insert path
 (setq-default auto-insert-directory "~/.emacs.d/etc/template")
@@ -18,6 +18,8 @@
                 ("\\.py$"   . "init.py")
                 ("\\.rb$"   . "init.rb")
                 ("\\.pl$"   . "init.pl")
-                ("\\.el$"   . "init.el"))
+                ("\\.el$"   . "init.el")
+                ("\\.gp$"   . "init.gp")
+                ("\\.gp$"   . "init.plt"))
               auto-insert-alist))
 (add-hook 'find-file-hooks 'auto-insert)

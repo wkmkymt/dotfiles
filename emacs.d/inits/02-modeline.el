@@ -15,6 +15,8 @@
     (markdown-mode           . "Md")
     (yaml-mode               . "Yml")
     (asm-mode                . "Asm")
+    (gnuplot-mode            . "Gplt")
+    (gnuplot-comint-mode     . "GpltI")
 
     ;; Minor modes
     (auto-complete-mode      . " AC")

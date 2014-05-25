@@ -19,4 +19,5 @@
                   ("*dvi-preview*")                   ;; YaTeX Preview
                   ("*math-mode-signs*")               ;; Math Signs Preview
                   ("*latex-math-preview-expression*") ;; LaTeX Math Preview
+;;                 ("*gnuplot*" :height 25)           ;; Gnuplot
                   ))
