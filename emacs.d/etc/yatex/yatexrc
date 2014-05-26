@@ -1,0 +1,9 @@
+(setq user-env-table '(
+("numcases")
+))
+(setq YaTeX:documentclasses-private '(
+("jsaraticle")
+))
+(setq YaTeX::usepackage-alist-private '(
+("dvipdfmx")
+))
