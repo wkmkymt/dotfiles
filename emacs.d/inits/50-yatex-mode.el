@@ -1,10 +1,12 @@
 ;;;; @ YaTeX Mode
 (autoload 'yatex-mode "yatex" nil t)
-
 (add-to-list 'auto-mode-alist '("\\.tex?$" . yatex-mode))
 
 ;; Coding system
 (setq YaTeX-kanji-code nil)
+
+;; .yatexrc directory
+(setq YaTeX-user-completion-table "~/.emacs.d/etc/yatex/yatexrc")
 
 ;; Auto newline
 (add-hook 'yatex-mode-hook '(lambda ()(setq auto-fill-function nil)))
@@ -28,7 +30,7 @@
 (autoload 'latex-math-preview-save-image-file "latex-math-preview" nil t)
 (autoload 'latex-math-preview-beamer-frame    "latex-math-preview" nil t)
 
-(setq latex-math-preview-cache-directory-for-insertion "~/.emacs.d/etc/lmp-cache/")
+(setq latex-math-preview-cache-directory-for-insertion "~/.emacs.d/etc/mathpreview-cache/")
 
 
 ;; Keybind
