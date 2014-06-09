@@ -19,6 +19,7 @@ alias cdpy="cd ~/prog/python"
 alias cdpw="cd ~/prog/python/web"
 alias cdw="cd ~/prog/web"
 alias cdz="cd ~/Dropbox/main/Experiments"
+alias cde="cd ~/dotfiles/emacs.d"
 
 alias install='sudo apt-get install'
 alias update='sudo apt-get update'
