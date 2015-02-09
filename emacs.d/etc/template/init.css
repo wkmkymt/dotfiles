@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* ==============================================
+   ==================== Base ====================
+   ============================================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+article,
+section,
+nav,
+aside,
+header,
+footer {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ==============================================
+   ==================== Body ====================
+   ============================================== */
+html {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    color: #333;
+    font-size: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, "メイリオ", Meiryo,
+                 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "MS Pゴシック", "MS PGothic",
+                 "Osaka", Osaka, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+/* =====================================================
+   ==================== Site Header ====================
+   ===================================================== */
+.site-header {
+    width: 100%;
+    background-color: #333;
+}
+
+.site-header .header-wrap {
+    padding: 20px 0;
+}
+
+/* ================================
+   ========== Site Title ==========
+   ================================ */
+.site-header h1 {
+    height: 60px;
+    font-size: 250%;
+    line-height: 60px;
+}
+
+.site-header h1 a {
+    color: #fff;
+}
+
+/* =======================================
+   ========== Global Navigation ==========
+   ======================================= */
+.global-nav {
+    width: 100%;
+    background-color: #000;
+}
+
+.global-nav .nav-wrap {
+    padding: 15px 0;
+}
+
+.global-nav li {
+    width: 150px;
+    height: 30px;
+    font-size: 90%;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+
+.global-nav li a {
+    display: block;
+    color: #fff;
+}
+
+
+/* ==============================================
+   ==================== Main ====================
+   ============================================== */
+.container {
+    width: 100%;
+    height: 100%;
+}

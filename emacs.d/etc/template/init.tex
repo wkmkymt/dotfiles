@@ -1,0 +1,63 @@
+\documentclass[a4paper, titlepage]{jsarticle}
+
+% URL
+\usepackage{url}
+
+% Graphic
+\usepackage[dvipdfmx]{graphicx,color}
+
+% Sub Figure
+\usepackage{subfigure}
+
+% Cases
+\usepackage{cases}
+
+% Math
+\usepackage{amssymb}
+
+% Page Style
+\usepackage{fancyhdr}
+\fancypagestyle{myreport}{
+ \rhead{}
+ \chead{}
+ \lhead{}
+ \rfoot{}
+ \cfoot{ -- \thepage\ -- }
+ \lfoot{}
+ \renewcommand{\headrulewidth}{0.0pt}
+}
+\pagestyle{myreport}
+
+% Equation Number Style
+\makeatletter
+ \renewcommand{\theequation}{\thesection.\arabic{equation}}
+ \@addtoreset{equation}{section}
+\makeatother
+
+% Table Number Style
+\makeatletter
+ \renewcommand{\thetable}{\thesection.\arabic{table}}
+ \@addtoreset{table}{section}
+\makeatother
+
+% Figure Number Style
+\makeatletter
+ \renewcommand{\thefigure}{\thesection.\arabic{figure}}
+ \@addtoreset{figure}{section}
+\makeatother
+
+% Enumerate Style
+\makeatletter
+ \renewcommand{\labelenumi}{(\arabic{enumi})}
+\makeatother
+
+% Page Title
+\title {}
+\author {}
+\date {}
+
+
+\begin{document}
+\maketitle
+
+\end{document}
