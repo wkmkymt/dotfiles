@@ -1,0 +1,172 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+from os import path
+import re
+
+import csv
+import itertools
+
+
+# ============================================================
+#  CSV to TeX Perser Kun
+# ============================================================
+class CSVtoTeXPerser(object):
+    def __init__(self, input_path, output_path, indent_level):
+        self.csv_file = input_path
+        self.tex_file = output_path
+        self.indent   = indent_level
+
+        options = dict(delimiter        = ",",               # Separator
+                       doublequote      = True,              # Quote Flag
+                       quoting          = csv.QUOTE_MINIMAL, # Quote Type
+                       quotechar        = "\"",              # Quote Char
+                       escapechar       = "#",              # Escape Char
+                       lineterminator   = "\r\n",            # Line Terminator
+                       skipinitialspace = True)              # Skip White Space
+
+        self.dialect_name = "CSVtoTeXPerser"
+        self.dialect      = csv.register_dialect(self.dialect_name, **options)
+
+        self.position = None
+        self.csv      = []
+
+    # ========================================
+    #  Perse CSV Text
+    # ========================================
+    def perse(self):
+        f = open(self.csv_file, "rb")
+        dialect = csv.get_dialect(self.dialect_name)
+        reader = csv.reader(f, dialect = dialect)
+
+        self.position = reader.next()[0]
+        self.csv      = reader
+
+
+    # ========================================
+    #  Make TeX from CSV
+    # ========================================
+    def maketex(self):
+        # Constant
+        HS  = " "
+        EOL = " \\\\"
+        HL  = " \\hline"
+
+        # Get Data
+        csva, csvb, csvc = itertools.tee(self.csv, 3)
+        lengthes         = self._get_maxlength(csva)
+        rowlen           = len(list(csvb))
+
+        # Output
+        f = open(self.tex_file, "w")
+
+        # Head
+        f.write("%s\\begin{tabular}{%s} \\hline\n" % (HS * self.indent, self.position))
+
+        for i, row in enumerate(csvc):
+            # Insert White Space
+            self._align_text(row, lengthes)
+
+            # List to String by ' & '
+            row_str = " & ".join(row)
+
+            # Combine Tail String
+            row_str += EOL
+            if i == 0 or i == rowlen - 1:
+                row_str += HL
+
+            # Main Table
+            f.write("%s%s\n" % (HS * (self.indent + 2), row_str))
+
+        # Foot
+        f.write("%s\\end{tabular}" % (HS * self.indent))
+
+        f.close()
+
+
+    # ========================================
+    #  Judge whether Japanese text
+    # ========================================
+    def _isJapanese(self, text):
+        return True if re.search(u"[ぁ-んァ-ヴ]", text) else False
+
+
+    # ========================================
+    #  Get Max Length
+    # ========================================
+    def _get_maxlength(self, lines):
+        linesa, linesb = itertools.tee(lines)
+        lengthes = [0 for i in range(len(list(linesa)[0]))]
+
+        for text in linesb:
+            for i, str in enumerate(text):
+                ustr = unicode(str, "utf-8", "ignore")
+                strlen = len(ustr) * 2 if self._isJapanese(ustr) else len(ustr)
+
+                if lengthes[i] < strlen:
+                    lengthes[i] = strlen
+
+        return lengthes
+
+
+    # ========================================
+    #  Align the Text
+    # ========================================
+    def _align_text(self, text, length):
+        for i, str in enumerate(text):
+            text[i] = str.ljust(length[i])
+
+
+# ============================================================
+#  Display Usage
+# ============================================================
+def usage(command):
+    print "Usage: %s INPUT_PATH [OUTPUT_PATH] [INDENT_LEVEL]" % command
+    exit(0)
+
+
+# ============================================================
+#  Display Error Message about Path
+# ============================================================
+def path_error(path):
+    print "'%s' doesn't exist..." % path
+    exit(0)
+
+
+# ============================================================
+#  Main
+# ============================================================
+if __name__ == "__main__":
+    # Arguments Error
+    if len(sys.argv) < 2:
+        usage(sys.argv[0])
+
+    # Default Arguments
+    input_path   = sys.argv[1]
+    output_path  = input_path.replace("csv", "tex")
+    indent_level = 0
+
+    # Not exist INPUT_PATH
+    if not path.exists(input_path):
+        path_error(input_path)
+
+    # If set OUTPUT_PATH
+    if len(sys.argv) > 2:
+        output_path = sys.argv[2]
+
+        # Not exist OUTPUT_PATH
+        if not path.exists(path.dirname(path.abspath(output_path))):
+            path_error(output_path)
+        else:
+            if path.isdir(output_path):
+                output_path += ("/" + input_path.replace("csv", "tex"))
+
+    # If set INDENT_LEVEL
+    if len(sys.argv) > 3:
+        indent_level = int(sys.argv[3])
+
+    # Make TeX from CSV
+    perser = CSVtoTeXPerser(input_path, output_path, indent_level)
+    perser.perse()
+    perser.maketex()

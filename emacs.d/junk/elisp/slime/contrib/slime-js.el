@@ -1,1 +1,0 @@
-/home/mtky/bin/swank-js/slime-js.el

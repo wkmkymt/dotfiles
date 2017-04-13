@@ -5,7 +5,8 @@
 (require 'emmet-mode)
 
 ;; Use all markup languages and css
-(add-hook 'web-mode-hook 'emmet-mode)
+(add-hook 'web-mode-hook  'emmet-mode)
+(add-hook 'jinja2-mode-hook  'emmet-mode)
 (add-hook 'sgml-mode-hook 'emmet-mode)
 ;(add-hook 'css-mode-hook 'emmet-mode)
 

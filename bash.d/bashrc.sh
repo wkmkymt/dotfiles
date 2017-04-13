@@ -1,10 +1,15 @@
 #### @ .bashrc
 
 # Set environment
-PATH=$PATH:$HOME/bin
-LANG=ja_JP.UTF-8
-EDITOR="emacsclient -nc -a ''"
-export EDITOR PATH LANG
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/.golang
+export PATH=$PATH:$HOME/bin:$HOME/.rbenv/bin:$GOROOT/bin:$GOPATH/bin:/usr/local/heroku/bin
+export LANG=ja_JP.UTF-8
+export LANGUAGE=ja_JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
+export EDITOR="emacsclient -nc -a ''"
+eval "$(rbenv init -)"
+
 
 CONF_DIR=~/.bashconf
 
@@ -38,8 +43,12 @@ if [ -f $CONF_DIR/aliases.sh ]; then
     . $CONF_DIR/aliases.sh
 fi
 
+# git completion
+if [ -f $CONF_DIR/git-completion.sh ]; then
+    . $CONF_DIR/git-completion.sh
+fi
 
-# bashcompletion
+# bash completion
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
@@ -48,3 +57,6 @@ fi
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
+
+# GVM
+[[ -s ~/.gvm/bin/gvm-init.sh ]] && source ~/.gvm/bin/gvm-init.sh

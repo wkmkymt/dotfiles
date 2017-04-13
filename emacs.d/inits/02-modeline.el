@@ -17,6 +17,7 @@
     (asm-mode                . "Asm")
     (gnuplot-mode            . "Gplt")
     (gnuplot-comint-mode     . "GpltI")
+    (malabar-mode            . "Java/M")
 
     ;; Minor modes
     (auto-complete-mode      . " AC")
@@ -151,7 +152,7 @@ static char * arrow_left[] = {
                   "[\r\n]+\\'" ""
                   (shell-command-to-string "git symbolic-ref -q HEAD")))
          (mode-line-str (if (string-match "^refs/heads/" branch)
-                            (format " %10s " (substring branch 11)) "            ")))
+                            (format " %20s " (substring branch 11)) "            ")))
     (propertize mode-line-str 'face 'mode-line)))
 
 (defun showrten-directory (dir max-length)
@@ -174,7 +175,7 @@ static char * arrow_left[] = {
 (defvar ml-buffer-name     " %b ")
 (defvar ml-above-text      " %6p ")
 (defvar ml-cursor-position " %4l : %2c ")
-(defvar ml-center-space    '((space :align-to (- right-fringe 34))))
+(defvar ml-center-space    '((space :align-to (- right-fringe 44))))
 
 
 (setq-default mode-line-format
@@ -185,8 +186,6 @@ static char * arrow_left[] = {
                                (propertize ml-non             'display  arrow-right-first)
                                (propertize (ml-minor-mode)    'face    'mode-line-second)
                                (propertize ml-non             'display  arrow-right-second)
-;;                               (propertize ml-dirs            'face    'mode-line-third)
-;;                               (propertize ml-buffer-name     'face    'mode-line-fourth)
                                (propertize ml-buffer-name     'face    'mode-line-third)
                                (propertize ml-non             'display  arrow-right-third)))
 

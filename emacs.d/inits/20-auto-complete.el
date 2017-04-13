@@ -55,4 +55,5 @@
                   latex-mode
                   yatex-mode
                   emacs-lisp-mode
+                  jsx-mode
                   jinja2-mode))

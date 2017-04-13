@@ -60,8 +60,8 @@
 
 ;; Auto parentheses completion
 ;; http://d.hatena.ne.jp/yascentur/20130526/1369550512
-;(require 'cursor-in-brackets)
-;(global-cursor-in-brackets-mode t)
+;; (require 'cursor-in-brackets)
+;; (global-cursor-in-brackets-mode t)
 (require 'flex-autopair)
 (flex-autopair-mode 1)
 

@@ -11,11 +11,18 @@
 
 ;;;; @ Global Key
 (fset 'super-new-line [?\C-e return])
+(defun revert-buffer-no-confirm (&optional force-reverting)
+  (interactive "P")
+  (if (or force-reverting (not (buffer-modified-p)))
+      (revert-buffer :ignore-auto :noconfirm)
+    (error "The buffer has been modified")))
 
+(global-set-key (kbd "RET")        'newline-and-indent)                 ;; New Line & Indent
 (global-set-key (kbd "C-h")        'delete-backward-char)               ;; BackSpace
 (global-set-key (kbd "C-c \\")     'comment-or-uncomment-region)        ;; Comment / Uncomment
 (global-set-key (kbd "C-c M-%")    'replace-string)                     ;; Replace all string
 (global-set-key (kbd "<C-return>") 'super-new-line)                     ;; New-Line in the text
+(global-set-key (kbd "<f5>")       'revert-buffer-no-confirm)           ;; Revert Buffer
 
 (global-set-key (kbd "C-;")        'other-window)                       ;; Move to another  buffer
 (global-set-key (kbd "C-M-f")      'windmove-right)                     ;; Move to right    buffer

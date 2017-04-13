@@ -9,13 +9,14 @@
             (normal-top-level-add-subdirs-to-load-path))))))
 
 ;; Set Load-Path
+(add-to-list 'load-path "~/.emacs.d/elisp")
 (add-to-load-path "elisp")
 
 
 ;;;; @ Init Loader
 ;;;;   http://fukuyama.co/emacsd
 ;;;;   http://www.rubyist.net/~rubikitch/archive/init-loader-x.el
-(require 'init-loader-x)
+(require 'init-loader)
 
 ;; Set Init-Loader path
 (init-loader-load "~/.emacs.d/inits")

@@ -1,5 +1,5 @@
 ;;;; @ Title Bar
-(setq frame-title-format (concat "%b - Mt.K's Emacs@" system-name))
+(setq frame-title-format (concat "%b - Mt.K's Emacs"))
 
 
 ;;;; @ Menu Bar

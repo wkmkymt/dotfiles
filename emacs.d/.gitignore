@@ -1,7 +1,9 @@
 *.elc
+*~
 !.gitkeep
 etc/backup/*
 etc/undohist/*
 etc/ac-dict/ac-comphist.dat
 etc/saveplace/.emacs-places
 etc/lmp-cache/*
+etc/yatex/yatexrc

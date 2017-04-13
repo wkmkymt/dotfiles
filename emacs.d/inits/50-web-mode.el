@@ -7,12 +7,35 @@
   '(progn
      (add-to-list 'auto-mode-alist '("\\.html?$" . web-mode)) ;; HTML
      (add-to-list 'auto-mode-alist '("\\.php?$"  . web-mode)) ;; PHP
+     (add-to-list 'auto-mode-alist '("\\.ejs?$"  . web-mode)) ;; EJS
+
+     (define-key web-mode-map  (kbd "M-;") nil)
+     (define-key web-mode-map  (kbd "C-c \\") 'web-mode-comment-or-uncomment)
 
      (defun add-web-common-conf ()
+;       (setq web-mode-engines-alist
+;             '(("php" . "\\.php\\")
+;               ("erb" . "\\.ejs\\")))
+
+       (setq web-mode-tab-auto-close-style 1)
+
        (setq-default tab-width 2)
        (setq-default indent-tabs-mode nil)
 
+;       (setq web-mode-enable-current-element-highlight t)
+;       (setq web-mode-enable-current-column-highlight t)
+;       (setq web-mode-enable-auto-pairing t)
+;       (setq web-mode-enable-css-colorization t)
+;       (setq web-mode-enable-block-face t)
+;       (setq web-mode-enable-part-face t)
+;       (setq web-mode-enable-comment-keywords t)
+
        ;; Indent TAB size
+       (setq web-mode-html-offset 2)
+       (setq web-mode-style-padding 2)
+       (setq web-mode-script-offset 2)
+       (setq web-mode-java-offset 2)
+       (setq web-mode-asp-offset 2)
        (setq web-mode-markup-indent-offset 2) ;; html
        (setq web-mode-css-indent-offset 2)    ;; css
        (setq web-mode-code-indent-offset 2)   ;; script
