@@ -23,6 +23,7 @@
 (global-set-key (kbd "C-c M-%")    'replace-string)                     ;; Replace all string
 (global-set-key (kbd "<C-return>") 'super-new-line)                     ;; New-Line in the text
 (global-set-key (kbd "<f5>")       'revert-buffer-no-confirm)           ;; Revert Buffer
+(global-set-key (kbd "C-@")        'set-mark-command)
 
 (global-set-key (kbd "C-;")        'other-window)                       ;; Move to another  buffer
 (global-set-key (kbd "C-M-f")      'windmove-right)                     ;; Move to right    buffer

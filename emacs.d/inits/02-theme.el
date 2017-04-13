@@ -2,14 +2,15 @@
 ;;;;   http://www.cozmixng.org/~kou/emacs/dot_emacs
 (defvar my-init-frame-alist
   (list
-   '(font             . "-unknown-Ricty-bold-normal-normal-*-13-*-*-*-*-0-iso10646-1")
+   '(font             . "ricty-10")
    '(background-color . "#333")
    '(foreground-color . "#eee")
    '(cursor           . "#eee")
    '(width            . 116)
    '(height           . 70)
    '(top              . 0)
-   '(left             . 0)))
+   '(left             . 0)
+   '(alpha            . .85)))
 (setq default-frame-alist (append initial-frame-alist my-init-frame-alist))
 (set-frame-parameter (selected-frame) 'alpha '(0.85))
 

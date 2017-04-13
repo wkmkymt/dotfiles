@@ -20,7 +20,7 @@
 
 
 ;;;; @ Region
-;(set-face-background 'region "steel blue")
+(set-face-background 'region "steel blue")
 
 
 ;;;; @ Cursor
