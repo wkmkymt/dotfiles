@@ -12,6 +12,14 @@ rm -rf ~/lib/textools
 rm -rf ~/bin/csvtotex
 rm -rf ~/bin/textopdf
 
+if [ ! -e ~/lib ]; then
+    mkdir ~/lib
+fi
+
+if [ ! -e ~/bin ]; then
+    mkdir ~/bin
+fi
+
 # Bash
 ln -s ~/dotfiles/bash.d/bash_profile.sh ~/.bash_profile
 ln -s ~/dotfiles/bash.d/bash_logout.sh ~/.bash_logout
