@@ -1,0 +1,62 @@
+: 1557291316:0;ls
+: 1557291321:0;cd work
+: 1557291322:0;ls
+: 1557291323:0;cd ..
+: 1557291325:0;la
+: 1557291476:0;# history„Å´ÊÉ∑•‰ªÉ∏„ÇÉ≤ËÉÅ®Á§∫
+: 1557294993:0;la
+: 1557295001:0;cat .chpwd-recent-dirs
+: 1557295012:0;cat .python_history
+: 1557295075:0;ls
+: 1557295080:0;git clone git@github.com:wkmkymt/dotfiles.git
+: 1557295084:0;ls
+: 1557295108:0;ssh -T git@github
+: 1557295114:0;ssh -T git@github.com
+: 1557295118:0;cd .ssh
+: 1557295118:0;ls
+: 1557295120:0;cd github
+: 1557295120:0;ls
+: 1557295122:0;cd .
+: 1557295123:0;cd ..
+: 1557295124:0;ls
+: 1557295127:0;emacs config
+: 1557295144:0;git clone git@github.com:wkmkymt/dotfiles.git
+: 1557295160:0;ls
+: 1557295165:0;rm config~
+: 1557295166:0;cd
+: 1557295167:0;ls
+: 1557295177:0;mv .ssh/dotfiles ./
+: 1557295178:0;ls
+: 1557295179:0;cd dotfiles
+: 1557295181:0;la
+: 1557295188:0;git status
+: 1557295197:0;git branch
+: 1557295227:0;git tag
+: 1557295240:0;git tag ver.bash
+: 1557295271:0;git tag show
+: 1557295275:0;git tag
+: 1557295318:0;git push origin ver.bash
+: 1557295329:0;ls
+: 1557295338:0;mkdir zsh.d
+: 1557295340:0;ls
+: 1557295346:0;rm zsh.d
+: 1557295347:0;y
+: 1557295352:0;rm -d zsh.d
+: 1557295394:0;git checkout -b new_zsh
+: 1557295397:0;git status
+: 1557295405:0;ls
+: 1557295409:0;mkdir zsh.d
+: 1557295412:0;cd lib
+: 1557295413:0;ls
+: 1557295416:0;cat clangtest
+: 1557295420:0;cd clangtest
+: 1557295422:0;cat ctest
+: 1557295426:0;cd ..
+: 1557295428:0;cd textools
+: 1557295430:0;ls
+: 1557295435:0;cat textopdf
+: 1557295440:0;cat csvtotex
+: 1557295445:0;cd ..
+: 1557295451:0;ls
+: 1557295465:0;cd zsh.d
+: 1557295475:0;cp ~/.zsh* ./
