@@ -18,3 +18,7 @@ alias cpd='cp -a'
 # Editor
 alias em='emacs'
 alias vs='code'
+
+# cd
+alias cdc='cd /mnt/c/Users/wkmkymt/'
+alias cdu='cd /mnt/c/Users/wkmkymt/Documents/MyUnityProject/'
