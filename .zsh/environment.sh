@@ -7,3 +7,6 @@ export LANG=ja_JP.UTF-8
 
 # Path
 export PATH=$HOME/bin:$PATH
+
+# Permission
+umask 022
