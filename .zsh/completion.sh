@@ -11,7 +11,7 @@ zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/etc/zsh_cache
 
 # Completion Menu
-style ':completion:*:default' menu select=2
+zstyle ':completion:*:default' menu select=2
 
 # Color
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
