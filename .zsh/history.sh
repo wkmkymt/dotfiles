@@ -3,11 +3,11 @@
 # ==================================================
 
 # History File Path
-HISTFILE=~/.zsh/etc/zsh_history
+export HISTFILE=~/.zsh/etc/zsh_history
 
 # Histry Size
-HISTSIZE=10000
-SAVEHIST=10000
+export HISTSIZE=10000
+export SAVEHIST=10000
 
 # Share History Between Multiple Sessions
 setopt share_history
