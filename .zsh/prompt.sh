@@ -7,7 +7,8 @@ autoload -U colors
 colors
 
 # Prompt Style
-PROMPT="%(?.%{${fg[green]}%}.%{${fg[red]}%})%n${reset_color}@${fg[blue]}%m${reset_color}(%*%) %~ %# "
+PROMPT="%(?.%{${fg[green]}%}.%{${fg[red]}%})%n${reset_color}@${fg[blue]}%m${reset_color}(%*%) %~
+%# "
 
 # Off Beep
 setopt no_beep
