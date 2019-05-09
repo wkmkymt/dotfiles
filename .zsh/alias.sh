@@ -3,9 +3,10 @@
 # ==================================================
 
 # ls
-alias ls='ls --color=auto'
+alias ls='ls -F --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
+alias lla='la -l'
 
 # confirm
 alias cp='cp -i'
