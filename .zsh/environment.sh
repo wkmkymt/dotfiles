@@ -9,7 +9,7 @@ export LANG=ja_JP.UTF-8
 export PYENV_ROOT=$HOME/.pyenv
 
 # Path
-export PATH=$HOME/bin:$PYENV_ROOT/bin:$PATH
+export PATH=$HOME/bin:$PYENV_ROOT/bin:$HOME/.local/bin:$PATH
 
 # Initialize pyenv
 eval "$(pyenv init -)"
