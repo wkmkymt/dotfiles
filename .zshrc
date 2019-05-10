@@ -22,7 +22,7 @@ if [ -f ~/.zsh/prompt.sh ]; then
 fi
 
 # History
-if [ -f ~/.zsh/hisotry.sh ]; then
+if [ -f ~/.zsh/history.sh ]; then
   source ~/.zsh/history.sh
 fi
 
