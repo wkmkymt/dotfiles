@@ -1,4 +1,4 @@
 !.gitkeep
-etc/zsh_history.sh
-etc/zcompdump.sh
+etc/zsh_history
+etc/zcompdump
 etc/zsh_cache
