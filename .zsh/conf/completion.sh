@@ -4,11 +4,11 @@
 
 # Enable Completion
 autoload -U compinit
-compinit -d ~/.zsh/etc/zcompdump
+compinit -d ~/dotfiles/.zsh/etc/zcompdump
 
 # Enable Completion Caching
 zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/etc/zsh_cache
+zstyle ':completion:*' cache-path ~/dotfiles/.zsh/etc/zsh_cache
 
 # Completion Menu
 zstyle ':completion:*:default' menu select=2

@@ -3,7 +3,7 @@
 # ==================================================
 
 # History File Path
-export HISTFILE=~/.zsh/etc/zsh_history
+export HISTFILE=~/dotfiles/.zsh/etc/zsh_history
 
 # Histry Size
 export HISTSIZE=10000
